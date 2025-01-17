@@ -1,0 +1,45 @@
+@font-face {
+  font-family: neu;
+  src: url("NeueHaasDisplayMediu.74e609fb.ttf");
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 100;
+  src: url("NeueHaasDisplayLight.04c17013.ttf");
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 200;
+  src: url("NeueHaasDisplayRoman.88ae3880.ttf");
+}
+
+@font-face {
+  font-family: boris;
+  font-weight: 200;
+  src: url("borisna.60b37f2a.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  font-family: neu;
+  font-size: 1.5vw;
+}
+
+.custom-cursor {
+  pointer-events: none;
+  z-index: 99;
+  background-color: #fff20069;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 0 20px #0000006b;
+}
+/*# sourceMappingURL=index.78cc32dd.css.map */

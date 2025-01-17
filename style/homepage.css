@@ -1,0 +1,85 @@
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20vh 10vw;
+    min-height:70vh ;
+    background-color: #EFEAE3;
+}
+.homepage-right{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homepage-right h1{
+    font-family: boris;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+}
+.homepage-right p{
+    padding-top: 20px;
+    font-weight: 100;
+
+}
+.homepage-buttons{
+    font-weight: 200;
+    display: flex;
+    margin-top: 3vh;
+  gap: 20px;
+    padding-top: 20px;
+}
+
+.homepage-buttons-left{
+    padding: 10px 20px;
+    background-color: black;
+    color: #EFEAE3;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.homepage-buttons-left:hover{
+    background-color: rgba(0, 0, 0, 0.879);
+    /* cursor: pointer; */
+    color: white;
+   transition: all ease 0.2s;
+}
+.homepage-buttons-right{
+    padding: 10px 20px;
+    color: black;
+  
+    background-color: #f9e802;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.homepage-buttons-right:hover{
+    color: black;
+    /* padding: 10px 20px; */
+    /* cursor: pointer; */
+  
+    background-color: #f9e802d4;
+    transition: all ease 0.2s;
+    
+}
+
+.homepage-services{
+    min-height: 30vh;
+    background-color:#f9e802;
+    display: flex;
+    padding: 10vh;
+    gap: 20px;
+}
+.homepage-services div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+.homepage-services div p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}

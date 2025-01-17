@@ -1,0 +1,109 @@
+.header {
+  background-color: #efeae3;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  padding: 5vh 5vw;
+  display: flex;
+  position: fixed;
+}
+
+.logo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: boris;
+  font-size: 38px;
+  display: flex;
+}
+
+.header-navigation {
+  justify-content: space-between;
+  gap: 2vw;
+  display: flex;
+}
+
+.header-navigation h4 {
+  color: #000b;
+  border: 1px solid #0000003c;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all .4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-navigation h4:after {
+  content: "";
+  background-color: #f9e802;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+}
+
+.header-navigation h4:hover:after {
+  border-radius: 0;
+  bottom: 0;
+}
+
+.header-navigation h4 a {
+  color: #000b;
+  z-index: 9;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+
+.header-dropdown-list {
+  opacity: 0;
+  background-color: #fff;
+  border-radius: 2px;
+  flex-direction: column;
+  width: 280px;
+  height: 50vh;
+  transition: transform .3s, opacity .3s;
+  display: flex;
+  position: absolute;
+  top: 80%;
+  left: 45vw;
+  transform: translateY(-20px);
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.header-dropdown-list div {
+  border-bottom: 2px solid #00000050;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  padding: 0 20px;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+}
+
+.header-dropdown-list div:hover {
+  background-color: #f9e802;
+  border-bottom: 2px solid #00000050;
+  border-radius: 2px 2px 0 0;
+  padding: 0 10px;
+}
+
+.header-dropdown-button-active {
+  transition: transform .3s;
+  transform: rotate(180deg);
+}
+
+.header-dropdown-button {
+  transition: transform .3s;
+}
+/*# sourceMappingURL=index.a852026d.css.map */

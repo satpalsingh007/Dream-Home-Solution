@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Home Solutions </title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/homepage.css">
+</head>
+<body class="body">
+    <div id="main"></div>
+    <div class="custom-cursor"></div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+    <script>
+        // Custom-Cursor
+    const body = document.querySelector(".body");
+    const customCursor = document.querySelector(".custom-cursor");
+    // Function to hide the cursor
+    const hideCursor = () => {
+        customCursor.style.display = "none";
+    };
+    
+    // Function to show the cursor
+    const showCursor = () => {
+        customCursor.style.display = "block";
+    };
+    body.addEventListener("mousemove", (event) => {
+        const rect = body.getBoundingClientRect();
+        const cursorWidth = customCursor.offsetWidth;
+        const cursorHeight = customCursor.offsetHeight;
+    
+        // Get mouse position relative to the container
+        const mouseX = event.clientX - rect.left - cursorWidth / 2;
+        const mouseY = event.clientY - rect.top - cursorHeight / 2;
+    
+        gsap.to(customCursor, {
+            x: mouseX,
+            y: mouseY,
+            duration: 0.3, // Smooth follow effect
+            ease: "back.out(2)",
+        });
+    });
+    // Detect touch devices and disable the custom cursor
+    if ("ontouchstart" in window || navigator.maxTouchPoints) {
+        hideCursor();
+    } else {
+        showCursor();
+    }
+    
+    // Optional: Listen for changes in input type (mouse vs touch)
+    window.addEventListener("pointerdown", (event) => {
+        if (event.pointerType === "touch") {
+            hideCursor();
+        } else if (event.pointerType === "mouse") {
+            showCursor();
+        }
+    });
+      </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <script type="module" src="./src/App.js"></script>
+</body>
+</html>
