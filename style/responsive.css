@@ -1,0 +1,315 @@
+/* Mobile Devices */
+@media (max-width: 1300px) {
+  /* header */
+
+  .header-navigation {
+    gap: 1vw;
+  }
+  .header-navigation h4 {
+    padding: 10px 15px;
+  }
+  .header-navigation h4 a {
+    font-size: 15px;
+  }
+  /* homepage */
+  .homepage {
+    padding: 13vh 10vw 0vh 10vw;
+  }
+  .homepage-left img {
+    width: 64vw;
+    height: 80%;
+  }
+
+  .homepage-right h1 {
+    font-size: 35px;
+  }
+  .homepage-right p {
+    font-size: 16px;
+  }
+  .homepage-services {
+    gap: 30px;
+  }
+  .homepage-services div h2 {
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .homepage-services div p {
+    font-size: 14px;
+  }
+  .contactus-form-section {
+    padding: 10vh 3vw;
+  }
+}
+@media (max-width: 1000px) {
+  /* header */
+  .header {
+    height: 16vh;
+  }
+  .header-navigation {
+    display: none;
+  }
+  .hamburger {
+    position: relative;
+    right: 10vw;
+    cursor: pointer;
+    display: block;
+  }
+
+  .hamburger input {
+    display: none;
+  }
+
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line {
+    fill: none;
+    stroke: #f9e802;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+
+  .hamburger input:checked + svg {
+    transform: rotate(-45deg);
+  }
+
+  .hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+  .menu-open {
+    display: block;
+    height: 90vh;
+    width: 80vw;
+    position: absolute;
+    top: 15vh;
+    right: 0vw;
+    background-color: #f9e802d0;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5vh 3vw;
+  }
+  .menu-open div {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 5vw;
+    background-color: #f9e802;
+    border-bottom: 2px solid black;
+    /* transition: all 0.5s ease; */
+  }
+  .menu-open div span {
+    font-size: 18px;
+  }
+  .accordion-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hides the content initially */
+    max-height: 0; /* Collapsed by default */
+    padding: 0;
+
+    transition: max-height 1.5s ease-in-out; /* Smooth transition for expanding */
+  }
+  .accordion-content.accordianOpen {
+    /* border-bottom: 2px solid black; */
+    max-height: 1000px; /* Large enough value to allow content to expand */
+  }
+  .accordion-content p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2vh 8vw;
+    background-color: rgba(255, 255, 255, 0.817);
+    height: 40px;
+    font-size: 16px;
+    border-bottom: 2px solid #00000011;
+    /* margin-bottom: 10px; */
+    /* text-align: justify; */
+  }
+  .bi-caret-right {
+    transition: all 0.5s ease-in-out;
+  }
+  .bi-caret-right.rotate {
+    transform: rotate(90deg);
+  }
+
+  /* homepage */
+  .homepage {
+    height: 50vh;
+    padding: 5vh 10vw 0vh 10vw;
+    align-items: flex-end;
+  }
+  .homepage-left {
+    display: flex;
+    align-items: flex-end;
+  }
+  .homepage-left img {
+    /* width: 60vw; */
+    /* left: -18vw; */
+    /* position: relative; */
+  }
+  .homepage-right {
+    padding-bottom: 5vh;
+  }
+  .homepage-buttons-left {
+    font-size: 16px;
+  }
+  .homepage-buttons-right {
+    font-size: 16px;
+  }
+  .homepage-right h1 {
+    font-size: 22px;
+  }
+  .homepage-services {
+    padding: 10vh 5vw;
+  }
+  .contactus-form-section {
+    padding: 10vh 3vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .homepage {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 20vh 10vw 0vh 10vw;
+    gap: 60px;
+    justify-content: space-between;
+  }
+  .homepage-right {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .homepage-left img {
+    height: 100%;
+    width: 70vw;
+    position: static;
+
+    /* height: 100%; */
+    /* right: 1px; */
+  }
+  .homepage-left {
+    height: 35vh;
+    width: 80vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .homepage-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .homepage-services div h2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactus-form-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 5vw;
+  }
+  .contactus-left {
+    border-right: none;
+    width: 100vw;
+    padding: 0 10vw;
+  }
+  .contactus-left-text h2 {
+    font-size: 30px;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .contactus-left-text p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .contactus-left img {
+    width: 30vw;
+  }
+  .contactus-right {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .homepage {
+    gap: 5px;
+  }
+
+  .homepage-left {
+    height: 35vh;
+    width: 80vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .homepage-services {
+    padding: 10vh 10vw;
+    display: flex;
+    gap: 20px;
+  }
+  .homepage-services div h2 {
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .homepage-services div p {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage {
+    /* gap: 10vh; */
+  }
+  .homepage-left img {
+    width: 90vw;
+    height: 100%;
+    position: static;
+
+    /* height: 100%; */
+    /* right: 1px; */
+  }
+}
+@media (max-width: 550px) {
+  .homepage {
+    padding-top: 20vh;
+  }
+  .homepage-left {
+    height: 30vh;
+  }
+  .homepage-left img {
+    width: 100vw;
+  }
+  .contactus-left-text h2 {
+    font-size: 25px;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}

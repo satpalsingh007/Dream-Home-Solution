@@ -1,8 +1,9 @@
+import homeimg from '../Images/Home.gif'
 const Homepage = ()=>{
     return (
         <>
         <div className="homepage">
-            <div className="homepage-left">image </div>
+            <div className="homepage-left"><img src={homeimg}></img></div>
             <div className="homepage-right">
                 <h1>Transform Your Space with Expert Window, Door, and Kitchen Installations</h1>
                 <p>At DreamHome Solutions, we provide expert installations for windows, doors,and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you.</p>

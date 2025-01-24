@@ -3,9 +3,24 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20vh 10vw;
+    padding: 20vh 10vw 0vh 10vw;
     min-height:70vh ;
-    background-color: #EFEAE3;
+
+    /* background-color: #EFEAE3; */
+}
+.homepage-left{
+    width: 60%;
+    height: 65vh;
+    position: relative;
+    /* border: 2px solid red; */
+   
+}
+.homepage-left img{
+    width: 55vw;
+    position: absolute;
+   
+    bottom: -10px;
+    left: -100px;
 }
 .homepage-right{
     width: 50vw;
@@ -23,6 +38,7 @@
 .homepage-right p{
     padding-top: 20px;
     font-weight: 100;
+    text-align: justify;        
 
 }
 .homepage-buttons{
@@ -38,6 +54,7 @@
     background-color: black;
     color: #EFEAE3;
     border-radius: 10px;
+    transition: all 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .homepage-buttons-left:hover{
@@ -45,6 +62,7 @@
     /* cursor: pointer; */
     color: white;
    transition: all ease 0.2s;
+   box-shadow: rgba(0, 0, 0, 0.196) 0px 3px 6px, rgba(0, 0, 0, 0.123) 0px 3px 6px;
 }
 .homepage-buttons-right{
     padding: 10px 20px;
@@ -53,11 +71,13 @@
     background-color: #f9e802;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 0.3s ease;
 }
 .homepage-buttons-right:hover{
     color: black;
     /* padding: 10px 20px; */
     /* cursor: pointer; */
+    box-shadow: rgba(0, 0, 0, 0.196) 0px 3px 6px, rgba(0, 0, 0, 0.123) 0px 3px 6px;
   
     background-color: #f9e802d4;
     transition: all ease 0.2s;
@@ -74,12 +94,12 @@
 .homepage-services div {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    gap: 5px;
 
 }
 .homepage-services div p{
     font-size: 20px;
     font-weight: 200;
     margin-bottom: 10px;
+    text-align: justify;
 }

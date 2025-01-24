@@ -1,11 +1,23 @@
 .homepage {
-  background-color: #efeae3;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   min-height: 70vh;
-  padding: 20vh 10vw;
+  padding: 20vh 10vw 0;
   display: flex;
+}
+
+.homepage-left {
+  width: 60%;
+  height: 65vh;
+  position: relative;
+}
+
+.homepage-left img {
+  width: 55vw;
+  position: absolute;
+  bottom: -10px;
+  left: -100px;
 }
 
 .homepage-right {
@@ -24,6 +36,7 @@
 }
 
 .homepage-right p {
+  text-align: justify;
   padding-top: 20px;
   font-weight: 100;
 }
@@ -41,6 +54,7 @@
   background-color: #000;
   border-radius: 10px;
   padding: 10px 20px;
+  transition: all .3s;
   box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
 }
 
@@ -48,6 +62,7 @@
   color: #fff;
   background-color: #000000e0;
   transition: all .2s;
+  box-shadow: 0 3px 6px #00000032, 0 3px 6px #0000001f;
 }
 
 .homepage-buttons-right {
@@ -55,6 +70,7 @@
   background-color: #f9e802;
   border-radius: 10px;
   padding: 10px 20px;
+  transition: all .3s;
   box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
 }
 
@@ -62,6 +78,7 @@
   color: #000;
   background-color: #f9e802d4;
   transition: all .2s;
+  box-shadow: 0 3px 6px #00000032, 0 3px 6px #0000001f;
 }
 
 .homepage-services {
@@ -74,11 +91,12 @@
 
 .homepage-services div {
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   display: flex;
 }
 
 .homepage-services div p {
+  text-align: justify;
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 200;

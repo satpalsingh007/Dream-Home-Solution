@@ -1,13 +1,12 @@
-
 .header{
-    background-color: #EFEAE3;
+    background-color: #ffffff;
     height: 20vh;
     display: flex;
     align-items: center;
     padding: 5vh 5vw;
     justify-content: space-between;
-    width: 100%;
-
+    width: 100vw;
+    z-index: 99;
     position: fixed;
 } 
 .logo{
@@ -65,11 +64,11 @@
 /* Add a smooth transition to the dropdown */
 .header-dropdown-list {
     position: absolute;
-    top: 80%;
-    left: 45vw;
-    background-color: white;
+    top: 66%;
+    left: 35vw;
+    background-color: rgba(255, 255, 255, 0.955);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 280px;
+    width: auto;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -77,16 +76,20 @@
     opacity: 0; /* Initially invisible */
     transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
     border-radius: 2px;
+    padding: 30px;
   }
   .header-dropdown-list div{
+
     height: 20%;
     border-bottom: 2px solid rgba(0, 0, 0, 0.315) ;
+    width: 20vw;
     display: flex;
     align-items: center;
     padding: 0 20px;
     transition: all 0.3s ease;
     justify-content: space-between;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.955);
     
   }
   .header-dropdown-list div:hover{
@@ -104,4 +107,13 @@
   .header-dropdown-button{
     transition: transform 0.3s ease;
   }
+  .hamburger{
+    display: none;
+  }
+  .menu-open{
+    display: none;
+    transition: all 0.5s ease-in-out;
+  }
   
+
+

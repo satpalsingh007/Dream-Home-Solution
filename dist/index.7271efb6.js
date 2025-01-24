@@ -2995,7 +2995,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Hompage":"5DIM3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/ContactUs":"dZ839"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18605,12 +18605,23 @@ var _s = $RefreshSig$();
 const Header = ()=>{
     _s();
     const [isDropdownOpen, setIsDropdownOpen] = (0, _react.useState)(false);
-    const [activeIndex, setActiveIndex] = (0, _react.useState)(null);
-    const handleClick = (index)=>{
-        setActiveIndex(activeIndex === index ? null : index);
+    const [isAccordian, setIsAccordian] = (0, _react.useState)(false);
+    const [isMenuOpen, setIsMenuOpen] = (0, _react.useState)(false);
+    const handleMouseEnter = ()=>{
+        setIsDropdownOpen(true);
+    };
+    const handleMouseLeave = ()=>{
+        setIsDropdownOpen(false);
     };
     const toggleDropdown = ()=>{
         setIsDropdownOpen((prevState)=>!prevState);
+    };
+    const handleMenuOpen = ()=>{
+        setIsMenuOpen((prevState)=>!prevState);
+        console.log(isMenuOpen);
+    };
+    const handleAccordianToggle = ()=>{
+        setIsAccordian((prevState)=>!prevState);
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         className: "header",
@@ -18621,14 +18632,14 @@ const Header = ()=>{
                     "DreamHouse ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 18,
+                        lineNumber: 29,
                         columnNumber: 20
                     }, undefined),
                     " Solution"
                 ]
             }, void 0, true, {
                 fileName: "src/components/Header.js",
-                lineNumber: 17,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18640,18 +18651,18 @@ const Header = ()=>{
                             children: "Home"
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 22,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 21,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        onMouseEnter: handleMouseEnter,
+                        onMouseLeave: handleMouseLeave,
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#",
-                            onClick: toggleDropdown,
                             children: [
                                 "Services",
                                 "  ",
@@ -18662,30 +18673,44 @@ const Header = ()=>{
                                     height: "13",
                                     fill: "currentColor",
                                     class: "bi bi-chevron-down",
-                                    className: isDropdownOpen ? 'header-dropdown-button-active' : 'header-dropdown-button',
+                                    className: isDropdownOpen ? "header-dropdown-button-active" : "header-dropdown-button",
                                     viewBox: "0 0 16 16",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                         "fill-rule": "evenodd",
                                         d: "M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 32,
-                                        columnNumber: 3
+                                        lineNumber: 54,
+                                        columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 31,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 25,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 24,
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#",
+                            children: "Plans & Pricing"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 62,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
@@ -18694,40 +18719,26 @@ const Header = ()=>{
                             children: "About us"
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 37,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 36,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "#",
-                            children: "Blog"
+                            children: "FAQs"
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 40,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 39,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#",
-                            children: "Faqs"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Header.js",
-                        lineNumber: 42,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
@@ -18736,29 +18747,32 @@ const Header = ()=>{
                             children: "Contact Us"
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 46,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 45,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "header-dropdown-list",
                         style: {
                             transform: isDropdownOpen ? "translateY(0)" : "translateY(-20px)",
-                            opacity: isDropdownOpen ? 1 : 0
+                            opacity: isDropdownOpen ? 1 : 0,
+                            display: isDropdownOpen ? "flex" : "none"
                         },
+                        onMouseEnter: handleMouseEnter,
+                        onMouseLeave: handleMouseLeave,
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Windows"
+                                        children: "Windows Istallation"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 56,
-                                        columnNumber: 14
+                                        lineNumber: 85,
+                                        columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -18772,28 +18786,28 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 56,
-                                            columnNumber: 165
+                                            lineNumber: 94,
+                                            columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 56,
-                                        columnNumber: 34
+                                        lineNumber: 86,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 56,
-                                columnNumber: 9
+                                lineNumber: 84,
+                                columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Doors"
+                                        children: "Doors Istallation"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 57,
-                                        columnNumber: 14
+                                        lineNumber: 101,
+                                        columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -18807,28 +18821,28 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 57,
-                                            columnNumber: 163
+                                            lineNumber: 110,
+                                            columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 57,
-                                        columnNumber: 32
+                                        lineNumber: 102,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 57,
-                                columnNumber: 9
+                                lineNumber: 100,
+                                columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Floor"
+                                        children: "Flooring Solution"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 58,
-                                        columnNumber: 14
+                                        lineNumber: 117,
+                                        columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -18842,28 +18856,28 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 58,
-                                            columnNumber: 163
+                                            lineNumber: 126,
+                                            columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 58,
-                                        columnNumber: 32
+                                        lineNumber: 118,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 58,
-                                columnNumber: 9
+                                lineNumber: 116,
+                                columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Kitchen"
+                                        children: "Kitchen Renovation"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 59,
-                                        columnNumber: 14
+                                        lineNumber: 133,
+                                        columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -18877,28 +18891,28 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 59,
-                                            columnNumber: 165
+                                            lineNumber: 142,
+                                            columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 59,
-                                        columnNumber: 34
+                                        lineNumber: 134,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 59,
-                                columnNumber: 9
+                                lineNumber: 132,
+                                columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Roof"
+                                        children: "Roofing Services"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 60,
-                                        columnNumber: 14
+                                        lineNumber: 149,
+                                        columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -18912,40 +18926,310 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 60,
-                                            columnNumber: 162
+                                            lineNumber: 158,
+                                            columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 60,
-                                        columnNumber: 31
+                                        lineNumber: 150,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 60,
-                                columnNumber: 9
+                                lineNumber: 148,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 49,
-                        columnNumber: 7
+                        lineNumber: 74,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Header.js",
-                lineNumber: 20,
+                lineNumber: 31,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                className: "hamburger",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        onClick: handleMenuOpen,
+                        id: "checkbox",
+                        type: "checkbox" /*onChange={toggleMenu}*/ 
+                    }, void 0, false, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 167,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                        viewBox: "0 0 32 32",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                className: "line line-top-bottom",
+                                d: "M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 173,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                className: "line",
+                                d: "M7 16 27 16"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 177,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 172,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Header.js",
+                lineNumber: 166,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "menu-open",
+                style: {
+                    transform: isMenuOpen ? "translateX(2vw)" : "translateX(100%)"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 187,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "16",
+                                height: "16",
+                                fill: "currentColor",
+                                class: "bi bi-caret-right-fill",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 196,
+                                    columnNumber: 13
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 188,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 186,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        onClick: handleAccordianToggle,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Services"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 200,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "16",
+                                height: "16",
+                                fill: "currentColor",
+                                class: `bi bi-caret-right ${isAccordian ? "rotate" : ""}`,
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 209,
+                                    columnNumber: 13
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 201,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 199,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                        className: `accordion-content ${isAccordian ? "accordianOpen" : ""}`,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Windows Installation"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 216,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Doors Installation"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 217,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Flooring Solution"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 218,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Kitchen Renovation"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 219,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Roofing Services"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 220,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 212,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "About Us"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 224,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "16",
+                                height: "16",
+                                fill: "currentColor",
+                                class: "bi bi-caret-right-fill",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 233,
+                                    columnNumber: 13
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 225,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 223,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "FAQs"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 237,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "16",
+                                height: "16",
+                                fill: "currentColor",
+                                class: "bi bi-caret-right-fill",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 246,
+                                    columnNumber: 13
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 238,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 236,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Contact Us"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 250,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "16",
+                                height: "16",
+                                fill: "currentColor",
+                                class: "bi bi-caret-right-fill",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.js",
+                                    lineNumber: 259,
+                                    columnNumber: 13
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 251,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Header.js",
+                        lineNumber: 249,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Header.js",
+                lineNumber: 180,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Header.js",
-        lineNumber: 16,
+        lineNumber: 27,
         columnNumber: 5
     }, undefined);
 };
-_s(Header, "ZM/zHpBMDERaHyav4SIJtV0tYMM=");
+_s(Header, "rSroqQpcp4YABUNgwbTC05T6Kd4=");
 _c = Header;
 exports.default = Header;
 var _c;
@@ -18956,7 +19240,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19141,6 +19425,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _homeGif = require("../Images/Home.gif");
+var _homeGifDefault = parcelHelpers.interopDefault(_homeGif);
 const Homepage = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
@@ -19149,10 +19435,16 @@ const Homepage = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "homepage-left",
-                        children: "image "
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _homeGifDefault.default)
+                        }, void 0, false, {
+                            fileName: "src/components/Hompage.js",
+                            lineNumber: 6,
+                            columnNumber: 44
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 5,
+                        lineNumber: 6,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19162,14 +19454,14 @@ const Homepage = ()=>{
                                 children: "Transform Your Space with Expert Window, Door, and Kitchen Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 7,
+                                lineNumber: 8,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "At DreamHome Solutions, we provide expert installations for windows, doors,and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 8,
+                                lineNumber: 9,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19180,7 +19472,7 @@ const Homepage = ()=>{
                                         children: "Get started today"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 10,
+                                        lineNumber: 11,
                                         columnNumber: 17
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19188,25 +19480,25 @@ const Homepage = ()=>{
                                         children: "Our plans"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 11,
+                                        lineNumber: 12,
                                         columnNumber: 17
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 9,
+                                lineNumber: 10,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 6,
+                        lineNumber: 7,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 4,
+                lineNumber: 5,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19219,7 +19511,7 @@ const Homepage = ()=>{
                                 children: "High-Quality Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 19
                             }, undefined),
                             " ",
@@ -19227,13 +19519,13 @@ const Homepage = ()=>{
                                 children: "Transform your home with our exceptional window, door, and kitchen installations designed to stand the test of time. We combine top-tier materials, professional craftsmanship, and meticulous attention to detail to ensure every project is both functional and visually stunning. With us, quality isn't just a promise\u2014it's a guarantee."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 55
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19242,7 +19534,7 @@ const Homepage = ()=>{
                                 children: "Tailored Solutions to Fit Your Style"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 18,
+                                lineNumber: 19,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -19250,13 +19542,13 @@ const Homepage = ()=>{
                                 children: "Every home is unique, and we believe your installations should reflect that. Whether you're modernizing your kitchen, upgrading your windows for better energy efficiency, or enhancing security with new doors, we offer customized solutions to meet your needs and preferences. Your dream home starts with a personalized touch."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 18,
+                                lineNumber: 19,
                                 columnNumber: 64
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 18,
+                        lineNumber: 19,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19265,7 +19557,7 @@ const Homepage = ()=>{
                                 children: "Quick, Seamless, and Stress-Free Process"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 20,
+                                lineNumber: 21,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -19273,19 +19565,19 @@ const Homepage = ()=>{
                                 children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle ever y detail\u2014from consultation and design to installation\u2014so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 20,
+                                lineNumber: 21,
                                 columnNumber: 68
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 20,
+                        lineNumber: 21,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 9
             }, undefined)
         ]
@@ -19301,15 +19593,293 @@ $RefreshReg$(_c, "Homepage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dZ839":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
+module.exports = require("3d8b32b4a5c3497d").getBundleURL('aXMci') + "Home.4b44bc84.gif" + "?" + Date.now();
+
+},{"3d8b32b4a5c3497d":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"dZ839":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$58e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$58e7.prelude(module);
+
+try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-const ContactUs = ()=>{};
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _contactGif = require("../Images/Contact.gif");
+var _contactGifDefault = parcelHelpers.interopDefault(_contactGif);
+var _s = $RefreshSig$();
+const ContactUs = ()=>{
+    _s();
+    const [selectedService, setSelectedService] = (0, _react.useState)('');
+    const [selectedPlan, setSelectedPlan] = (0, _react.useState)('');
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "contactus-form-section",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "contactus-left",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "contactus-left-text",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                    children: [
+                                        "Let\u2019s Begin Your ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 12,
+                                            columnNumber: 32
+                                        }, undefined),
+                                        " Home Transformation!"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 11,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "We're excited to help you take the next step toward enhancing your home. Whether you're upgrading your windows, adding new doors, or transforming your kitchen, our team is here to make the process smooth and effortless. Simply fill out the form below with your details, and we'll provide a personalized quote and schedule your consultation. Your dream space is closer than you think!"
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 14,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/ContactUs.js",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _contactGifDefault.default)
+                        }, void 0, false, {
+                            fileName: "src/components/ContactUs.js",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/ContactUs.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "contactus-right",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                placeholder: "Name",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "email",
+                                placeholder: "Email",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "number",
+                                placeholder: "Phone number",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 29,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                list: "services",
+                                id: "service",
+                                name: "service",
+                                value: selectedService,
+                                onChange: (e)=>setSelectedService(e.target.value),
+                                placeholder: "Select a Service"
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
+                                id: "services",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Windows Installation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 39,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Doors Installation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 40,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Flooring Solution"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 41,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Kitchen Renovation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 42,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Roofing Services"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 43,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                list: "plans",
+                                id: "plan",
+                                name: "plan",
+                                value: selectedPlan,
+                                onChange: (e)=>setSelectedPlan(e.target.value),
+                                placeholder: "Select a Plan"
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 45,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
+                                id: "plans",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Basic"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 54,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Standard"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 55,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        value: "Premium"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 56,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                placeholder: "Message",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 59,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "service-button",
+                                type: "submit",
+                                value: "Submit",
+                                children: "Submit"
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ContactUs.js",
+                        lineNumber: 26,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/ContactUs.js",
+                    lineNumber: 25,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/ContactUs.js",
+            lineNumber: 8,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
+};
+_s(ContactUs, "8ujkcHN6pBRUr0KyFfJaenDz4hg=");
 _c = ContactUs;
 exports.default = ContactUs;
 var _c;
 $RefreshReg$(_c, "ContactUs");
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+  $parcel$ReactRefreshHelpers$58e7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Images/Contact.gif":"5Epuc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5Epuc":[function(require,module,exports,__globalThis) {
+module.exports = require("1bd22620140d04d").getBundleURL('aXMci') + "Contact.154c4f5a.gif" + "?" + Date.now();
+
+},{"1bd22620140d04d":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map
