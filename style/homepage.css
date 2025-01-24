@@ -52,6 +52,11 @@
 .homepage-buttons-left{
     padding: 10px 20px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
     color: #EFEAE3;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -66,7 +71,9 @@
 }
 .homepage-buttons-right{
     padding: 10px 20px;
+    text-align: center;
     color: black;
+    font-size: 18px;
   
     background-color: #f9e802;
     border-radius: 10px;

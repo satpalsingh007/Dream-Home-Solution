@@ -50,11 +50,16 @@
 }
 
 .homepage-buttons-left {
+  text-align: center;
   color: #efeae3;
   background-color: #000;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   padding: 10px 20px;
+  font-size: 18px;
   transition: all .3s;
+  display: flex;
   box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
 }
 
@@ -66,10 +71,12 @@
 }
 
 .homepage-buttons-right {
+  text-align: center;
   color: #000;
   background-color: #f9e802;
   border-radius: 10px;
   padding: 10px 20px;
+  font-size: 18px;
   transition: all .3s;
   box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
 }

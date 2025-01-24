@@ -152,27 +152,39 @@
 
   /* homepage */
   .homepage {
-    height: 50vh;
-    padding: 5vh 10vw 0vh 10vw;
-    align-items: flex-end;
+    height: auto;
+    padding: 16vh 10vw 0 8vw;
+    /* align-items: flex-end; */
   }
   .homepage-left {
     display: flex;
-    align-items: flex-end;
+    width: 75%;
+    /* height: 30vh; */
+    /* align-items: flex-end; */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
   }
   .homepage-left img {
+    width: 90vw;
+    height: 80%;
     /* width: 60vw; */
+    /* height: 30vh; */
     /* left: -18vw; */
-    /* position: relative; */
+    position: static;
   }
   .homepage-right {
-    padding-bottom: 5vh;
+    /* padding-bottom: 5vh; */
+  }
+  .homepage-buttons{
+    display: flex;
+    flex-direction: column-reverse;
   }
   .homepage-buttons-left {
-    font-size: 16px;
+    /* font-size: 16px; */
   }
   .homepage-buttons-right {
-    font-size: 16px;
+    font-size: 18px;
   }
   .homepage-right h1 {
     font-size: 22px;

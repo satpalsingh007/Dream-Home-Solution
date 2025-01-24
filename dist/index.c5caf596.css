@@ -157,22 +157,31 @@
   }
 
   .homepage {
-    align-items: flex-end;
-    height: 50vh;
-    padding: 5vh 10vw 0;
+    height: auto;
+    padding: 16vh 10vw 0 8vw;
   }
 
   .homepage-left {
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .homepage-left img {
+    width: 90vw;
+    height: 80%;
+    position: static;
+  }
+
+  .homepage-buttons {
+    flex-direction: column-reverse;
     display: flex;
   }
 
-  .homepage-right {
-    padding-bottom: 5vh;
-  }
-
-  .homepage-buttons-left, .homepage-buttons-right {
-    font-size: 16px;
+  .homepage-buttons-right {
+    font-size: 18px;
   }
 
   .homepage-right h1 {
