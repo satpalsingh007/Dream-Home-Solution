@@ -43,6 +43,18 @@
   padding: 6px;
   font-size: 18px;
   font-weight: 200;
+  transition: all .3s;
+}
+
+.footer-top div:hover {
+  letter-spacing: 1.5px;
+  color: #000;
+  background-color: #f9e802cb;
+  border-radius: 20px;
+  width: 300px;
+  padding: 6px;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 .footer-mid {
@@ -96,10 +108,17 @@
   left: 40px;
 }
 
+.footer-mid-right input:focus {
+  color: #f9e802;
+  background-color: #1a1a19;
+  border: 2px solid #f9e802;
+}
+
 .footer-mid-right div {
   color: #1a1a19;
   z-index: 2;
   background-color: #f9e802;
+  border: 2px solid #f9e802;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
@@ -119,6 +138,21 @@
 
 .footer-mid-second-left div {
   color: #f9e802;
+}
+
+.social-links {
+  text-align: center;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: flex;
 }
 
 .footer-mid-second-right {
@@ -142,17 +176,39 @@
   align-items: center;
   font-size: 18px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 35px;
+  transition: all .5s;
   display: flex;
+}
+
+.footer-mid-second-right div div:hover {
+  color: #fff56a;
 }
 
 .footer-end {
   color: #000;
   background-color: #f9e802;
   width: 100vw;
+  padding: 5px 0;
   font-size: 18px;
   font-weight: 200;
   position: absolute;
   bottom: 0;
+}
+
+.social-links div {
+  color: #000;
+  background-color: #f9e802;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: all .3s;
+  display: flex;
+}
+
+.social-links div:hover {
+  background-color: #fff56a;
 }
 /*# sourceMappingURL=index.21636acc.css.map */
