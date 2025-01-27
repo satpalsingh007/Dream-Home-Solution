@@ -2955,28 +2955,35 @@ var _hompage = require("./components/Hompage");
 var _hompageDefault = parcelHelpers.interopDefault(_hompage);
 var _contactUs = require("./components/ContactUs");
 var _contactUsDefault = parcelHelpers.interopDefault(_contactUs);
+var _footer = require("./components/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hompageDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 12,
+                lineNumber: 13,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 14,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 9
     }, undefined);
 };
@@ -2984,7 +2991,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById('main'));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 18,
+    lineNumber: 20,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -2995,7 +3002,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Footer":"8pPOA"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -19880,6 +19887,445 @@ $RefreshReg$(_c, "ContactUs");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Images/Contact.gif":"5Epuc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5Epuc":[function(require,module,exports,__globalThis) {
 module.exports = require("1bd22620140d04d").getBundleURL('aXMci') + "Contact.154c4f5a.gif" + "?" + Date.now();
 
-},{"1bd22620140d04d":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"1bd22620140d04d":"lgJ39"}],"8pPOA":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$bc7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bc7c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        className: "footer",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "footer-top",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        children: "YOUR DREAM \xa0\xa0 OUR TEAM"
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Turning your dream home into reality with precision and passion"
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: "Get Started Today"
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Footer.js",
+                lineNumber: 4,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "footer-mid",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "footer-mid-left",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "Get in Touch"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 11,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Don't Miss Any Update! Enter our email to stay connected and be the first to receive the latest updates, exclusive offers, and expert tips straight to your inbox!"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 12,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "footer-mid-right",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                placeholder: "Email Address"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: "Subscribe"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Footer.js",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "footer-mid-second",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "footer-mid-second-left",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "logo",
+                                children: [
+                                    "DreamHouse ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 26,
+                                        columnNumber: 24
+                                    }, undefined),
+                                    " Solution"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 25,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "social-links",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "facebook",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "26",
+                                            height: "26",
+                                            fill: "currentColor",
+                                            class: "bi bi-facebook",
+                                            viewBox: "0 0 16 16",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                d: "M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Footer.js",
+                                                lineNumber: 38,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.js",
+                                            lineNumber: 30,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 29,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "facebook",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "26",
+                                            height: "26",
+                                            fill: "currentColor",
+                                            class: "bi bi-facebook",
+                                            viewBox: "0 0 16 16",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                d: "M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Footer.js",
+                                                lineNumber: 50,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.js",
+                                            lineNumber: 42,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 41,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "facebook",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "26",
+                                            height: "26",
+                                            fill: "currentColor",
+                                            class: "bi bi-facebook",
+                                            viewBox: "0 0 16 16",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                d: "M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Footer.js",
+                                                lineNumber: 62,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.js",
+                                            lineNumber: 54,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 53,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 28,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "footer-mid-second-right",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "footer-mid-second-quick",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Quick links"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 69,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: "Home"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 70,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: "Services"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 71,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: "About Us"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 72,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: "FAQs"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 73,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "footer-mid-second-contact",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Contact Us"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 76,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-telephone",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Footer.js",
+                                                    lineNumber: 86,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Footer.js",
+                                                lineNumber: 78,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            "\xa0 \xa0+91 9876543201"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 77,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-envelope",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Footer.js",
+                                                    lineNumber: 99,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Footer.js",
+                                                lineNumber: 91,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            " ",
+                                            "\xa0 \xa0dreamhomesolutions@gmail.com"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 90,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-geo-alt",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Footer.js",
+                                                        lineNumber: 112,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Footer.js",
+                                                        lineNumber: 113,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Footer.js",
+                                                lineNumber: 104,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            " ",
+                                            "\xa0 \xa0Dehradun, Uttarakhand, India"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 103,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 75,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Legal"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 119,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: "Privacy Policy"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 120,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: "Terms of Services"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Footer.js",
+                                        lineNumber: 121,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 118,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 67,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Footer.js",
+                lineNumber: 23,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "footer-end",
+                children: "\xa9 2025 Dream Home Solutions. All Rights Reserved."
+            }, void 0, false, {
+                fileName: "src/components/Footer.js",
+                lineNumber: 125,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Footer.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$bc7c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

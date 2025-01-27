@@ -1,0 +1,158 @@
+.footer {
+  color: #f9e802;
+  text-align: center;
+  z-index: 100;
+  background-color: #1a1a19;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10vh 0 0;
+  display: flex;
+  position: relative;
+}
+
+.footer-top {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  display: flex;
+}
+
+.footer-top h4 {
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.footer-top h3 {
+  width: 600px;
+  font-family: boris;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.footer-top div {
+  letter-spacing: 1.5px;
+  color: #000;
+  background-color: #f9e802;
+  border-radius: 20px;
+  width: 300px;
+  padding: 6px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.footer-mid {
+  border-top: 2px solid #f9e802;
+  border-radius: 30px;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 4vh 10vw 0;
+  display: flex;
+}
+
+.footer-mid-left {
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  display: flex;
+}
+
+.footer-mid-left h3 {
+  text-align: left;
+  font-family: boris;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.footer-mid-left p {
+  letter-spacing: 1px;
+  text-align: left;
+  width: 445px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.footer-mid-right {
+  padding: 30px 0 0;
+  display: flex;
+}
+
+.footer-mid-right input {
+  color: #f9e802;
+  z-index: 1;
+  background-color: #1a1a19;
+  border: 2px solid #f9e802;
+  border-radius: 30px;
+  width: 350px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  position: relative;
+  left: 40px;
+}
+
+.footer-mid-right div {
+  color: #1a1a19;
+  z-index: 2;
+  background-color: #f9e802;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  display: flex;
+}
+
+.footer-mid-second {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10vw;
+  display: flex;
+}
+
+.footer-mid-second-left div {
+  color: #f9e802;
+}
+
+.footer-mid-second-right {
+  text-align: left;
+  gap: 30px;
+  display: flex;
+}
+
+.footer-mid-second-right div {
+  text-align: left;
+}
+
+.footer-mid-second-right div h3 {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-mid-second-right div div {
+  text-align: left;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  display: flex;
+}
+
+.footer-end {
+  color: #000;
+  background-color: #f9e802;
+  width: 100vw;
+  font-size: 18px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=index.21636acc.css.map */

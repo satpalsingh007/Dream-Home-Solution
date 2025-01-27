@@ -1,10 +1,12 @@
 .homepage {
+  z-index: 99;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   min-height: 70vh;
   padding: 20vh 10vw 0;
   display: flex;
+  position: static;
 }
 
 .homepage-left {
