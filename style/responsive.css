@@ -42,7 +42,22 @@
   .contactus-form-section {
     padding: 10vh 3vw;
   }
+  /* footer */
+  /* .footer{
+    gap: 20px;
+  } */
 }
+
+@media (max-width: 1250px){
+  .footer-mid{
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+
+  }
+}
+
 @media (max-width: 1000px) {
   /* header */
   .header {
@@ -195,6 +210,42 @@
   .contactus-form-section {
     padding: 10vh 3vw;
   }
+
+  /* Footer */
+  .footer{
+    gap: 25px;
+  }
+  .footer-mid{
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 10vw 0;
+  }
+  .footer-mid-left{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: justify;
+  }
+  .footer-mid-left p{
+    text-align: center;
+    width: 100%;
+  }
+  .footer-mid-second{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .footer-mid-second-right div h3{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-mid-second-right div div{
+    justify-content: center;
+  }
+  .footer-mid-second-left{
+    padding-bottom: 5vh;
+  }
 }
 
 @media (max-width: 800px) {
@@ -266,6 +317,12 @@
     width: 90%;
   }
 }
+@media (max-width: 710px){
+  .footer-mid-second{
+    padding: 0 5vw;
+  }
+
+}
 @media (max-width: 700px) {
   .homepage {
     gap: 5px;
@@ -294,6 +351,23 @@
     font-size: 12px;
     text-align: left;
   }
+  /* footer */
+  .footer{
+    gap: 15px;
+  }
+  .footer-mid-second-right{
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 10px;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+  .footer-mid-right input{
+    width: 60vw;
+  }
+  .footer-mid-right div{
+    width: 20vw;
+  }
 }
 
 @media (max-width: 600px) {
@@ -307,6 +381,18 @@
 
     /* height: 100%; */
     /* right: 1px; */
+  }
+  /* footer */
+  .footer-top{
+    width: 100vw;
+  }
+  .footer-top h3{
+    width: auto;
+    padding: 0 5vw;
+    font-size: 25px;
+  }
+  .footer-mid-right input{
+    width: 300px;
   }
 }
 @media (max-width: 550px) {
@@ -323,5 +409,26 @@
     font-size: 25px;
     padding: 0;
     padding-bottom: 10px;
+  }
+  .footer-mid-second-right{
+    flex-direction: column;
+  }
+  .footer-mid-right input{
+    /* left: 20px; */
+  }
+  .footer-mid-second-right div h3{
+    background-color: #f9e802;
+    border-radius: 20px;
+    padding: 2vh;
+    padding: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  .footer-mid-second-right div div{
+    border: none;
   }
 }

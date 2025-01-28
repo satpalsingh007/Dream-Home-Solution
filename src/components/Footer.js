@@ -115,7 +115,7 @@ const Footer = () => {
               &nbsp; &nbsp;Dehradun, Uttarakhand, India
             </div>
           </div>
-          <div>
+          <div className="footer-mid-second-legal">
             <h3>Legal</h3>
             <div>Privacy Policy</div>
             <div>Terms of Services</div>
