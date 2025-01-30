@@ -1,0 +1,40 @@
+#moving-text {
+  white-space: nowrap;
+  padding: 5vh 0;
+  overflow-x: auto;
+}
+
+#moving-text::-webkit-scrollbar {
+  display: none;
+}
+
+.con {
+  white-space: nowrap;
+  animation: 12s linear infinite move;
+  display: inline-block;
+}
+
+#moving-text h2 {
+  font-size: 50px;
+  display: inline-block;
+}
+
+#gola {
+  background-color: #f9e802;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+  margin: 0 2vw;
+  display: inline-block;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+/*# sourceMappingURL=index.85998f32.css.map */

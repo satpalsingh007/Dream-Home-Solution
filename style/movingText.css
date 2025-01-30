@@ -1,0 +1,35 @@
+#moving-text{
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 5vh 0;
+    
+}
+#moving-text::-webkit-scrollbar{
+    display: none;
+}
+.con{
+    white-space: nowrap;
+    display: inline-block;
+    animation: move 12s linear infinite;
+}
+#moving-text h2{
+    font-size: 50px;
+    display: inline-block;
+}
+
+#gola{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    background-color: #f9e802;
+    display: inline-block;
+    margin: 0 2vw;
+}
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }   
+}

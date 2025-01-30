@@ -1,0 +1,82 @@
+.service-avail{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    background-color: black;
+    color: #f9e802;
+    display: flex;
+    gap: 10vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vw;
+}
+.service-avail .logo{
+    color: white;
+}
+.service-avail-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.service-avail-text h2 {
+    font-size: 8vh;
+    font-family: boris;
+    font-weight: 100;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  /* margin-bottom: 15px; */
+}
+.service-avail-text p{
+    color: white;
+    font-size: 3vh;
+}
+.service-avail-input{
+    display: flex;
+    gap: 0px;
+    position: relative;
+    right: 5px;
+}
+input {
+    position: relative;
+    right: -10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 4px;
+  border: 2px solid #f9e802;
+
+}
+button {
+  /* padding: 10px 20px; */
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9e802;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #f9e802;
+}
+button:hover {
+  background-color: #f9e802c6;
+}
+
+.message {
+  /* margin-top: 20px; */
+  font-size: 18px;
+  color: red;
+}
+@media (min-width: 600px){
+    .service-avail-text h2, .service-avail-text p{
+        text-align: center;
+    }
+    
+}

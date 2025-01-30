@@ -81,7 +81,7 @@ const Header = () => {
           onMouseEnter={handleMouseEnter} // Keep dropdown open when hovering over the list
           onMouseLeave={handleMouseLeave} // Close dropdown when mouse leaves the list
         >
-          <div>
+          <div className="header-windows">
             <span>Windows Istallation</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,8 +96,9 @@ const Header = () => {
                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
               />
             </svg>
+            <div className="header-windows-img"></div>
           </div>
-          <div>
+          <div className="header-doors">
             <span>Doors Istallation</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -112,8 +113,9 @@ const Header = () => {
                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
               />
             </svg>
+            <div className="header-doors-img"></div>
           </div>
-          <div>
+          <div className="header-floor">
             <span>Flooring Solution</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -128,8 +130,9 @@ const Header = () => {
                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
               />
             </svg>
+            <div className="header-floor-img"></div>
           </div>
-          <div>
+          <div className="header-kitchen">
             <span>Kitchen Renovation</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -144,8 +147,9 @@ const Header = () => {
                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
               />
             </svg>
+            <div className="header-kitchen-img"></div>
           </div>
-          <div>
+          <div className="header-roof">
             <span>Roofing Services</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -160,8 +164,10 @@ const Header = () => {
                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
               />
             </svg>
+            <div className="header-roof-img"></div>
           </div>
         </div>
+        
       </div>
       <label className="hamburger">
         <input

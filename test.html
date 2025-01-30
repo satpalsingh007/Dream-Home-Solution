@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Availability Checker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        margin-bottom: 15px;
+      }
+      input {
+        padding: 10px;
+        font-size: 16px;
+        width: 250px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #218838;
+      }
+      .message {
+        margin-top: 20px;
+        font-size: 18px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Check Service Availability</h2>
+      <p>Enter your pincode to see if our service is available in your area.</p>
+      <input type="text" id="pincode" placeholder="Enter Pincode" />
+      <button onclick="checkService()">Check Availability</button>
+
+      <div class="message" id="message"></div>
+    </div>
+
+    <script>
+      function checkService() {
+        const pincode = document.getElementById("pincode").value;
+        const messageElement = document.getElementById("message");
+
+        // Define the regex to match exactly 5 digits (standard US zip code format)
+        const usaPincodePattern = /^[0-9]{5}$/;
+
+        // Check if the pincode matches the 5-digit format
+        if (usaPincodePattern.test(pincode)) {
+          // Convert pincode to a number to check the range
+          const pincodeNumber = parseInt(pincode, 10);
+
+          // Check if the pincode is within the valid range
+          if (pincodeNumber >= 501 && pincodeNumber <= 99950) {
+            messageElement.style.color = "green";
+            messageElement.innerText = "Service is available in your area!";
+          } else {
+            messageElement.style.color = "red";
+            messageElement.innerText =
+              "Sorry, service is not available in your location.";
+          }
+        } else {
+          messageElement.style.color = "red";
+          messageElement.innerText =
+            "Please enter a valid 5-digit U.S. pincode.";
+        }
+      }
+    </script>
+  </body>
+</html>

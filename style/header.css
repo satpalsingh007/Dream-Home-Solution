@@ -1,119 +1,175 @@
-.header{
-    background-color: #ffffff;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    padding: 5vh 5vw;
-    justify-content: space-between;
-    width: 100vw;
-    z-index: 99;
-    position: fixed;
-} 
-.logo{
-    font-family: boris;
-    font-size: 38px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
+.header {
+  background-color: #ffffff;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  padding: 5vh 5vw;
+  justify-content: space-between;
+  width: 100vw;
+  z-index: 99;
+  position: fixed;
 }
-.header-navigation{
-    display: flex;
-    justify-content: space-between;
-    gap: 2vw;
-   
+.logo {
+  font-family: boris;
+  font-size: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.header-navigation h4{
-    padding: 10px 25px;
-    border: 1px solid #0000003c;
-    font-weight: 500;
-    border-radius: 50px; 
-    color: #000000bb;
-    position: relative;
-    font-size: 16px;
-    transition: all ease 0.4s;
-    overflow: hidden;
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
 }
-.header-navigation h4::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #f9e802;
-    border-radius: 50%;
-    left: 0;
-    bottom: -100%;
-    transition: all ease 0.4s;
+.header-navigation h4 {
+  padding: 10px 25px;
+  border: 1px solid #0000003c;
+  font-weight: 500;
+  border-radius: 50px;
+  color: #000000bb;
+  position: relative;
+  font-size: 16px;
+  transition: all ease 0.4s;
+  overflow: hidden;
 }
-.header-navigation h4:hover::after{
-    bottom: 0;
-    border-radius: 0;
+.header-navigation h4::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #f9e802;
+  border-radius: 50%;
+  left: 0;
+  bottom: -100%;
+  transition: all ease 0.4s;
 }
-.header-navigation h4 a{
-    color: #000000bb;
-    text-decoration: none;
-    position: relative;
-    z-index: 9;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-navigation h4:hover::after {
+  bottom: 0;
+  border-radius: 0;
+}
+.header-navigation h4 a {
+  color: #000000bb;
+  text-decoration: none;
+  position: relative;
+  z-index: 9;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Add a smooth transition to the dropdown */
 .header-dropdown-list {
-    position: absolute;
-    top: 66%;
-    left: 35vw;
-    background-color: rgba(255, 255, 255, 0.955);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: auto;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    transform: translateY(-20px); /* Initially hidden */
-    opacity: 0; /* Initially invisible */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
-    border-radius: 2px;
-    padding: 30px;
-  }
-  .header-dropdown-list div{
+  position: absolute;
+  top: 66%;
+  left: 35vw;
+  background-color: rgba(255, 255, 255, 0.955);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: auto;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-20px); /* Initially hidden */
+  opacity: 0; /* Initially invisible */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+  border-radius: 2px;
+  padding: 30px;
+}
+/* .header-dropdown-list div {
+  height: 20%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.315);
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.955);
+} */
+.header-windows, .header-doors, .header-floor, .header-kitchen, .header-roof{
+  height: 20%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.315);
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.955);
+}
+.header-floor-img,.header-doors-img,.header-windows-img,.header-kitchen-img,.header-roof-img{
+  display: none;
+  border-radius: 20px;
+  height: 50vh;
+  width: 40vh;
+  background-color: #f9e802;
+  position: fixed;
+  top: 0vh;
+  left: 23vw;
+}
 
-    height: 20%;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.315) ;
-    width: 20vw;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    transition: all 0.3s ease;
-    justify-content: space-between;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.955);
-    
-  }
-  .header-dropdown-list div:hover{
-    padding: 0 10px;
-    border-radius: 2px 2px 0 0;
-    background-color:#f9e802 ;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.315) ;
- 
-  }
-  
-  .header-dropdown-button-active {
-    transition: transform 0.3s ease;
-    transform: rotate(180deg); /* Rotating the caret when dropdown is open */
-  }
-  .header-dropdown-button{
-    transition: transform 0.3s ease;
-  }
-  .hamburger{
-    display: none;
-  }
-  .menu-open{
-    display: none;
-    transition: all 0.5s ease-in-out;
-  }
-  
+.header-windows:hover .header-windows-img{
+  border-radius: 20px;
+  display: block;
+  background-image: url(https://ecochoicewindows.ca/wp-content/uploads/2023/09/a-room-with-an-open-window-2021-10-23-20-49-42-utc-scaled-1-1200x800.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 
+}
+.header-floor:hover .header-floor-img{
+  border-radius: 20px;
+  display: block;
+  background-image: url(https://images.unsplash.com/photo-1534503442463-e0ddba45cf4c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-doors:hover .header-doors-img{
+  border-radius: 20px;
+  display: block;
+  background-image: url(https://pyramidtimber.com/wp-content/uploads/2019/03/Pyramid-Doors-1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-kitchen:hover .header-kitchen-img{
+  border-radius: 20px;
+  display: block;
+  background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPqY2bTFrhr72MNwpzDqPN_IF53RtRHtGs3HsHKldjzDe4lbjlAqbeD5qssbiAYuC5d4xtNajeNEuduxKf4JsHsvweKAP3kxnnPZDBSAQ);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-roof:hover .header-roof-img{
+  border-radius: 20px;
+  display: block;
+  background-image: url(https://images.unsplash.com/photo-1519115226133-94046df0e272?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-dropdown-list div:hover {
+  padding: 0 10px;
+  border-radius: 2px 2px 0 0;
+  background-color: #f9e802;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.315);
+}
 
+.header-dropdown-button-active {
+  transition: transform 0.3s ease;
+  transform: rotate(180deg); /* Rotating the caret when dropdown is open */
+}
+.header-dropdown-button {
+  transition: transform 0.3s ease;
+}
+.hamburger {
+  display: none;
+}
+.menu-open {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
