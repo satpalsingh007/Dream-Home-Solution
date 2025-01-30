@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
 const ServiceAvail = () => {
   const [message, setMessage] = useState("‎ ");
   const [messageColor, setMessageColor] = useState("");
@@ -13,8 +12,8 @@ const ServiceAvail = () => {
 
   // Function to enable scrolling
   const enableScrolling = () => {
-      document.body.style.overflow = "auto"; // Enable vertical scrolling
-      document.body.style.overflowX ="hidden";
+    document.body.style.overflow = "auto"; // Enable vertical scrolling
+    document.body.style.overflowX = "hidden";
   };
 
   // Disable scrolling when the page loads
@@ -25,6 +24,14 @@ const ServiceAvail = () => {
       enableScrolling();
     };
   }, []);
+
+  // Input width animation: Start with 0 width and transition to 250px
+  useEffect(() => {
+    const inputElement = document.getElementById("pincode");
+    if (inputElement) {
+      inputElement.style.width = "250px"; 
+    }
+  }, []); 
 
   // Function to check service availability
   const checkService = () => {
@@ -64,8 +71,9 @@ const ServiceAvail = () => {
         transition: "transform 1s ease-out", // Smooth transition for the translateY movement
       }}
     >
-      <div id="shape1"></div>
-      <div id="shape2"></div>
+      <div className="dark-overlay"></div>
+      {/* <div id="shape1"></div>
+      <div id="shape2"></div> */}
       <div className="logo">
         DreamHouse <br /> Solution
       </div>
@@ -76,7 +84,12 @@ const ServiceAvail = () => {
         </p>
       </div>
       <div className="service-avail-input">
-        <input type="text" id="pincode" placeholder="Enter Pincode" />
+        <input
+          type="text"
+          id="pincode"
+          placeholder="Enter Pincode"
+          style={{ width: "0px" }} // Start with 0 width
+        />
         <button onClick={checkService}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1,3 +1,4 @@
+
 .service-avail {
   height: 100vh;
   width: 100vw;
@@ -5,7 +6,7 @@
   top: 0;
   left: 0;
   z-index: 101;
-  background-color: rgb(0, 0, 0);
+  background-image: url("../src/Images/s.jpg");
   color: #f9e802;
   display: flex;
   gap: 10vh;
@@ -14,6 +15,19 @@
   justify-content: center;
   padding: 0 10vw;
 }
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.848); /* Semi-transparent black overlay */
+  z-index: 1; /* Positioned behind content */
+}
+
+
+
+
 .service-avail .logo {
   z-index: 100;
   color: white;
@@ -46,22 +60,26 @@
   gap: 0px;
   position: relative;
   right: 10px;
+  z-index: 2;
 }
 .service-avail-input input {
   position: relative;
   right: -20px;
   padding: 10px;
   font-size: 16px;
-  width: 250px;
+  width: 0; /* Initially set to 0 */
   background-color: rgb(26, 26, 25);
   color: #f9e802;
   border-radius: 20px 5px 5px 20px;
   border: 2px solid #f9e802;
   border-right: none;
+  transition: width 1s ease-out; /* Transition width change */
 }
+
 .service-avail-input input:focus {
   outline: none;
 }
+
 .service-avail-input button {
   /* padding: 10px 20px; */
   width: 100px;
@@ -135,3 +153,4 @@ button:hover {
     text-align: center;
   }
 }
+
