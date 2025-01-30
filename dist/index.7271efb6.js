@@ -20581,8 +20581,25 @@ var _s = $RefreshSig$();
 const ServiceAvail = ()=>{
     _s();
     const [message, setMessage] = (0, _react.useState)("\u200E ");
-    const [messageColor, setMessageColor] = (0, _react.useState)("red");
+    const [messageColor, setMessageColor] = (0, _react.useState)("");
     const [transformValue, setTransformValue] = (0, _react.useState)("translateY(0)"); // Initially at top (visible)
+    // Function to disable vertical scrolling
+    const disableScrolling = ()=>{
+        document.body.style.overflow = "hidden"; // Disable vertical scrolling
+    };
+    // Function to enable scrolling
+    const enableScrolling = ()=>{
+        document.body.style.overflow = "auto"; // Enable vertical scrolling
+        document.body.style.overflowX = "hidden";
+    };
+    // Disable scrolling when the page loads
+    (0, _react.useEffect)(()=>{
+        disableScrolling(); // Disable scrolling when component is mounted
+        return ()=>{
+            // Cleanup: Enable scrolling when component is unmounted or page reloads
+            enableScrolling();
+        };
+    }, []);
     // Function to check service availability
     const checkService = ()=>{
         const pincode = document.getElementById("pincode").value;
@@ -20596,7 +20613,10 @@ const ServiceAvail = ()=>{
             if (pincodeNumber >= 501 && pincodeNumber <= 99950) {
                 setMessageColor("green");
                 setMessage("Service is available in your area!");
-                setTimeout(()=>setTransformValue("translateY(-100%)"), 1000); // Move up after 1 second
+                setTimeout(()=>{
+                    setTransformValue("translateY(-100%)");
+                    enableScrolling(); // Enable scrolling after the animation is complete
+                }, 1000); // Move up after 1 second
             } else {
                 setMessageColor("red");
                 setMessage("Sorry, service is not available in your location.");
@@ -20614,20 +20634,34 @@ const ServiceAvail = ()=>{
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "shape1"
+            }, void 0, false, {
+                fileName: "src/components/ServiceAvail.js",
+                lineNumber: 67,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "shape2"
+            }, void 0, false, {
+                fileName: "src/components/ServiceAvail.js",
+                lineNumber: 68,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "logo",
                 children: [
                     "DreamHouse ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 44,
+                        lineNumber: 70,
                         columnNumber: 20
                     }, undefined),
                     " Solution"
                 ]
             }, void 0, true, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 43,
-                columnNumber: 9
+                lineNumber: 69,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "service-avail-text",
@@ -20636,20 +20670,20 @@ const ServiceAvail = ()=>{
                         children: "Check Service Availability"
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 47,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Enter your pincode to see if our service is available in your area."
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 48,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 46,
+                lineNumber: 72,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -20661,7 +20695,7 @@ const ServiceAvail = ()=>{
                         placeholder: "Enter Pincode"
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 53,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -20671,29 +20705,29 @@ const ServiceAvail = ()=>{
                             width: "20",
                             height: "20",
                             fill: "currentColor",
-                            class: "bi bi-search",
+                            className: "bi bi-search",
                             viewBox: "0 0 16 16",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                 d: "M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
                             }, void 0, false, {
                                 fileName: "src/components/ServiceAvail.js",
-                                lineNumber: 55,
-                                columnNumber: 3
+                                lineNumber: 89,
+                                columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/ServiceAvail.js",
-                            lineNumber: 54,
-                            columnNumber: 40
+                            lineNumber: 81,
+                            columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 54,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 52,
+                lineNumber: 78,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -20705,17 +20739,17 @@ const ServiceAvail = ()=>{
                 children: message
             }, void 0, false, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 59,
+                lineNumber: 94,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/ServiceAvail.js",
-        lineNumber: 36,
+        lineNumber: 60,
         columnNumber: 5
     }, undefined);
 };
-_s(ServiceAvail, "EKrPalzDtKUAJ81u5ALdgGE5Cb0=");
+_s(ServiceAvail, "PzTxLC6evsXHR4X8KBfaaxI3ohE=");
 _c = ServiceAvail;
 exports.default = ServiceAvail;
 var _c;

@@ -16,14 +16,18 @@
 }
 
 .service-avail .logo {
+  z-index: 100;
   color: #fff;
 }
 
 .service-avail-text {
+  z-index: 100;
   flex-direction: column;
   align-items: center;
   gap: 15px;
   display: flex;
+  position: relative;
+  top: 10px;
 }
 
 .service-avail-text h2 {
@@ -45,38 +49,97 @@
   gap: 0;
   display: flex;
   position: relative;
-  right: 5px;
+  right: 10px;
 }
 
-input {
+.service-avail-input input {
+  color: #f9e802;
+  background-color: #1a1a19;
   border: 2px solid #f9e802;
-  border-radius: 4px;
-  width: 200px;
+  border-right: none;
+  border-radius: 20px 5px 5px 20px;
+  width: 250px;
   padding: 10px;
   font-size: 16px;
   position: relative;
-  right: -10px;
+  right: -20px;
 }
 
-button {
+.service-avail-input input:focus {
+  outline: none;
+}
+
+.service-avail-input button {
   color: #000;
   cursor: pointer;
+  z-index: 20;
   background-color: #f9e802;
   border: 2px solid #f9e802;
-  border-radius: 4px;
+  border-radius: 20px;
   justify-content: center;
   align-items: center;
   width: 100px;
+  transition: all .3s;
   display: flex;
 }
 
 button:hover {
-  background-color: #f9e802c6;
+  background-color: #c6b800;
 }
 
 .message {
   color: red;
   font-size: 18px;
+}
+
+#shape1 {
+  filter: blur(50px);
+  background-color: #f9e802;
+  width: 90%;
+  height: 90%;
+  animation-name: shape1;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: -50%;
+  left: -20%;
+}
+
+#shape2 {
+  filter: blur(50px);
+  background-color: #f9e802;
+  width: 70%;
+  height: 90%;
+  animation-name: shape2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: -27%;
+  right: -27%;
+}
+
+@keyframes shape1 {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes shape2 {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(45deg);
+  }
 }
 
 @media (width >= 600px) {

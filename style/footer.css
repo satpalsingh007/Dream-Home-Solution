@@ -108,6 +108,7 @@
     z-index: 1;
 }
 .footer-mid-right input:focus{
+    outline: none;
     background-color: rgb(26, 26, 25);
     color: #f9e802;
     border: 2px solid #f9e802;

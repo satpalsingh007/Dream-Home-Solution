@@ -1,59 +1,68 @@
-.service-avail{
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 101;
-    background-color: black;
-    color: #f9e802;
-    display: flex;
-    gap: 10vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10vw;
+.service-avail {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  background-color: rgb(0, 0, 0);
+  color: #f9e802;
+  display: flex;
+  gap: 10vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vw;
 }
-.service-avail .logo{
-    color: white;
+.service-avail .logo {
+  z-index: 100;
+  color: white;
 }
-.service-avail-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+.service-avail-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  top: 10px;
+  z-index: 100;
 }
 .service-avail-text h2 {
-    font-size: 8vh;
-    font-family: boris;
-    font-weight: 100;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 8vh;
+  font-family: boris;
+  font-weight: 100;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* margin-bottom: 15px; */
 }
-.service-avail-text p{
-    color: white;
-    font-size: 3vh;
+.service-avail-text p {
+  color: white;
+  font-size: 3vh;
 }
-.service-avail-input{
-    display: flex;
-    gap: 0px;
-    position: relative;
-    right: 5px;
+.service-avail-input {
+  display: flex;
+  gap: 0px;
+  position: relative;
+  right: 10px;
 }
-input {
-    position: relative;
-    right: -10px;
+.service-avail-input input {
+  position: relative;
+  right: -20px;
   padding: 10px;
   font-size: 16px;
-  width: 200px;
-  border-radius: 4px;
+  width: 250px;
+  background-color: rgb(26, 26, 25);
+  color: #f9e802;
+  border-radius: 20px 5px 5px 20px;
   border: 2px solid #f9e802;
-
+  border-right: none;
 }
-button {
+.service-avail-input input:focus {
+  outline: none;
+}
+.service-avail-input button {
   /* padding: 10px 20px; */
   width: 100px;
   display: flex;
@@ -61,12 +70,14 @@ button {
   justify-content: center;
   background-color: #f9e802;
   color: black;
-  border-radius: 4px;
+  border-radius: 20px 20px 20px 20px;
   cursor: pointer;
   border: 2px solid #f9e802;
+  z-index: 20;
+  transition: all 0.3s ease;
 }
 button:hover {
-  background-color: #f9e802c6;
+  background-color: #c6b800;
 }
 
 .message {
@@ -74,9 +85,53 @@ button:hover {
   font-size: 18px;
   color: red;
 }
-@media (min-width: 600px){
-    .service-avail-text h2, .service-avail-text p{
-        text-align: center;
-    }
-    
+#shape1 {
+  position: absolute;
+  background-color: #f9e802;
+  filter: blur(50px);
+  top: -50%;
+  left: -20%;
+  width: 90%;
+  height: 90%;
+  animation-name: shape1;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#shape2 {
+  position: absolute;
+  background-color: #f9e802;
+  filter: blur(50px);
+  right: -27%;
+  top: -27%;
+  width: 70%;
+  height: 90%;
+  animation-name: shape2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes shape1 {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+@keyframes shape2 {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+@media (min-width: 600px) {
+  .service-avail-text h2,
+  .service-avail-text p {
+    text-align: center;
+  }
 }

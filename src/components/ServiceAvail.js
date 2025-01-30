@@ -1,9 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 
 const ServiceAvail = () => {
   const [message, setMessage] = useState("‎ ");
-  const [messageColor, setMessageColor] = useState("red");
+  const [messageColor, setMessageColor] = useState("");
   const [transformValue, setTransformValue] = useState("translateY(0)"); // Initially at top (visible)
+
+  // Function to disable vertical scrolling
+  const disableScrolling = () => {
+    document.body.style.overflow = "hidden"; // Disable vertical scrolling
+  };
+
+  // Function to enable scrolling
+  const enableScrolling = () => {
+      document.body.style.overflow = "auto"; // Enable vertical scrolling
+      document.body.style.overflowX ="hidden";
+  };
+
+  // Disable scrolling when the page loads
+  useEffect(() => {
+    disableScrolling(); // Disable scrolling when component is mounted
+    return () => {
+      // Cleanup: Enable scrolling when component is unmounted or page reloads
+      enableScrolling();
+    };
+  }, []);
 
   // Function to check service availability
   const checkService = () => {
@@ -21,7 +42,10 @@ const ServiceAvail = () => {
       if (pincodeNumber >= 501 && pincodeNumber <= 99950) {
         setMessageColor("green");
         setMessage("Service is available in your area!");
-        setTimeout(() => setTransformValue("translateY(-100%)"), 1000); // Move up after 1 second
+        setTimeout(() => {
+          setTransformValue("translateY(-100%)");
+          enableScrolling(); // Enable scrolling after the animation is complete
+        }, 1000); // Move up after 1 second
       } else {
         setMessageColor("red");
         setMessage("Sorry, service is not available in your location.");
@@ -40,7 +64,9 @@ const ServiceAvail = () => {
         transition: "transform 1s ease-out", // Smooth transition for the translateY movement
       }}
     >
-        <div className="logo">
+      <div id="shape1"></div>
+      <div id="shape2"></div>
+      <div className="logo">
         DreamHouse <br /> Solution
       </div>
       <div className="service-avail-text">
@@ -51,9 +77,18 @@ const ServiceAvail = () => {
       </div>
       <div className="service-avail-input">
         <input type="text" id="pincode" placeholder="Enter Pincode" />
-        <button onClick={checkService}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-</svg></button>
+        <button onClick={checkService}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            className="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+          </svg>
+        </button>
       </div>
 
       <div
