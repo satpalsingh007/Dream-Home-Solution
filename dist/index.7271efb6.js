@@ -2961,43 +2961,50 @@ var _movingText = require("./components/MovingText");
 var _movingTextDefault = parcelHelpers.interopDefault(_movingText);
 var _serviceAvail = require("./components/ServiceAvail");
 var _serviceAvailDefault = parcelHelpers.interopDefault(_serviceAvail);
+var _testimonial = require("./components/Testimonial");
+var _testimonialDefault = parcelHelpers.interopDefault(_testimonial);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceAvailDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hompageDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movingTextDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 17,
+                lineNumber: 18,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 18,
+                lineNumber: 20,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
@@ -3005,7 +3012,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById('main'));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 24,
+    lineNumber: 26,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3016,7 +3023,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/MovingText":"4r2DP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/ServiceAvail":"9RqXi"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/MovingText":"4r2DP","./components/ServiceAvail":"9RqXi","./components/Testimonial":"4drxF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -20761,6 +20768,636 @@ $RefreshReg$(_c, "ServiceAvail");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4drxF":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$e4e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e4e7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Testimonial = ()=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        // Initialize Swiper once the component is mounted
+        new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            centeredSlides: false,
+            freeMode: true,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false
+            },
+            breakpoints: {
+                // When the window width is <= 600px
+                700: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "testimonial",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "testimonial-left",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "What Our Customer Say"
+                    }, void 0, false, {
+                        fileName: "src/components/Testimonial.js",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    }, void 0, false, {
+                        fileName: "src/components/Testimonial.js",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Testimonial.js",
+                lineNumber: 26,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "testimonial-right",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "swiper mySwiper",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "swiper-wrapper",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "swiper-slide",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "testimonial-card",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "70",
+                                                height: "70",
+                                                fill: "#f9e802",
+                                                className: "bi bi-quote",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Testimonial.js",
+                                                    lineNumber: 47,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 39,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "testimonial-text",
+                                                children: "it was a pleasure working with such a group, who gently guide and coach you up to produce exceptional content"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 49,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "testimonial-person",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "30",
+                                                        height: "30",
+                                                        fill: "currentColor",
+                                                        className: "bi bi-person-circle",
+                                                        viewBox: "0 0 16 16",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                d: "M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 62,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                fillRule: "evenodd",
+                                                                d: "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 63,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 54,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "testimonial-name",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                children: "James Brooklynn"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 69,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                                children: "Company Director"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 70,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 68,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 53,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Testimonial.js",
+                                        lineNumber: 38,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.js",
+                                    lineNumber: 37,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "swiper-slide",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "testimonial-card",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "70",
+                                                height: "70",
+                                                fill: "#f9e802",
+                                                className: "bi bi-quote",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Testimonial.js",
+                                                    lineNumber: 87,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 79,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "testimonial-text",
+                                                children: "it was a pleasure working with such a group, who gently guide and coach you up to produce exceptional content"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 89,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "testimonial-person",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "30",
+                                                        height: "30",
+                                                        fill: "currentColor",
+                                                        className: "bi bi-person-circle",
+                                                        viewBox: "0 0 16 16",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                d: "M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 102,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                fillRule: "evenodd",
+                                                                d: "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 103,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 94,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "testimonial-name",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                children: "James Brooklynn"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 109,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                                children: "Company Director"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 110,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 108,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 93,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Testimonial.js",
+                                        lineNumber: 78,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.js",
+                                    lineNumber: 77,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "swiper-slide",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "testimonial-card",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "70",
+                                                height: "70",
+                                                fill: "#f9e802",
+                                                className: "bi bi-quote",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Testimonial.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 118,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "testimonial-text",
+                                                children: "it was a pleasure working with such a group, who gently guide and coach you up to produce exceptional content"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 128,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "testimonial-person",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "30",
+                                                        height: "30",
+                                                        fill: "currentColor",
+                                                        className: "bi bi-person-circle",
+                                                        viewBox: "0 0 16 16",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                d: "M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 141,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                fillRule: "evenodd",
+                                                                d: "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 142,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 133,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "testimonial-name",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                children: "James Brooklynn"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 148,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                                children: "Company Director"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 149,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 147,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 132,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Testimonial.js",
+                                        lineNumber: 117,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.js",
+                                    lineNumber: 116,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "swiper-slide",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "testimonial-card",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "70",
+                                                height: "70",
+                                                fill: "#f9e802",
+                                                className: "bi bi-quote",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Testimonial.js",
+                                                    lineNumber: 165,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 157,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "testimonial-text",
+                                                children: "it was a pleasure working with such a group, who gently guide and coach you up to produce exceptional content"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 167,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "testimonial-person",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "30",
+                                                        height: "30",
+                                                        fill: "currentColor",
+                                                        className: "bi bi-person-circle",
+                                                        viewBox: "0 0 16 16",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                d: "M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 180,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                fillRule: "evenodd",
+                                                                d: "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 181,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 172,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "testimonial-name",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                children: "James Brooklynn"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 187,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                                children: "Company Director"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 188,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 186,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 171,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Testimonial.js",
+                                        lineNumber: 156,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.js",
+                                    lineNumber: 155,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "swiper-slide",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "testimonial-card",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "70",
+                                                height: "70",
+                                                fill: "#f9e802",
+                                                className: "bi bi-quote",
+                                                viewBox: "0 0 16 16",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Testimonial.js",
+                                                    lineNumber: 204,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 196,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "testimonial-text",
+                                                children: "it was a pleasure working with such a group, who gently guide and coach you up to produce exceptional content"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 206,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "testimonial-person",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "30",
+                                                        height: "30",
+                                                        fill: "currentColor",
+                                                        className: "bi bi-person-circle",
+                                                        viewBox: "0 0 16 16",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                d: "M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 219,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                fillRule: "evenodd",
+                                                                d: "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 220,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 211,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "testimonial-name",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                                children: "James Brooklynn"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 226,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                                children: "Company Director"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Testimonial.js",
+                                                                lineNumber: 227,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/Testimonial.js",
+                                                        lineNumber: 225,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Testimonial.js",
+                                                lineNumber: 210,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Testimonial.js",
+                                        lineNumber: 195,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.js",
+                                    lineNumber: 194,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Testimonial.js",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "swiper-pagination"
+                        }, void 0, false, {
+                            fileName: "src/components/Testimonial.js",
+                            lineNumber: 236,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Testimonial.js",
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Testimonial.js",
+                lineNumber: 34,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Testimonial.js",
+        lineNumber: 25,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Testimonial, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = Testimonial;
+exports.default = Testimonial;
+var _c;
+$RefreshReg$(_c, "Testimonial");
+
+  $parcel$ReactRefreshHelpers$e4e7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

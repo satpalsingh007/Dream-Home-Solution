@@ -100,8 +100,9 @@ button:hover {
 
 .message {
   /* margin-top: 20px; */
+  z-index: 2;
   font-size: 18px;
-  color: red;
+  /* color: red; */
 }
 #shape1 {
   position: absolute;

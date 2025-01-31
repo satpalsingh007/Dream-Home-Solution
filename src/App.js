@@ -5,6 +5,7 @@ import ContactUs from "./components/ContactUs"
 import Footer from "./components/Footer"
 import MovingText from "./components/MovingText"
 import ServiceAvail from "./components/ServiceAvail"
+import Testimonial from "./components/Testimonial"
 
 
 const App = ()=>{
@@ -15,6 +16,7 @@ const App = ()=>{
             <Homepage/>
             <MovingText/>
             <ContactUs/>
+            <Testimonial/>
             <Footer/>
         </div>
     )

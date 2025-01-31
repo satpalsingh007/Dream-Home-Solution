@@ -1,0 +1,175 @@
+.testimonial {
+  align-items: center;
+  width: 100vw;
+  min-height: 70vh;
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.testimonial-left {
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  display: flex;
+}
+
+.testimonial-left h2 {
+  letter-spacing: 1px;
+  font-family: boris;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+}
+
+.testimonial-left h2:after {
+  content: "";
+  z-index: -1;
+  background-color: #f9e802;
+  border-radius: 50%;
+  width: 101px;
+  height: 101px;
+  transition: all .4s;
+  position: absolute;
+  top: 30px;
+  right: 70px;
+}
+
+.testimonial-left p {
+  color: gray;
+  width: 90%;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.testimonial-right {
+  width: 70%;
+  height: 100%;
+}
+
+.testimonial-card {
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+}
+
+.testimonial-person {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.testimonial-name h4 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.testimonial-name p {
+  font-size: 16px;
+}
+
+.swiper-slide {
+  width: 60%;
+}
+
+@media (width <= 1450px) {
+  .testimonial {
+    padding: 0 5vw;
+  }
+}
+
+@media (width <= 1300px) {
+  .testimonial-card {
+    border-radius: 20px;
+    width: 350px;
+  }
+}
+
+@media (width <= 1150px) {
+  .testimonial {
+    flex-direction: column;
+    gap: 10vh;
+  }
+
+  .testimonial-left {
+    width: 100%;
+    padding-left: 5vw;
+  }
+
+  .testimonial-left h2 {
+    width: 400px;
+  }
+
+  .testimonial-left p {
+    color: gray;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .testimonial-right {
+    width: 90%;
+  }
+
+  .testimonial-card {
+    border-radius: 20px;
+    width: 400px;
+  }
+}
+
+@media (width <= 1000px) {
+  .testimonial-card {
+    border-radius: 20px;
+    width: 350px;
+  }
+
+  .testimonial-text {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 900px) {
+  .testimonial-right {
+    width: 100%;
+  }
+}
+
+@media (width <= 800px) {
+  .swiper-slide {
+    width: 100%;
+  }
+
+  .testimonial-card {
+    width: 90%;
+    padding: 10px 20px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+}
+
+@media (width <= 700px) {
+  .testimonial-left {
+    gap: 25px;
+  }
+
+  .testimonial {
+    gap: 5vh;
+  }
+
+  .swiper-slide {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .testimonial-card {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=index.06843974.css.map */

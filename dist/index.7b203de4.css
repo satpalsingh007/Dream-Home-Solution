@@ -100,7 +100,7 @@ button:hover {
 }
 
 .message {
-  color: red;
+  z-index: 2;
   font-size: 18px;
 }
 

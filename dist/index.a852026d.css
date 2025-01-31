@@ -103,11 +103,11 @@
   display: none;
   position: fixed;
   top: 2vh;
-  left: 23vw;
+  left: 24vw;
 }
 
 .header-windows:hover .header-windows-img {
-  background-image: url("https://ecochoicewindows.ca/wp-content/uploads/2023/09/a-room-with-an-open-window-2021-10-23-20-49-42-utc-scaled-1-1200x800.jpg");
+  background-image: url("https://leighbarrywatercolors.com/cdn/shop/products/rish1_1024x1024@2x.jpg?v=1594457696");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -125,7 +125,7 @@
 }
 
 .header-doors:hover .header-doors-img {
-  background-image: url("https://pyramidtimber.com/wp-content/uploads/2019/03/Pyramid-Doors-1.png");
+  background-image: url("https://emmadoyleart.ie/cdn/shop/products/Pembrook_Place_Door_etsy_1024x1024@2x.jpg?v=1671708742");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
