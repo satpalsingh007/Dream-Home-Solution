@@ -1,5 +1,6 @@
 import { useState } from "react";
 import mailimg from '../Images/Contact.gif'
+import QuickSupport from "./QuickSupport";
 const ContactUs = () => {
     const [selectedService, setSelectedService] = useState('');
     const [selectedPlan, setSelectedPlan] = useState('');
@@ -61,6 +62,7 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
+      <QuickSupport/>
     </>
   );
 };

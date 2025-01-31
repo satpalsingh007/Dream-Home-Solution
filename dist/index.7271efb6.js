@@ -19712,227 +19712,236 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _contactGif = require("../Images/Contact.gif");
 var _contactGifDefault = parcelHelpers.interopDefault(_contactGif);
+var _quickSupport = require("./QuickSupport");
+var _quickSupportDefault = parcelHelpers.interopDefault(_quickSupport);
 var _s = $RefreshSig$();
 const ContactUs = ()=>{
     _s();
     const [selectedService, setSelectedService] = (0, _react.useState)('');
     const [selectedPlan, setSelectedPlan] = (0, _react.useState)('');
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "contactus-form-section",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "contactus-left",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "contactus-left-text",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contactus-form-section",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "contactus-left",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "contactus-left-text",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: [
+                                            "Let\u2019s Begin Your ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                                fileName: "src/components/ContactUs.js",
+                                                lineNumber: 13,
+                                                columnNumber: 32
+                                            }, undefined),
+                                            " Home Transformation!"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 12,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "We're excited to help you take the next step toward enhancing your home. Whether you're upgrading your windows, adding new doors, or transforming your kitchen, our team is here to make the process smooth and effortless. Simply fill out the form below with your details, and we'll provide a personalized quote and schedule your consultation. Your dream space is closer than you think!"
+                                    }, void 0, false, {
+                                        fileName: "src/components/ContactUs.js",
+                                        lineNumber: 15,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 11,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _contactGifDefault.default)
+                            }, void 0, false, {
+                                fileName: "src/components/ContactUs.js",
+                                lineNumber: 24,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ContactUs.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "contactus-right",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "text",
+                                    placeholder: "Name",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 28,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "email",
+                                    placeholder: "Email",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 29,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "number",
+                                    placeholder: "Phone number",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 30,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    list: "services",
+                                    id: "service",
+                                    name: "service",
+                                    value: selectedService,
+                                    onChange: (e)=>setSelectedService(e.target.value),
+                                    placeholder: "Select a Service"
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 31,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
+                                    id: "services",
                                     children: [
-                                        "Let\u2019s Begin Your ",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Windows Installation"
+                                        }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 12,
-                                            columnNumber: 32
+                                            lineNumber: 40,
+                                            columnNumber: 15
                                         }, undefined),
-                                        " Home Transformation!"
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Doors Installation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 41,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Flooring Solution"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 42,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Kitchen Renovation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 43,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Roofing Services"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 44,
+                                            columnNumber: 15
+                                        }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 11,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    children: "We're excited to help you take the next step toward enhancing your home. Whether you're upgrading your windows, adding new doors, or transforming your kitchen, our team is here to make the process smooth and effortless. Simply fill out the form below with your details, and we'll provide a personalized quote and schedule your consultation. Your dream space is closer than you think!"
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    list: "plans",
+                                    id: "plan",
+                                    name: "plan",
+                                    value: selectedPlan,
+                                    onChange: (e)=>setSelectedPlan(e.target.value),
+                                    placeholder: "Select a Plan"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 14,
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
+                                    id: "plans",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Basic"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 55,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Standard"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 56,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                            value: "Premium"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ContactUs.js",
+                                            lineNumber: 57,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 54,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                    placeholder: "Message",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 60,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "service-button",
+                                    type: "submit",
+                                    value: "Submit",
+                                    children: "Submit"
+                                }, void 0, false, {
+                                    fileName: "src/components/ContactUs.js",
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/ContactUs.js",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _contactGifDefault.default)
-                        }, void 0, false, {
-                            fileName: "src/components/ContactUs.js",
-                            lineNumber: 23,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/ContactUs.js",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "contactus-right",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                placeholder: "Name",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 27,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "email",
-                                placeholder: "Email",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 28,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "number",
-                                placeholder: "Phone number",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 29,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                list: "services",
-                                id: "service",
-                                name: "service",
-                                value: selectedService,
-                                onChange: (e)=>setSelectedService(e.target.value),
-                                placeholder: "Select a Service"
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 30,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
-                                id: "services",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Windows Installation"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 39,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Doors Installation"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 40,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Flooring Solution"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 41,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Kitchen Renovation"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 42,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Roofing Services"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 43,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 38,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                list: "plans",
-                                id: "plan",
-                                name: "plan",
-                                value: selectedPlan,
-                                onChange: (e)=>setSelectedPlan(e.target.value),
-                                placeholder: "Select a Plan"
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 45,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
-                                id: "plans",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Basic"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 54,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Standard"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 55,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                        value: "Premium"
-                                    }, void 0, false, {
-                                        fileName: "src/components/ContactUs.js",
-                                        lineNumber: 56,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 53,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                placeholder: "Message",
-                                required: true
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 59,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: "service-button",
-                                type: "submit",
-                                value: "Submit",
-                                children: "Submit"
-                            }, void 0, false, {
-                                fileName: "src/components/ContactUs.js",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                    }, void 0, false, {
                         fileName: "src/components/ContactUs.js",
                         lineNumber: 26,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/ContactUs.js",
-                    lineNumber: 25,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/ContactUs.js",
-            lineNumber: 8,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false);
+                ]
+            }, void 0, true, {
+                fileName: "src/components/ContactUs.js",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _quickSupportDefault.default), {}, void 0, false, {
+                fileName: "src/components/ContactUs.js",
+                lineNumber: 65,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
 };
 _s(ContactUs, "8ujkcHN6pBRUr0KyFfJaenDz4hg=");
 _c = ContactUs;
@@ -19945,10 +19954,253 @@ $RefreshReg$(_c, "ContactUs");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Images/Contact.gif":"5Epuc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5Epuc":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Images/Contact.gif":"5Epuc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./QuickSupport":"g7NVm"}],"5Epuc":[function(require,module,exports,__globalThis) {
 module.exports = require("1bd22620140d04d").getBundleURL('aXMci') + "Contact.154c4f5a.gif" + "?" + Date.now();
 
-},{"1bd22620140d04d":"lgJ39"}],"8pPOA":[function(require,module,exports,__globalThis) {
+},{"1bd22620140d04d":"lgJ39"}],"g7NVm":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$78c9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$78c9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const QuickSupport = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "quick-support",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "quick-support-heading",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Quick Support"
+                    }, void 0, false, {
+                        fileName: "src/components/QuickSupport.js",
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "CONTACT"
+                    }, void 0, false, {
+                        fileName: "src/components/QuickSupport.js",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/QuickSupport.js",
+                lineNumber: 4,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "YOU CAN GET ALL THE CONTACT INFORMATION."
+            }, void 0, false, {
+                fileName: "src/components/QuickSupport.js",
+                lineNumber: 11,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "quick-support-cards",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "quick-support-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "quick-support-icon",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "40",
+                                        height: "40",
+                                        fill: "#f9e802",
+                                        class: "bi bi-geo-alt-fill",
+                                        viewBox: "0 0 16 16",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            d: "M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                                        }, void 0, false, {
+                                            fileName: "src/components/QuickSupport.js",
+                                            lineNumber: 23,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 15,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Visit Us"
+                                    }, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 25,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/QuickSupport.js",
+                                lineNumber: 14,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "quick-support-card-value",
+                                children: "SodlanTech, STPI building, IT park, Shestradhara Road, Dehradun, 248001"
+                            }, void 0, false, {
+                                fileName: "src/components/QuickSupport.js",
+                                lineNumber: 27,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/QuickSupport.js",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "quick-support-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "quick-support-icon",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "40",
+                                        height: "40",
+                                        fill: "#f9e802",
+                                        class: "bi bi-telephone-fill",
+                                        viewBox: "0 0 16 16",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            "fill-rule": "evenodd",
+                                            d: "M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                                        }, void 0, false, {
+                                            fileName: "src/components/QuickSupport.js",
+                                            lineNumber: 42,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 34,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Call Us"
+                                    }, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 47,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/QuickSupport.js",
+                                lineNumber: 33,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "quick-support-card-value",
+                                children: [
+                                    "+91 9876543201 ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 50,
+                                        columnNumber: 28
+                                    }, undefined),
+                                    " +91 9876543201"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/QuickSupport.js",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/QuickSupport.js",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "quick-support-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "quick-support-icon",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "40",
+                                        height: "40",
+                                        fill: "#f9e802",
+                                        class: "bi bi-envelope-open-fill",
+                                        viewBox: "0 0 16 16",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            d: "M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765zM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M0 13.373l5.693-3.163L0 6.873z"
+                                        }, void 0, false, {
+                                            fileName: "src/components/QuickSupport.js",
+                                            lineNumber: 64,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 56,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Email Us"
+                                    }, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 66,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/QuickSupport.js",
+                                lineNumber: 55,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "quick-support-card-value",
+                                children: [
+                                    "emailone@gmail.com ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/QuickSupport.js",
+                                        lineNumber: 68,
+                                        columnNumber: 70
+                                    }, undefined),
+                                    " emailtwo@gmail.com"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/QuickSupport.js",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/QuickSupport.js",
+                        lineNumber: 54,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/QuickSupport.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/QuickSupport.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, undefined);
+};
+_c = QuickSupport;
+exports.default = QuickSupport;
+var _c;
+$RefreshReg$(_c, "QuickSupport");
+
+  $parcel$ReactRefreshHelpers$78c9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8pPOA":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$bc7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
