@@ -40,7 +40,7 @@
     font-size: 14px;
   }
   .contactus-form-section {
-    padding: 10vh 3vw;
+    padding: 20vh 3vw 0;
   }
   /* footer */
   /* .footer{
@@ -208,7 +208,7 @@
     padding: 10vh 5vw;
   }
   .contactus-form-section {
-    padding: 10vh 3vw;
+    padding: 20vh 3vw 0;
   }
 
   /* Footer */
@@ -294,7 +294,7 @@
   .contactus-form-section {
     display: flex;
     flex-direction: column;
-    padding: 10vh 5vw;
+    padding: 20vh 5vw 0; 
   }
   .contactus-left {
     border-right: none;

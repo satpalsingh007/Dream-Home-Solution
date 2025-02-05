@@ -10,6 +10,9 @@
   position: fixed;
 }
 .logo {
+  font-style: none;
+  text-decoration: none;
+  color: black;
   font-family: boris;
   font-size: 38px;
   display: flex;
@@ -62,7 +65,7 @@
 /* Add a smooth transition to the dropdown */
 .header-dropdown-list {
   position: absolute;
-  top: 66%;
+  top: 64%;
   left: 35vw;
   background-color: rgba(255, 255, 255, 0.955);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -114,8 +117,8 @@
 .header-windows:hover .header-windows-img{
   border-radius: 20px;
   display: block;
-  background-image: url(https://leighbarrywatercolors.com/cdn/shop/products/rish1_1024x1024@2x.jpg?v=1594457696);
-  background-size: contain;
+  background-image: url("/src/Images/windows.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -123,32 +126,32 @@
 .header-floor:hover .header-floor-img{
   border-radius: 20px;
   display: block;
-  background-image: url(https://images.unsplash.com/photo-1534503442463-e0ddba45cf4c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: contain;
+  background-image: url("/src/Images/floor.png");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .header-doors:hover .header-doors-img{
   border-radius: 20px;
   display: block;
-  background-image: url(https://emmadoyleart.ie/cdn/shop/products/Pembrook_Place_Door_etsy_1024x1024@2x.jpg?v=1671708742);
-  background-size: contain;
+  background-image: url("/src/Images/doors.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .header-kitchen:hover .header-kitchen-img{
   border-radius: 20px;
   display: block;
-  background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPqY2bTFrhr72MNwpzDqPN_IF53RtRHtGs3HsHKldjzDe4lbjlAqbeD5qssbiAYuC5d4xtNajeNEuduxKf4JsHsvweKAP3kxnnPZDBSAQ);
-  background-size: contain;
+  background-image: url("/src/Images/kitchen.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .header-roof:hover .header-roof-img{
   border-radius: 20px;
   display: block;
-  background-image: url(https://images.unsplash.com/photo-1519115226133-94046df0e272?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: contain;
+  background-image: url("/src/Images/roof.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -172,4 +175,14 @@
 .menu-open {
   display: none;
   transition: all 0.5s ease-in-out;
+}
+.menu-open div a {
+  width: 100%;
+  font-size: 18;
+  color:black;
+  font-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

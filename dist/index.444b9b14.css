@@ -1,0 +1,41 @@
+.about-us {
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20vh 10vw;
+  display: flex;
+}
+
+.about-us-banner {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.about-banner-img {
+  width: 50%;
+}
+
+.about-us-sun {
+  text-align: center;
+  z-index: -1;
+  background-color: #f9e802;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  left: 30%;
+}
+
+.about-us-banner h2 {
+  letter-spacing: 1px;
+  text-align: right;
+  font-family: boris;
+  font-size: 50px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.444b9b14.css.map */

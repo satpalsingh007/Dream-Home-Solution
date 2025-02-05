@@ -1,0 +1,42 @@
+.about-us{
+    min-height: 100vh;
+    padding: 20vh 10vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+}
+.about-us-banner{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.about-banner-img{
+    width: 50%;
+    /* position: absolute; */
+}
+.about-us-sun{
+    background-color: #f9e802;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    z-index: -1;
+    /* filter: blur(50px); */
+   left: 30%;
+   /* top: 100px; */
+}
+.about-us-banner h2{
+    font-family: boris;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: right;
+   
+}

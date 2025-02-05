@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -25,12 +26,14 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="logo">
-        DreamHouse <br /> Solution
-      </div>
+     
+      <Link to={'/'} className="logo" onClick={() => { window.scrollTo(0, 0);}}> DreamHouse <br /> Solution</Link>
+      
+       
+      
       <div className="header-navigation">
         <h4>
-          <a href="#">Home</a>
+        <Link to={'/'} onClick={() => { window.scrollTo(0, 0);}}>Home</Link>
         </h4>
         <h4
           onMouseEnter={handleMouseEnter} // Open dropdown on hover
@@ -62,13 +65,13 @@ const Header = () => {
           <a href="#">Plans & Pricing</a>
         </h4>
         <h4>
-          <a href="#">About us</a>
+        <Link to={'/about-us'} onClick={() => { window.scrollTo(0, 0);}}>About Us</Link>
         </h4>
         <h4>
           <a href="#">FAQs</a>
         </h4>
         <h4>
-          <a href="#">Contact Us</a>
+        <Link to={'/contact-us'} onClick={() => { window.scrollTo(0, 0);}}>Contact Us</Link>
         </h4>
         {/* Dropdown List */}
         <div
@@ -190,8 +193,7 @@ const Header = () => {
         }}
       >
         <div>
-          <span>Home</span>
-          <svg
+        <Link to={'/'} onClick={() => { window.scrollTo(0, 0); isMenuOpen(false)}}>Home<svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -200,7 +202,8 @@ const Header = () => {
             viewBox="0 0 16 16"
           >
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-          </svg>
+          </svg></Link>
+          
         </div>
         <div onClick={handleAccordianToggle}>
           <span>Services</span>
@@ -227,8 +230,7 @@ const Header = () => {
         </section>
 
         <div>
-          <span>About Us</span>
-          <svg
+        <Link to={'/about-us'} onClick={() => { window.scrollTo(0, 0); isMenuOpen(false)}}>About-Us <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -237,7 +239,8 @@ const Header = () => {
             viewBox="0 0 16 16"
           >
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-          </svg>
+          </svg></Link>
+          
         </div>
         <div>
           <span>FAQs</span>
@@ -253,8 +256,7 @@ const Header = () => {
           </svg>
         </div>
         <div>
-          <span>Contact Us</span>
-          <svg
+        <Link to={'/contact-us'} onClick={() => { window.scrollTo(0, 0); isMenuOpen(false)}}>Contact-Us <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -263,7 +265,8 @@ const Header = () => {
             viewBox="0 0 16 16"
           >
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-          </svg>
+          </svg></Link>
+          
         </div>
       </div>
     </header>

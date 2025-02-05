@@ -1,7 +1,13 @@
 import homeimg from '../Images/Home.gif'
+import ServiceAvail from './ServiceAvail';
+import MovingText from './MovingText';
+import Testimonial from './Testimonial';
+import Faq from './Faq';
 const Homepage = ()=>{
     return (
         <>
+        <ServiceAvail/>
+
         <div className="homepage">
             <div className="homepage-left"><img src={homeimg}></img></div>
             <div className="homepage-right">
@@ -21,6 +27,9 @@ const Homepage = ()=>{
             <div><h2>Quick, Seamless, and Stress-Free Process</h2> <p>We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle ever y detail—from consultation and design to installation—so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!
             </p></div>
         </div>
+        <MovingText/>
+        <Testimonial/>
+        <Faq/>
         </>
         
     )
