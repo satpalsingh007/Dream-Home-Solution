@@ -27705,20 +27705,6 @@ const Header = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#",
-                            children: "FAQs"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 71,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Header.js",
-                        lineNumber: 70,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: '/contact-us',
                             onClick: ()=>{
@@ -27727,12 +27713,12 @@ const Header = ()=>{
                             children: "Contact Us"
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 74,
+                            lineNumber: 72,
                             columnNumber: 9
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 73,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27752,7 +27738,7 @@ const Header = ()=>{
                                         children: "Windows Istallation"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 88,
+                                        lineNumber: 86,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27767,25 +27753,25 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 97,
+                                            lineNumber: 95,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 89,
+                                        lineNumber: 87,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "header-windows-img"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 102,
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 87,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27795,7 +27781,7 @@ const Header = ()=>{
                                         children: "Doors Istallation"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 105,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27810,25 +27796,25 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 114,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 106,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "header-doors-img"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 119,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 104,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27838,7 +27824,7 @@ const Header = ()=>{
                                         children: "Flooring Solution"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 122,
+                                        lineNumber: 120,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27853,25 +27839,25 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 131,
+                                            lineNumber: 129,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 123,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "header-floor-img"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 136,
+                                        lineNumber: 134,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 121,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27881,7 +27867,7 @@ const Header = ()=>{
                                         children: "Kitchen Renovation"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 139,
+                                        lineNumber: 137,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27896,25 +27882,25 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 148,
+                                            lineNumber: 146,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 140,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "header-kitchen-img"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 153,
+                                        lineNumber: 151,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 138,
+                                lineNumber: 136,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27924,7 +27910,7 @@ const Header = ()=>{
                                         children: "Roofing Services"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 156,
+                                        lineNumber: 154,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27939,31 +27925,31 @@ const Header = ()=>{
                                             d: "M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                                         }, void 0, false, {
                                             fileName: "src/components/Header.js",
-                                            lineNumber: 165,
+                                            lineNumber: 163,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 157,
+                                        lineNumber: 155,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "header-roof-img"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 170,
+                                        lineNumber: 168,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 155,
+                                lineNumber: 153,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 77,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -27981,7 +27967,7 @@ const Header = ()=>{
                         type: "checkbox" /*onChange={toggleMenu}*/ 
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 176,
+                        lineNumber: 174,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27992,7 +27978,7 @@ const Header = ()=>{
                                 d: "M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 182,
+                                lineNumber: 180,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
@@ -28000,19 +27986,19 @@ const Header = ()=>{
                                 d: "M7 16 27 16"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 186,
+                                lineNumber: 184,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 181,
+                        lineNumber: 179,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Header.js",
-                lineNumber: 175,
+                lineNumber: 173,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28041,23 +28027,23 @@ const Header = ()=>{
                                         d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 204,
+                                        lineNumber: 202,
                                         columnNumber: 13
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 196,
+                                    lineNumber: 194,
                                     columnNumber: 88
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 196,
+                            lineNumber: 194,
                             columnNumber: 9
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 195,
+                        lineNumber: 193,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28067,7 +28053,7 @@ const Header = ()=>{
                                 children: "Services"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 209,
+                                lineNumber: 207,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -28081,18 +28067,18 @@ const Header = ()=>{
                                     d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 218,
+                                    lineNumber: 216,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 210,
+                                lineNumber: 208,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 208,
+                        lineNumber: 206,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28102,41 +28088,41 @@ const Header = ()=>{
                                 children: "Windows Installation"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 225,
+                                lineNumber: 223,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Doors Installation"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 226,
+                                lineNumber: 224,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Flooring Solution"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 227,
+                                lineNumber: 225,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Kitchen Renovation"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 228,
+                                lineNumber: 226,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Roofing Services"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 229,
+                                lineNumber: 227,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 221,
+                        lineNumber: 219,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28159,23 +28145,23 @@ const Header = ()=>{
                                         d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 241,
+                                        lineNumber: 239,
                                         columnNumber: 13
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 233,
+                                    lineNumber: 231,
                                     columnNumber: 101
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 233,
+                            lineNumber: 231,
                             columnNumber: 9
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 232,
+                        lineNumber: 230,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28184,7 +28170,7 @@ const Header = ()=>{
                                 children: "FAQs"
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 246,
+                                lineNumber: 244,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -28198,18 +28184,18 @@ const Header = ()=>{
                                     d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 255,
+                                    lineNumber: 253,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Header.js",
-                                lineNumber: 247,
+                                lineNumber: 245,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 245,
+                        lineNumber: 243,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28232,29 +28218,29 @@ const Header = ()=>{
                                         d: "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
                                     }, void 0, false, {
                                         fileName: "src/components/Header.js",
-                                        lineNumber: 267,
+                                        lineNumber: 265,
                                         columnNumber: 13
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/Header.js",
-                                    lineNumber: 259,
+                                    lineNumber: 257,
                                     columnNumber: 105
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Header.js",
-                            lineNumber: 259,
+                            lineNumber: 257,
                             columnNumber: 9
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
-                        lineNumber: 258,
+                        lineNumber: 256,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Header.js",
-                lineNumber: 189,
+                lineNumber: 187,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28440,13 +28426,15 @@ var _testimonial = require("./Testimonial");
 var _testimonialDefault = parcelHelpers.interopDefault(_testimonial);
 var _faq = require("./Faq");
 var _faqDefault = parcelHelpers.interopDefault(_faq);
+var _aboutUsHome = require("./AboutUsHome");
+var _aboutUsHomeDefault = parcelHelpers.interopDefault(_aboutUsHome);
 const Homepage = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceAvailDefault.default), {}, void 0, false, {
+            localStorage.getItem("serviceAvailable") !== "true" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceAvailDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 9,
-                columnNumber: 9
+                lineNumber: 10,
+                columnNumber: 64
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "homepage",
@@ -28457,12 +28445,12 @@ const Homepage = ()=>{
                             src: (0, _homeGifDefault.default)
                         }, void 0, false, {
                             fileName: "src/components/Hompage.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 44
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28472,14 +28460,14 @@ const Homepage = ()=>{
                                 children: "Transform Your Space with Expert Window, Door, and Kitchen Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 14,
+                                lineNumber: 15,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "At DreamHome Solutions, we provide expert installations for windows, doors,and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 15,
+                                lineNumber: 16,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28490,7 +28478,7 @@ const Homepage = ()=>{
                                         children: "Get started today"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 17,
+                                        lineNumber: 18,
                                         columnNumber: 17
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28498,25 +28486,25 @@ const Homepage = ()=>{
                                         children: "Our plans"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 18,
+                                        lineNumber: 19,
                                         columnNumber: 17
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28529,7 +28517,7 @@ const Homepage = ()=>{
                                 children: "High-Quality Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 23,
+                                lineNumber: 24,
                                 columnNumber: 19
                             }, undefined),
                             " ",
@@ -28537,13 +28525,13 @@ const Homepage = ()=>{
                                 children: "Transform your home with our exceptional window, door, and kitchen installations designed to stand the test of time. We combine top-tier materials, professional craftsmanship, and meticulous attention to detail to ensure every project is both functional and visually stunning. With us, quality isn't just a promise\u2014it's a guarantee."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 23,
+                                lineNumber: 24,
                                 columnNumber: 55
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28552,7 +28540,7 @@ const Homepage = ()=>{
                                 children: "Tailored Solutions to Fit Your Style"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -28560,13 +28548,13 @@ const Homepage = ()=>{
                                 children: "Every home is unique, and we believe your installations should reflect that. Whether you're modernizing your kitchen, upgrading your windows for better energy efficiency, or enhancing security with new doors, we offer customized solutions to meet your needs and preferences. Your dream home starts with a personalized touch."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 64
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 25,
+                        lineNumber: 26,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28575,7 +28563,7 @@ const Homepage = ()=>{
                                 children: "Quick, Seamless, and Stress-Free Process"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -28583,34 +28571,39 @@ const Homepage = ()=>{
                                 children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle ever y detail\u2014from consultation and design to installation\u2014so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 68
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movingTextDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 30,
+                lineNumber: 31,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsHomeDefault.default), {}, void 0, false, {
+                fileName: "src/components/Hompage.js",
+                lineNumber: 32,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 31,
+                lineNumber: 33,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 32,
+                lineNumber: 34,
                 columnNumber: 9
             }, undefined)
         ]
@@ -28626,7 +28619,7 @@ $RefreshReg$(_c, "Homepage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
 module.exports = require("3d8b32b4a5c3497d").getBundleURL('aXMci') + "Home.4b44bc84.gif" + "?" + Date.now();
 
 },{"3d8b32b4a5c3497d":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
@@ -28703,6 +28696,8 @@ const ServiceAvail = ()=>{
     (0, _react.useEffect)(()=>{
         const inputElement = document.getElementById("pincode");
         if (inputElement) inputElement.style.width = "250px";
+        // Check if the user has already passed the pincode validation
+        if (localStorage.getItem("serviceAvailable") === "true") setTransformValue("translateY(-100%)"); // Move up if pincode validation is already passed
     }, []);
     // Function to check service availability
     const checkService = ()=>{
@@ -28717,6 +28712,8 @@ const ServiceAvail = ()=>{
             if (pincodeNumber >= 501 && pincodeNumber <= 99950) {
                 setMessageColor("green");
                 setMessage("Service is available in your area!");
+                // Store in localStorage to remember the user has passed the pincode validation
+                localStorage.setItem("serviceAvailable", "true");
                 setTimeout(()=>{
                     setTransformValue("translateY(-100%)");
                     enableScrolling(); // Enable scrolling after the animation is complete
@@ -28741,7 +28738,7 @@ const ServiceAvail = ()=>{
                 className: "dark-overlay"
             }, void 0, false, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 74,
+                lineNumber: 83,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28750,14 +28747,14 @@ const ServiceAvail = ()=>{
                     "DreamHouse ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 78,
+                        lineNumber: 85,
                         columnNumber: 20
                     }, undefined),
                     " Solution"
                 ]
             }, void 0, true, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 77,
+                lineNumber: 84,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28767,20 +28764,20 @@ const ServiceAvail = ()=>{
                         children: "Check Service Availability"
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 81,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Enter your pincode to see if our service is available in your area."
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 82,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 80,
+                lineNumber: 87,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28795,7 +28792,7 @@ const ServiceAvail = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 87,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28811,23 +28808,23 @@ const ServiceAvail = ()=>{
                                 d: "M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
                             }, void 0, false, {
                                 fileName: "src/components/ServiceAvail.js",
-                                lineNumber: 102,
+                                lineNumber: 109,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/ServiceAvail.js",
-                            lineNumber: 94,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/ServiceAvail.js",
-                        lineNumber: 93,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 86,
+                lineNumber: 93,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28839,13 +28836,13 @@ const ServiceAvail = ()=>{
                 children: message
             }, void 0, false, {
                 fileName: "src/components/ServiceAvail.js",
-                lineNumber: 107,
+                lineNumber: 114,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/ServiceAvail.js",
-        lineNumber: 67,
+        lineNumber: 76,
         columnNumber: 5
     }, undefined);
 };
@@ -29878,10 +29875,139 @@ $RefreshReg$(_c, "Faq");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/faq.css":"1sWgM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/question-marks.png":"jBQuX"}],"1sWgM":[function() {},{}],"jBQuX":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/faq.css":"1sWgM","../Images/question-marks.png":"jBQuX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1sWgM":[function() {},{}],"jBQuX":[function(require,module,exports,__globalThis) {
 module.exports = require("5081c8730af347fb").getBundleURL('aXMci') + "question-marks.22e6a273.png" + "?" + Date.now();
 
-},{"5081c8730af347fb":"lgJ39"}],"dZ839":[function(require,module,exports,__globalThis) {
+},{"5081c8730af347fb":"lgJ39"}],"aePBy":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$79c1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$79c1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _aboutushomeCss = require("../../style/aboutushome.css"); // Import the separate CSS file
+const AboutUsHome = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "about-section",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "shape1"
+            }, void 0, false, {
+                fileName: "src/components/AboutUsHome.js",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "shape2"
+            }, void 0, false, {
+                fileName: "src/components/AboutUsHome.js",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-section-left",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "about-section-img-container",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "about-section-img",
+                        title: "Rahul Kumar Yadav",
+                        src: "https://i.ibb.co/QP6Nmpf/image-1-about.jpg",
+                        alt: ""
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUsHome.js",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/AboutUsHome.js",
+                    lineNumber: 10,
+                    columnNumber: 11
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/AboutUsHome.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-section-right",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "About Us"
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUsHome.js",
+                        lineNumber: 16,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "about-section-img-below",
+                        title: "Rahul Kumar Yadav",
+                        src: "https://i.ibb.co/QP6Nmpf/image-1-about.jpg",
+                        alt: ""
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUsHome.js",
+                        lineNumber: 17,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "W"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUsHome.js",
+                                lineNumber: 19,
+                                columnNumber: 13
+                            }, undefined),
+                            "e are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/AboutUsHome.js",
+                        lineNumber: 18,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUsHome.js",
+                        lineNumber: 21,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "homepage-buttons-right",
+                        children: "Read More"
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUsHome.js",
+                        lineNumber: 25,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AboutUsHome.js",
+                lineNumber: 15,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/AboutUsHome.js",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = AboutUsHome;
+exports.default = AboutUsHome;
+var _c;
+$RefreshReg$(_c, "AboutUsHome");
+
+  $parcel$ReactRefreshHelpers$79c1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/aboutushome.css":"1rlVm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1rlVm":[function() {},{}],"dZ839":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$58e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -30837,42 +30963,131 @@ var _aboutVectorPngDefault = parcelHelpers.interopDefault(_aboutVectorPng);
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-us",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "about-us-banner",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "About-Us"
-                }, void 0, false, {
-                    fileName: "src/components/AboutUs.js",
-                    lineNumber: 6,
-                    columnNumber: 14
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _aboutVectorPngDefault.default),
-                    className: "about-banner-img",
-                    alt: "about banner"
-                }, void 0, false, {
-                    fileName: "src/components/AboutUs.js",
-                    lineNumber: 7,
-                    columnNumber: 14
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "about-us-sun"
-                }, void 0, false, {
-                    fileName: "src/components/AboutUs.js",
-                    lineNumber: 8,
-                    columnNumber: 14
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/AboutUs.js",
-            lineNumber: 5,
-            columnNumber: 12
-        }, undefined)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-us-banner",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "About-Us"
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUs.js",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _aboutVectorPngDefault.default),
+                        className: "about-banner-img",
+                        alt: "about banner"
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUs.js",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "about-us-sun"
+                    }, void 0, false, {
+                        fileName: "src/components/AboutUs.js",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AboutUs.js",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "page2bottom",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        id: "part1",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 18,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/AboutUs.js",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        id: "part2",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                src: "https://www.youtube.com/embed/aL27fX5kv9U",
+                                title: "Introduction To WiseGPT",
+                                frameborder: "0",
+                                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                allowfullscreen: true
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 21,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We\u2019re here to partner with you through every step of the process and know that relationships are the most important things we build."
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 29,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/AboutUs.js",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        id: "circle",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                id: "circle1"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 37,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                id: "circle2"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 38,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/AboutUs.js",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AboutUs.js",
+                lineNumber: 14,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/AboutUs.js",
         lineNumber: 4,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = AboutUs;

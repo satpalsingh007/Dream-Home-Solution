@@ -38,4 +38,167 @@
   font-size: 50px;
   font-weight: 500;
 }
+
+#page2bottom {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  min-height: 80vh;
+  padding: 2vw 0;
+  display: flex;
+}
+
+#part1 {
+  width: 63%;
+}
+
+#part2 {
+  width: 30%;
+  padding-right: 1vw;
+}
+
+#part2 p {
+  font-size: 20px;
+}
+
+#page2bottom h3 {
+  z-index: 9;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  position: relative;
+}
+
+#part2 iframe {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3vw;
+}
+
+#circle {
+  filter: blur(10px);
+  background-color: #ff0;
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top: 80%;
+  left: 27%;
+}
+
+#circle1 {
+  filter: blur(10px);
+  background-color: #f9e002;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  animation-name: circle1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+}
+
+#circle2 {
+  filter: blur(50px);
+  background-color: #f9c302;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  animation-name: circle2;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+}
+
+@keyframes circle1 {
+  from {
+    transform: translate(-5%, 10%)skew(0deg);
+  }
+
+  to {
+    transform: translate(5%, -6%)skew(-10deg);
+  }
+}
+
+@keyframes circle2 {
+  from {
+    transform: translate(-5%, 10%);
+  }
+
+  to {
+    transform: translate(5%, -6%);
+  }
+}
+
+@media (width <= 600px) {
+  #page2bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6vh;
+    padding-left: 6vw;
+    display: flex;
+  }
+
+  #part1 {
+    width: 96%;
+    padding-top: 6vh;
+  }
+
+  #part2 {
+    z-index: 9;
+    flex-direction: column;
+    width: 78%;
+    padding: 0;
+    display: flex;
+    position: relative;
+  }
+
+  #page2, #page3, #page4, #page5 {
+    max-width: 100vw;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #page2 {
+    height: 79vh;
+  }
+
+  #page2bottom h1 {
+    z-index: 9;
+    letter-spacing: normal;
+    font-family: sun-mediu;
+    font-size: 6.5vw;
+    font-weight: 900;
+    line-height: 3vh;
+    position: relative;
+  }
+
+  #part2 img {
+    border-radius: 15px;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 3vh;
+  }
+
+  #part2 p {
+    font-size: 4vw;
+  }
+
+  #circle {
+    filter: blur(10px);
+    background-color: #f9e802;
+    border-radius: 50%;
+    width: 58vw;
+    height: 58vw;
+    position: absolute;
+    top: 70%;
+    left: 4%;
+  }
+}
 /*# sourceMappingURL=index.444b9b14.css.map */

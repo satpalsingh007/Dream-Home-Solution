@@ -67,9 +67,7 @@ const Header = () => {
         <h4>
         <Link to={'/about-us'} onClick={() => { window.scrollTo(0, 0);}}>About Us</Link>
         </h4>
-        <h4>
-          <a href="#">FAQs</a>
-        </h4>
+        
         <h4>
         <Link to={'/contact-us'} onClick={() => { window.scrollTo(0, 0);}}>Contact Us</Link>
         </h4>

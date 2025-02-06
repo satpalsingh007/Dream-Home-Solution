@@ -31,7 +31,12 @@ const ServiceAvail = () => {
     if (inputElement) {
       inputElement.style.width = "250px"; 
     }
-  }, []); 
+
+    // Check if the user has already passed the pincode validation
+    if (localStorage.getItem("serviceAvailable") === "true") {
+      setTransformValue("translateY(-100%)"); // Move up if pincode validation is already passed
+    }
+  }, []);
 
   // Function to check service availability
   const checkService = () => {
@@ -49,6 +54,10 @@ const ServiceAvail = () => {
       if (pincodeNumber >= 501 && pincodeNumber <= 99950) {
         setMessageColor("green");
         setMessage("Service is available in your area!");
+
+        // Store in localStorage to remember the user has passed the pincode validation
+        localStorage.setItem("serviceAvailable", "true");
+
         setTimeout(() => {
           setTransformValue("translateY(-100%)");
           enableScrolling(); // Enable scrolling after the animation is complete
@@ -72,8 +81,6 @@ const ServiceAvail = () => {
       }}
     >
       <div className="dark-overlay"></div>
-      {/* <div id="shape1"></div>
-      <div id="shape2"></div> */}
       <div className="logo">
         DreamHouse <br /> Solution
       </div>

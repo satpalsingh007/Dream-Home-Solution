@@ -3,10 +3,11 @@ import ServiceAvail from './ServiceAvail';
 import MovingText from './MovingText';
 import Testimonial from './Testimonial';
 import Faq from './Faq';
+import AboutUsHome from './AboutUsHome';
 const Homepage = ()=>{
     return (
         <>
-        <ServiceAvail/>
+       {localStorage.getItem("serviceAvailable") !== "true" && <ServiceAvail />}
 
         <div className="homepage">
             <div className="homepage-left"><img src={homeimg}></img></div>
@@ -28,6 +29,7 @@ const Homepage = ()=>{
             </p></div>
         </div>
         <MovingText/>
+        <AboutUsHome/>
         <Testimonial/>
         <Faq/>
         </>
