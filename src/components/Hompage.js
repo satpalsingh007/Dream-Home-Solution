@@ -4,6 +4,7 @@ import MovingText from './MovingText';
 import Testimonial from './Testimonial';
 import Faq from './Faq';
 import AboutUsHome from './AboutUsHome';
+import PricingPlans from './PricingPlan';
 const Homepage = ()=>{
     return (
         <>
@@ -30,6 +31,7 @@ const Homepage = ()=>{
         </div>
         <MovingText/>
         <AboutUsHome/>
+        <PricingPlans/>
         <Testimonial/>
         <Faq/>
         </>

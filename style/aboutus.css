@@ -68,7 +68,7 @@
   
     font-weight: 400;
     line-height: 22px;
-    text-align: left;
+    text-align: justify;
 }
 #part2 iframe{
     width: 100%;
@@ -135,13 +135,21 @@
 
 
 @media (max-width : 600px){
+    .about-us-sun{
+        
+        height: 150px;
+        width: 150px;
+      
+       left: 30%;
+ 
+    }
     #page2bottom{
         display: flex;
         /* align-items: flex-start; */
         justify-content: flex-start;
         flex-direction: column;
         gap: 6vh;
-        padding-left: 6vw;
+        /* padding-left: 6vw; */
     }
     #part1{
         width: 96%;
@@ -163,12 +171,12 @@
     #page2{
         height: 79vh;
     }
-    #page2bottom h1{
-        font-size: 6.5vw;
-        z-index: 9;
+    #page2bottom h3{
+        font-size: 20px;
+        /* z-index: 9; */
         position: relative;
-        font-family: sun-mediu;
-        font-weight: 900;
+        /* font-family: sun-mediu; */
+        font-weight: 200;
         letter-spacing: normal;
         line-height: 3vh;
     }

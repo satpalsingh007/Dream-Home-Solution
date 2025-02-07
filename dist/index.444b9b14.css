@@ -63,7 +63,7 @@
 
 #page2bottom h3 {
   z-index: 9;
-  text-align: left;
+  text-align: justify;
   font-size: 20px;
   font-weight: 400;
   line-height: 22px;
@@ -137,11 +137,16 @@
 }
 
 @media (width <= 600px) {
+  .about-us-sun {
+    width: 150px;
+    height: 150px;
+    left: 30%;
+  }
+
   #page2bottom {
     flex-direction: column;
     justify-content: flex-start;
     gap: 6vh;
-    padding-left: 6vw;
     display: flex;
   }
 
@@ -169,12 +174,10 @@
     height: 79vh;
   }
 
-  #page2bottom h1 {
-    z-index: 9;
+  #page2bottom h3 {
     letter-spacing: normal;
-    font-family: sun-mediu;
-    font-size: 6.5vw;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 200;
     line-height: 3vh;
     position: relative;
   }

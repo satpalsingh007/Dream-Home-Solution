@@ -28428,12 +28428,14 @@ var _faq = require("./Faq");
 var _faqDefault = parcelHelpers.interopDefault(_faq);
 var _aboutUsHome = require("./AboutUsHome");
 var _aboutUsHomeDefault = parcelHelpers.interopDefault(_aboutUsHome);
+var _pricingPlan = require("./PricingPlan");
+var _pricingPlanDefault = parcelHelpers.interopDefault(_pricingPlan);
 const Homepage = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             localStorage.getItem("serviceAvailable") !== "true" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceAvailDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 64
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28445,12 +28447,12 @@ const Homepage = ()=>{
                             src: (0, _homeGifDefault.default)
                         }, void 0, false, {
                             fileName: "src/components/Hompage.js",
-                            lineNumber: 13,
+                            lineNumber: 14,
                             columnNumber: 44
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28460,14 +28462,14 @@ const Homepage = ()=>{
                                 children: "Transform Your Space with Expert Window, Door, and Kitchen Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 15,
+                                lineNumber: 16,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "At DreamHome Solutions, we provide expert installations for windows, doors,and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28478,7 +28480,7 @@ const Homepage = ()=>{
                                         children: "Get started today"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 18,
+                                        lineNumber: 19,
                                         columnNumber: 17
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28486,25 +28488,25 @@ const Homepage = ()=>{
                                         children: "Our plans"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 19,
+                                        lineNumber: 20,
                                         columnNumber: 17
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28517,7 +28519,7 @@ const Homepage = ()=>{
                                 children: "High-Quality Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 19
                             }, undefined),
                             " ",
@@ -28525,13 +28527,13 @@ const Homepage = ()=>{
                                 children: "Transform your home with our exceptional window, door, and kitchen installations designed to stand the test of time. We combine top-tier materials, professional craftsmanship, and meticulous attention to detail to ensure every project is both functional and visually stunning. With us, quality isn't just a promise\u2014it's a guarantee."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 55
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28540,7 +28542,7 @@ const Homepage = ()=>{
                                 children: "Tailored Solutions to Fit Your Style"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 26,
+                                lineNumber: 27,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -28548,13 +28550,13 @@ const Homepage = ()=>{
                                 children: "Every home is unique, and we believe your installations should reflect that. Whether you're modernizing your kitchen, upgrading your windows for better energy efficiency, or enhancing security with new doors, we offer customized solutions to meet your needs and preferences. Your dream home starts with a personalized touch."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 26,
+                                lineNumber: 27,
                                 columnNumber: 64
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28563,7 +28565,7 @@ const Homepage = ()=>{
                                 children: "Quick, Seamless, and Stress-Free Process"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 28,
+                                lineNumber: 29,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -28571,39 +28573,44 @@ const Homepage = ()=>{
                                 children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle ever y detail\u2014from consultation and design to installation\u2014so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 28,
+                                lineNumber: 29,
                                 columnNumber: 68
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movingTextDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsHomeDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 32,
+                lineNumber: 33,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pricingPlanDefault.default), {}, void 0, false, {
+                fileName: "src/components/Hompage.js",
+                lineNumber: 34,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 34,
+                lineNumber: 36,
                 columnNumber: 9
             }, undefined)
         ]
@@ -28619,7 +28626,7 @@ $RefreshReg$(_c, "Homepage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","./PricingPlan":"9FvvT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
 module.exports = require("3d8b32b4a5c3497d").getBundleURL('aXMci') + "Home.4b44bc84.gif" + "?" + Date.now();
 
 },{"3d8b32b4a5c3497d":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
@@ -30007,7 +30014,680 @@ $RefreshReg$(_c, "AboutUsHome");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/aboutushome.css":"1rlVm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1rlVm":[function() {},{}],"dZ839":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/aboutushome.css":"1rlVm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1rlVm":[function() {},{}],"9FvvT":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$dfab = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dfab.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _pricingplanCss = require("../../style/pricingplan.css");
+const PricingPage = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "pricingplans",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "inner-header flex",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("center", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Our Plans"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PricingPlan.js",
+                                        lineNumber: 10,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: '"Transform Your Space, Tailored to Your Needs \u2013 Affordable Plans for Every Dream Home."'
+                                    }, void 0, false, {
+                                        fileName: "src/components/PricingPlan.js",
+                                        lineNumber: 13,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PricingPlan.js",
+                                lineNumber: 9,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "pricing pricing-palden",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "pricing-item features-item ja-animate",
+                                        "data-animation": "move-from-bottom",
+                                        "data-delay": "item-0",
+                                        style: {
+                                            minHeight: "497px"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "pricing-deco",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        className: "pricing-deco-img",
+                                                        enableBackground: "new 0 0 300 100",
+                                                        height: "100px",
+                                                        version: "1.1",
+                                                        viewBox: "0 0 300 100",
+                                                        width: "300px",
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--1",
+                                                                d: "M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.6"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 32,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--2",
+                                                                d: "M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.6"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 38,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--3",
+                                                                d: "M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.7"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 44,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--4",
+                                                                d: "M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z",
+                                                                fill: "#FFFFFF"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 50,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 23,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "pricing-price",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                                className: "pricing-currency",
+                                                                children: "$TWD"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 57,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            "500",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                                className: "pricing-period",
+                                                                children: "/ day"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 58,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 56,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                        className: "pricing-title",
+                                                        children: "Basic"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 60,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 22,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "pricing-feature-list",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "1 Pages/Screens"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 63,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 64,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Content Upload"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 65,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Content Upload"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 66,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Content Upload"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 67,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 62,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                className: "pricing-action",
+                                                children: "Choose plan"
+                                            }, void 0, false, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 69,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/PricingPlan.js",
+                                        lineNumber: 16,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "pricing-item features-item ja-animate pricing__item--featured",
+                                        "data-animation": "move-from-bottom",
+                                        "data-delay": "item-1",
+                                        style: {
+                                            minHeight: "497px"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "pricing-deco",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        className: "pricing-deco-img",
+                                                        enableBackground: "new 0 0 300 100",
+                                                        height: "100px",
+                                                        version: "1.1",
+                                                        viewBox: "0 0 300 100",
+                                                        width: "300px",
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--1",
+                                                                d: "M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.6"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 92,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--2",
+                                                                d: "M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.6"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 98,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--3",
+                                                                d: "M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.7"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 104,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--4",
+                                                                d: "M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z",
+                                                                fill: "#FFFFFF"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 110,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 83,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "pricing-price",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                                className: "pricing-currency",
+                                                                children: "$TWD"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 117,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            "2499",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                                className: "pricing-period",
+                                                                children: "/ month"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 118,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 116,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                        className: "pricing-title",
+                                                        children: "Premium"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 120,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 77,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "pricing-feature-list",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "10 Pages/Screens"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 123,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 124,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 125,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 126,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Content Upload"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 127,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 122,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                className: "pricing-action",
+                                                children: "Choose plan"
+                                            }, void 0, false, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 129,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/PricingPlan.js",
+                                        lineNumber: 71,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "pricing-item features-item ja-animate",
+                                        "data-animation": "move-from-bottom",
+                                        "data-delay": "item-2",
+                                        style: {
+                                            minHeight: "497px"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "pricing-deco",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        className: "pricing-deco-img",
+                                                        enableBackground: "new 0 0 300 100",
+                                                        height: "100px",
+                                                        version: "1.1",
+                                                        viewBox: "0 0 300 100",
+                                                        width: "300px",
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--1",
+                                                                d: "M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.6"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 147,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--2",
+                                                                d: "M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.6"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 153,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--3",
+                                                                d: "M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z",
+                                                                fill: "#FFFFFF",
+                                                                opacity: "0.7"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 159,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                                className: "deco-layer deco-layer--4",
+                                                                d: "M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z",
+                                                                fill: "#FFFFFF"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 165,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 138,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "pricing-price",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                                className: "pricing-currency",
+                                                                children: "$TWD"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 172,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            "999",
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                                className: "pricing-period",
+                                                                children: "/ week"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/PricingPlan.js",
+                                                                lineNumber: 173,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 171,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                        className: "pricing-title",
+                                                        children: "Standard"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 175,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 137,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                className: "pricing-feature-list",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "5 Pages/Screens"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 179,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 180,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Responsive Design"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 181,
+                                                        columnNumber: 19
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        className: "pricing-feature",
+                                                        children: "Content Upload"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/PricingPlan.js",
+                                                        lineNumber: 182,
+                                                        columnNumber: 19
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 177,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                className: "pricing-action",
+                                                children: "Choose plan"
+                                            }, void 0, false, {
+                                                fileName: "src/components/PricingPlan.js",
+                                                lineNumber: 184,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/PricingPlan.js",
+                                        lineNumber: 131,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PricingPlan.js",
+                                lineNumber: 15,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/PricingPlan.js",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/PricingPlan.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/PricingPlan.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                    className: "waves",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    xmlnsXlink: "http://www.w3.org/1999/xlink",
+                    viewBox: "0 24 150 28",
+                    preserveAspectRatio: "none",
+                    shapeRendering: "auto",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("defs", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                id: "gentle-wave",
+                                d: "M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+                            }, void 0, false, {
+                                fileName: "src/components/PricingPlan.js",
+                                lineNumber: 200,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/PricingPlan.js",
+                            lineNumber: 199,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("g", {
+                            className: "parallax",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
+                                    xlinkHref: "#gentle-wave",
+                                    x: "48",
+                                    y: "0",
+                                    fill: "rgba(255,255,255,0.7)"
+                                }, void 0, false, {
+                                    fileName: "src/components/PricingPlan.js",
+                                    lineNumber: 206,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
+                                    xlinkHref: "#gentle-wave",
+                                    x: "48",
+                                    y: "3",
+                                    fill: "rgba(255,255,255,0.5)"
+                                }, void 0, false, {
+                                    fileName: "src/components/PricingPlan.js",
+                                    lineNumber: 212,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
+                                    xlinkHref: "#gentle-wave",
+                                    x: "48",
+                                    y: "5",
+                                    fill: "rgba(255,255,255,0.3)"
+                                }, void 0, false, {
+                                    fileName: "src/components/PricingPlan.js",
+                                    lineNumber: 218,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
+                                    xlinkHref: "#gentle-wave",
+                                    x: "48",
+                                    y: "7",
+                                    fill: "#fff"
+                                }, void 0, false, {
+                                    fileName: "src/components/PricingPlan.js",
+                                    lineNumber: 224,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PricingPlan.js",
+                            lineNumber: 205,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/PricingPlan.js",
+                    lineNumber: 191,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/PricingPlan.js",
+                lineNumber: 190,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/PricingPlan.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = PricingPage;
+exports.default = PricingPage;
+var _c;
+$RefreshReg$(_c, "PricingPage");
+
+  $parcel$ReactRefreshHelpers$dfab.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/pricingplan.css":"dlKkS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dlKkS":[function() {},{}],"dZ839":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$58e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -30960,6 +31640,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _aboutVectorPng = require("../Images/about-vector.png");
 var _aboutVectorPngDefault = parcelHelpers.interopDefault(_aboutVectorPng);
+var _whyUs = require("./WhyUs");
+var _whyUsDefault = parcelHelpers.interopDefault(_whyUs);
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-us",
@@ -30971,7 +31653,7 @@ const AboutUs = ()=>{
                         children: "About-Us"
                     }, void 0, false, {
                         fileName: "src/components/AboutUs.js",
-                        lineNumber: 6,
+                        lineNumber: 7,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30980,20 +31662,20 @@ const AboutUs = ()=>{
                         alt: "about banner"
                     }, void 0, false, {
                         fileName: "src/components/AboutUs.js",
-                        lineNumber: 7,
+                        lineNumber: 8,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "about-us-sun"
                     }, void 0, false, {
                         fileName: "src/components/AboutUs.js",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/AboutUs.js",
-                lineNumber: 5,
+                lineNumber: 6,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31001,30 +31683,16 @@ const AboutUs = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         id: "part1",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
-                            }, void 0, false, {
-                                fileName: "src/components/AboutUs.js",
-                                lineNumber: 16,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                fileName: "src/components/AboutUs.js",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
-                            }, void 0, false, {
-                                fileName: "src/components/AboutUs.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                        }, void 0, false, {
+                            fileName: "src/components/AboutUs.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/AboutUs.js",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31080,13 +31748,18 @@ const AboutUs = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "src/components/AboutUs.js",
-                lineNumber: 14,
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _whyUsDefault.default), {}, void 0, false, {
+                fileName: "src/components/AboutUs.js",
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/AboutUs.js",
-        lineNumber: 4,
+        lineNumber: 5,
         columnNumber: 5
     }, undefined);
 };
@@ -31100,9 +31773,201 @@ $RefreshReg$(_c, "AboutUs");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/about-vector.png":"eJe5W","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eJe5W":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/about-vector.png":"eJe5W","./WhyUs":"iyh6M","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eJe5W":[function(require,module,exports,__globalThis) {
 module.exports = require("c19b965ac2469a56").getBundleURL('aXMci') + "about-vector.d2315c3c.png" + "?" + Date.now();
 
-},{"c19b965ac2469a56":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"c19b965ac2469a56":"lgJ39"}],"iyh6M":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$73e2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$73e2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _whyusCss = require("../../style/whyus.css");
+var _fontAwesomeMinCss = require("font-awesome/css/font-awesome.min.css");
+const WhyUs = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "feat",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "section-head col-sm-12",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "Why Choose Us"
+                            }, void 0, false, {
+                                fileName: "src/components/WhyUs.js",
+                                lineNumber: 12,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "When you choose us, you'll feel the benefit of 10 years' experience in Web Development. Because we know the digital world and how to handle it. With working knowledge of online, SEO, and social media."
+                            }, void 0, false, {
+                                fileName: "src/components/WhyUs.js",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WhyUs.js",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "item-container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "icon feature_box_col",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            className: "fa fa-globe"
+                                        }, void 0, false, {
+                                            fileName: "src/components/WhyUs.js",
+                                            lineNumber: 22,
+                                            columnNumber: 54
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                        children: "Modern Design"
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 23,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "We use the latest technology for the latest world because we know the demand of people."
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 24,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/WhyUs.js",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "icon feature_box_col",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            className: "fa fa-hourglass-half"
+                                        }, void 0, false, {
+                                            fileName: "src/components/WhyUs.js",
+                                            lineNumber: 27,
+                                            columnNumber: 54
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 27,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                        children: "24 x 7 User Support"
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 28,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "If our customer has any problem or query, we are always happy to help."
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 29,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/WhyUs.js",
+                                lineNumber: 26,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "icon feature_box_col",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            className: "fa fa-camera"
+                                        }, void 0, false, {
+                                            fileName: "src/components/WhyUs.js",
+                                            lineNumber: 32,
+                                            columnNumber: 54
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 32,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                        children: "Affordable cost"
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 33,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap."
+                                    }, void 0, false, {
+                                        fileName: "src/components/WhyUs.js",
+                                        lineNumber: 34,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/WhyUs.js",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WhyUs.js",
+                        lineNumber: 20,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/WhyUs.js",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/components/WhyUs.js",
+            lineNumber: 9,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/WhyUs.js",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+};
+_c = WhyUs;
+exports.default = WhyUs;
+var _c;
+$RefreshReg$(_c, "WhyUs");
+
+  $parcel$ReactRefreshHelpers$73e2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/whyus.css":"bv0qP","font-awesome/css/font-awesome.min.css":"eY3wg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bv0qP":[function() {},{}],"eY3wg":[function() {},{}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

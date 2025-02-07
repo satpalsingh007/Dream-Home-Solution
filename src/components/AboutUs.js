@@ -1,4 +1,5 @@
 import aboutbanner from "../Images/about-vector.png";
+import WhyUs from "./WhyUs";
 const AboutUs = () => {
   return (
     <div className="about-us">
@@ -14,8 +15,7 @@ const AboutUs = () => {
       <div id="page2bottom">
         <div id="part1">
           <h3>We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families.</h3>
-          <br></br>
-          <h3>We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families.</h3>
+          
         </div>
         <div id="part2">
         <iframe
@@ -38,6 +38,7 @@ const AboutUs = () => {
           <div id="circle2"></div>
         </div>
       </div>
+      <WhyUs/>
     </div>
   );
 };
