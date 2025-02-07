@@ -30131,7 +30131,7 @@ const PricingPage = ()=>{
                                                         children: [
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                 className: "pricing-currency",
-                                                                children: "$TWD"
+                                                                children: "$"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/PricingPlan.js",
                                                                 lineNumber: 57,
@@ -30299,7 +30299,7 @@ const PricingPage = ()=>{
                                                         children: [
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                 className: "pricing-currency",
-                                                                children: "$TWD"
+                                                                children: "$"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/PricingPlan.js",
                                                                 lineNumber: 117,
@@ -30467,7 +30467,7 @@ const PricingPage = ()=>{
                                                         children: [
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                                 className: "pricing-currency",
-                                                                children: "$TWD"
+                                                                children: "$"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/PricingPlan.js",
                                                                 lineNumber: 172,

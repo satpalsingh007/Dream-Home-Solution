@@ -95,7 +95,7 @@
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #fff;
+  color: black;
 }
 
 .pricing-palden .deco-layer {
@@ -119,21 +119,21 @@
 
 .pricing-palden .pricing-price {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 900;
   padding: 0;
-  color: #fff;
+  color: black;
   margin: 0 0 0.25em 0;
   line-height: 0.75;
 }
 
 .pricing-palden .pricing-currency {
     color: black;
-  font-size: 15px;
+  font-size: 18px;
   vertical-align: top;
 }
 
 .pricing-palden .pricing-period {
-  font-size: 15px;
+  font-size: 18px;
   padding: 0 0 0 0.5em;
   font-style: italic;
   color: black;
@@ -172,6 +172,7 @@
 
 .pricing-palden .pricing-action:hover,
 .pricing-palden .pricing-action:focus {
+
   background: linear-gradient(135deg, yellow, yellow);
 }
 
@@ -280,5 +281,7 @@ center h3 {
 }
 center p{
     color: black;
+    font-size: 18px;
+    width: 80vw;
     padding-bottom: 40px;
 }

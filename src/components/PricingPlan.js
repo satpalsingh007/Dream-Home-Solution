@@ -54,7 +54,7 @@ const PricingPage = () => {
                     ></path>
                   </svg>
                   <div className="pricing-price">
-                    <span className="pricing-currency">$TWD</span>500
+                    <span className="pricing-currency">$</span>500
                     <span className="pricing-period">/ day</span>
                   </div>
                   <h3 className="pricing-title">Basic</h3>
@@ -114,7 +114,7 @@ const PricingPage = () => {
                     ></path>
                   </svg>
                   <div className="pricing-price">
-                    <span className="pricing-currency">$TWD</span>2499
+                    <span className="pricing-currency">$</span>2499
                     <span className="pricing-period">/ month</span>
                   </div>
                   <h3 className="pricing-title">Premium</h3>
@@ -169,7 +169,7 @@ const PricingPage = () => {
                     ></path>
                   </svg>
                   <div className="pricing-price">
-                    <span className="pricing-currency">$TWD</span>999
+                    <span className="pricing-currency">$</span>999
                     <span className="pricing-period">/ week</span>
                   </div>
                   <h3 className="pricing-title">Standard</h3>

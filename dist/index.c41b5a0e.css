@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 .pricing-palden .pricing-title {
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #fff;
+  color: #000;
   margin: 0;
   font-size: 18px;
 }
@@ -562,24 +562,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-palden .pricing-price {
-  color: #fff;
+  color: #000;
   margin: 0 0 .25em;
   padding: 0;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: .75;
 }
 
 .pricing-palden .pricing-currency {
   color: #000;
   vertical-align: top;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .pricing-palden .pricing-period {
   color: #000;
   padding: 0 0 0 .5em;
-  font-size: 15px;
+  font-size: 18px;
   font-style: italic;
 }
 
@@ -694,7 +694,9 @@ center h3 {
 
 center p {
   color: #000;
+  width: 80vw;
   padding-bottom: 40px;
+  font-size: 18px;
 }
 
 ul {
