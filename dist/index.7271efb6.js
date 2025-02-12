@@ -29942,8 +29942,8 @@ const AboutUsHome = ()=>{
                     className: "about-section-img-container",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         className: "about-section-img",
-                        title: "Rahul Kumar Yadav",
-                        src: "https://i.ibb.co/QP6Nmpf/image-1-about.jpg",
+                        title: "About-Us",
+                        src: "https://img.freepik.com/free-vector/hand-drawn-flat-design-crowd-people-walking-illustration_52683-78934.jpg",
                         alt: ""
                     }, void 0, false, {
                         fileName: "src/components/AboutUsHome.js",
@@ -29970,11 +29970,18 @@ const AboutUsHome = ()=>{
                         lineNumber: 16,
                         columnNumber: 11
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "about-section-img-below",
-                        title: "Rahul Kumar Yadav",
-                        src: "https://i.ibb.co/QP6Nmpf/image-1-about.jpg",
-                        alt: ""
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-section-img-container-below",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "about-section-img-below",
+                            title: "About-Us",
+                            src: "https://img.freepik.com/free-vector/hand-drawn-flat-design-crowd-people-walking-illustration_52683-78934.jpg",
+                            alt: ""
+                        }, void 0, false, {
+                            fileName: "src/components/AboutUsHome.js",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/AboutUsHome.js",
                         lineNumber: 17,
@@ -29986,21 +29993,21 @@ const AboutUsHome = ()=>{
                                 children: "W"
                             }, void 0, false, {
                                 fileName: "src/components/AboutUsHome.js",
-                                lineNumber: 19,
+                                lineNumber: 21,
                                 columnNumber: 13
                             }, undefined),
                             "e are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AboutUsHome.js",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
                     }, void 0, false, {
                         fileName: "src/components/AboutUsHome.js",
-                        lineNumber: 21,
+                        lineNumber: 23,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30008,7 +30015,7 @@ const AboutUsHome = ()=>{
                         children: "Read More"
                     }, void 0, false, {
                         fileName: "src/components/AboutUsHome.js",
-                        lineNumber: 25,
+                        lineNumber: 27,
                         columnNumber: 11
                     }, undefined)
                 ]
