@@ -2961,6 +2961,8 @@ var _footer = require("./components/Footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
 var _aboutUs = require("./components/AboutUs");
 var _aboutUsDefault = parcelHelpers.interopDefault(_aboutUs);
+var _galleryPage = require("./components/GalleryPage");
+var _galleryPageDefault = parcelHelpers.interopDefault(_galleryPage);
 // Main App component
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2971,7 +2973,7 @@ const App = ()=>{
                         children: "Dream House Solutions"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
@@ -2979,7 +2981,7 @@ const App = ()=>{
                         content: "Dream House Solutions"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
@@ -2987,35 +2989,35 @@ const App = ()=>{
                         content: "housing solutions"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 13
             }, undefined),
             " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 9
     }, undefined);
 };
@@ -3026,7 +3028,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 31,
+            lineNumber: 32,
             columnNumber: 18
         }, undefined),
         children: [
@@ -3034,7 +3036,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hompageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 33,
+                    lineNumber: 34,
                     columnNumber: 35
                 }, undefined)
             },
@@ -3042,7 +3044,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "contact-us",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 44
                 }, undefined)
             },
@@ -3050,8 +3052,16 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "about-us",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 42
+                }, undefined)
+            },
+            {
+                path: "gallery",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _galleryPageDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 37,
+                    columnNumber: 41
                 }, undefined)
             }
         ]
@@ -3063,7 +3073,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 43,
+    lineNumber: 45,
     columnNumber: 5
 }, undefined) // Use RouterProvider to handle routing
 );
@@ -3075,7 +3085,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-helmet":"fcX6K","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/AboutUs":"47aps","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-helmet":"fcX6K","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/GalleryPage":"j1514","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -28430,12 +28440,14 @@ var _aboutUsHome = require("./AboutUsHome");
 var _aboutUsHomeDefault = parcelHelpers.interopDefault(_aboutUsHome);
 var _pricingPlan = require("./PricingPlan");
 var _pricingPlanDefault = parcelHelpers.interopDefault(_pricingPlan);
+var _gallery = require("./Gallery");
+var _galleryDefault = parcelHelpers.interopDefault(_gallery);
 const Homepage = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             localStorage.getItem("serviceAvailable") !== "true" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceAvailDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 64
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28447,12 +28459,12 @@ const Homepage = ()=>{
                             src: (0, _homeGifDefault.default)
                         }, void 0, false, {
                             fileName: "src/components/Hompage.js",
-                            lineNumber: 14,
+                            lineNumber: 15,
                             columnNumber: 44
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28462,14 +28474,14 @@ const Homepage = ()=>{
                                 children: "Transform Your Space with Expert Window, Door, and Kitchen Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 16,
+                                lineNumber: 17,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "At DreamHome Solutions, we provide expert installations for windows, doors,and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28480,7 +28492,7 @@ const Homepage = ()=>{
                                         children: "Get started today"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 19,
+                                        lineNumber: 20,
                                         columnNumber: 17
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28488,25 +28500,25 @@ const Homepage = ()=>{
                                         children: "Our plans"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 20,
+                                        lineNumber: 21,
                                         columnNumber: 17
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 18,
+                                lineNumber: 19,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28519,7 +28531,7 @@ const Homepage = ()=>{
                                 children: "High-Quality Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 19
                             }, undefined),
                             " ",
@@ -28527,13 +28539,13 @@ const Homepage = ()=>{
                                 children: "Transform your home with our exceptional window, door, and kitchen installations designed to stand the test of time. We combine top-tier materials, professional craftsmanship, and meticulous attention to detail to ensure every project is both functional and visually stunning. With us, quality isn't just a promise\u2014it's a guarantee."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 55
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 25,
+                        lineNumber: 26,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28542,7 +28554,7 @@ const Homepage = ()=>{
                                 children: "Tailored Solutions to Fit Your Style"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -28550,13 +28562,13 @@ const Homepage = ()=>{
                                 children: "Every home is unique, and we believe your installations should reflect that. Whether you're modernizing your kitchen, upgrading your windows for better energy efficiency, or enhancing security with new doors, we offer customized solutions to meet your needs and preferences. Your dream home starts with a personalized touch."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 64
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28565,7 +28577,7 @@ const Homepage = ()=>{
                                 children: "Quick, Seamless, and Stress-Free Process"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 18
                             }, undefined),
                             " ",
@@ -28573,44 +28585,49 @@ const Homepage = ()=>{
                                 children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle ever y detail\u2014from consultation and design to installation\u2014so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 68
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movingTextDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsHomeDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pricingPlanDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 36,
+                lineNumber: 37,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _galleryDefault.default), {}, void 0, false, {
+                fileName: "src/components/Hompage.js",
+                lineNumber: 38,
                 columnNumber: 9
             }, undefined)
         ]
@@ -28626,7 +28643,7 @@ $RefreshReg$(_c, "Homepage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","./PricingPlan":"9FvvT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","./PricingPlan":"9FvvT","./Gallery":"42X5R","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
 module.exports = require("3d8b32b4a5c3497d").getBundleURL('aXMci') + "Home.4b44bc84.gif" + "?" + Date.now();
 
 },{"3d8b32b4a5c3497d":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
@@ -30687,7 +30704,824 @@ $RefreshReg$(_c, "PricingPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/pricingplan.css":"dlKkS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dlKkS":[function() {},{}],"dZ839":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/pricingplan.css":"dlKkS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dlKkS":[function() {},{}],"42X5R":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$8e5a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8e5a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _galleryCss = require("../../style/gallery.css"); // Import the CSS file
+var _s = $RefreshSig$();
+const Gallery = ()=>{
+    _s();
+    // Use effect to initialize the jQuery script for overlay functionality
+    (0, _react.useEffect)(()=>{
+        const handleOverlayOpen = (e)=>{
+            const parentElement = e.target.closest('[unique-script-id="w-w-dm-id"] .project');
+            const overlay = parentElement.querySelector(".overlay");
+            overlay.style.display = "block";
+        };
+        const handleOverlayClose = ()=>{
+            const overlays = document.querySelectorAll(".overlay");
+            overlays.forEach((overlay)=>{
+                overlay.style.display = "none";
+            });
+        };
+        // Attach event listeners for the buttons
+        const btns = document.querySelectorAll(".btn-box");
+        btns.forEach((btn)=>{
+            btn.addEventListener("click", handleOverlayOpen);
+        });
+        const closeBtns = document.querySelectorAll(".close");
+        closeBtns.forEach((btn)=>{
+            btn.addEventListener("click", handleOverlayClose);
+        });
+        // Cleanup the event listeners when component unmounts
+        return ()=>{
+            btns.forEach((btn)=>{
+                btn.removeEventListener("click", handleOverlayOpen);
+            });
+            closeBtns.forEach((btn)=>{
+                btn.removeEventListener("click", handleOverlayClose);
+            });
+        };
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "gallery_1",
+        "unique-script-id": "w-w-dm-id",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "responsive-container-block bigContainer",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "responsive-container-block Container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "text-blk heading",
+                        children: "Gallery"
+                    }, void 0, false, {
+                        fileName: "src/components/Gallery.js",
+                        lineNumber: 49,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "text-blk subHeading",
+                        children: "Lorem ipsum dolor sit amet, consect etur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al"
+                    }, void 0, false, {
+                        fileName: "src/components/Gallery.js",
+                        lineNumber: 50,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "responsive-container-block imgContainer",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "project project1",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "smallImage",
+                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb2.png",
+                                        alt: "Project 1"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 57,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlay",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlay-inner",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    className: "close",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "32",
+                                                        height: "32",
+                                                        fill: "currentColor",
+                                                        class: "bi bi-x",
+                                                        viewBox: "0 0 16 16",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Gallery.js",
+                                                            lineNumber: 73,
+                                                            columnNumber: 23
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 65,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "hdImgs",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                        className: "squareImg",
+                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb2.png",
+                                                        alt: "Project 1"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 77,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 76,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 63,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 62,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "btn-box",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "btn",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-eye",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 95,
+                                                        columnNumber: 21
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 96,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Gallery.js",
+                                                lineNumber: 87,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 86,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 85,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Gallery.js",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "project project2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "smallImage",
+                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb7.png",
+                                        alt: "Project 2"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 104,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlay",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlay-inner",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    className: "close",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "32",
+                                                        height: "32",
+                                                        fill: "currentColor",
+                                                        class: "bi bi-x",
+                                                        viewBox: "0 0 16 16",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Gallery.js",
+                                                            lineNumber: 120,
+                                                            columnNumber: 23
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 112,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 111,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "hdImgs",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                        className: "squareImg",
+                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb7.png",
+                                                        alt: "Project 2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 124,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 123,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 110,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 109,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "btn-box",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "btn",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-eye",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 142,
+                                                        columnNumber: 21
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 143,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Gallery.js",
+                                                lineNumber: 134,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 133,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 132,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Gallery.js",
+                                lineNumber: 103,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "project project3",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "smallImage",
+                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb3.png",
+                                        alt: "Project 3"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 151,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlay",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlay-inner",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    className: "close",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "32",
+                                                        height: "32",
+                                                        fill: "currentColor",
+                                                        class: "bi bi-x",
+                                                        viewBox: "0 0 16 16",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Gallery.js",
+                                                            lineNumber: 167,
+                                                            columnNumber: 23
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 159,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 158,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "hdImgs",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                        className: "squareImg",
+                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb3.png",
+                                                        alt: "Project 3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 171,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 170,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 157,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 156,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "btn-box",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "btn",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-eye",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 189,
+                                                        columnNumber: 21
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 190,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Gallery.js",
+                                                lineNumber: 181,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 180,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 179,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Gallery.js",
+                                lineNumber: 150,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "project project4",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "smallImage",
+                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb6.png",
+                                        alt: "Project 4"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 198,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlay",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlay-inner",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    className: "close",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "32",
+                                                        height: "32",
+                                                        fill: "currentColor",
+                                                        class: "bi bi-x",
+                                                        viewBox: "0 0 16 16",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Gallery.js",
+                                                            lineNumber: 214,
+                                                            columnNumber: 23
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 206,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 205,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "hdImgs",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                        className: "squareImg",
+                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb6.png",
+                                                        alt: "Project 4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 218,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 217,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 204,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 203,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "btn-box",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "btn",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-eye",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 236,
+                                                        columnNumber: 21
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 237,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Gallery.js",
+                                                lineNumber: 228,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 227,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 226,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Gallery.js",
+                                lineNumber: 197,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "project project5",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "smallImage",
+                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb4.png",
+                                        alt: "Project 5"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 245,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlay",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlay-inner",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    className: "close",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "32",
+                                                        height: "32",
+                                                        fill: "currentColor",
+                                                        class: "bi bi-x",
+                                                        viewBox: "0 0 16 16",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Gallery.js",
+                                                            lineNumber: 261,
+                                                            columnNumber: 23
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 253,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 252,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "hdImgs",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                        className: "squareImg",
+                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb4.png",
+                                                        alt: "Project 5"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 265,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 264,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 251,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 250,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "btn-box",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "btn",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-eye",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 283,
+                                                        columnNumber: 21
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 284,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Gallery.js",
+                                                lineNumber: 275,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 274,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 273,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Gallery.js",
+                                lineNumber: 244,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "project project6",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        className: "smallImage",
+                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb5.png",
+                                        alt: "Project 6"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 292,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlay",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlay-inner",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    className: "close",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        width: "32",
+                                                        height: "32",
+                                                        fill: "currentColor",
+                                                        class: "bi bi-x",
+                                                        viewBox: "0 0 16 16",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Gallery.js",
+                                                            lineNumber: 308,
+                                                            columnNumber: 23
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 300,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 299,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "hdImgs",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                        className: "squareImg",
+                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb5.png",
+                                                        alt: "Project 6"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 312,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Gallery.js",
+                                                    lineNumber: 311,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 298,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 297,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "btn-box",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "btn",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                xmlns: "http://www.w3.org/2000/svg",
+                                                width: "16",
+                                                height: "16",
+                                                fill: "currentColor",
+                                                class: "bi bi-eye",
+                                                viewBox: "0 0 16 16",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 330,
+                                                        columnNumber: 21
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                        d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Gallery.js",
+                                                        lineNumber: 331,
+                                                        columnNumber: 21
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Gallery.js",
+                                                lineNumber: 322,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Gallery.js",
+                                            lineNumber: 321,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Gallery.js",
+                                        lineNumber: 320,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Gallery.js",
+                                lineNumber: 291,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Gallery.js",
+                        lineNumber: 54,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Gallery.js",
+                lineNumber: 48,
+                columnNumber: 9
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/components/Gallery.js",
+            lineNumber: 47,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Gallery.js",
+        lineNumber: 46,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Gallery, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = Gallery;
+exports.default = Gallery;
+var _c;
+$RefreshReg$(_c, "Gallery");
+
+  $parcel$ReactRefreshHelpers$8e5a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/gallery.css":"03Iku","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"03Iku":[function() {},{}],"dZ839":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$58e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31968,6 +32802,164 @@ $RefreshReg$(_c, "WhyUs");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/whyus.css":"bv0qP","font-awesome/css/font-awesome.min.css":"eY3wg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bv0qP":[function() {},{}],"eY3wg":[function() {},{}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/whyus.css":"bv0qP","font-awesome/css/font-awesome.min.css":"eY3wg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bv0qP":[function() {},{}],"eY3wg":[function() {},{}],"j1514":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c03c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c03c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _gallerypageCss = require("../../style/gallerypage.css");
+var _catgifGif = require("../Images/catgif.gif");
+var _catgifGifDefault = parcelHelpers.interopDefault(_catgifGif);
+var _s = $RefreshSig$();
+const GalleryPage = ()=>{
+    _s();
+    const [activeIndex, setActiveIndex] = (0, _react.useState)(0);
+    const images = [
+        "https://i.postimg.cc/7Zf4Tm2X/office1.jpg",
+        "https://i.postimg.cc/VNKjyMf7/office2.jpg",
+        "https://i.postimg.cc/cJBFvrsY/office3.jpg",
+        "https://i.postimg.cc/Bvf1dpfc/office4.jpg",
+        "https://i.postimg.cc/bJJYMSr9/office5.jpg"
+    ];
+    const totalImages = images.length;
+    (0, _react.useEffect)(()=>{
+        const autoslide = setInterval(()=>{
+            setActiveIndex((prevIndex)=>prevIndex + 1 >= totalImages ? 0 : prevIndex + 1);
+        }, 3000);
+        return ()=>clearInterval(autoslide);
+    }, [
+        totalImages
+    ]);
+    const handlePrev = ()=>{
+        setActiveIndex((prevIndex)=>prevIndex - 1 < 0 ? totalImages - 1 : prevIndex - 1);
+    };
+    const handleNext = ()=>{
+        setActiveIndex((prevIndex)=>prevIndex + 1 >= totalImages ? 0 : prevIndex + 1);
+    };
+    const handleDotClick = (index)=>{
+        setActiveIndex(index);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "gallery-page",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "shape1"
+            }, void 0, false, {
+                fileName: "src/components/GalleryPage.js",
+                lineNumber: 40,
+                columnNumber: 14
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "shape3"
+            }, void 0, false, {
+                fileName: "src/components/GalleryPage.js",
+                lineNumber: 41,
+                columnNumber: 14
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "gallery-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "gallery-slides",
+                        style: {
+                            transform: `translateX(-${activeIndex * 100}%)`
+                        },
+                        children: images.map((image, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: `gallery-slide ${index === activeIndex ? 'active' : ''}`,
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: image,
+                                    alt: `Slide ${index + 1}`
+                                }, void 0, false, {
+                                    fileName: "src/components/GalleryPage.js",
+                                    lineNumber: 47,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, index, false, {
+                                fileName: "src/components/GalleryPage.js",
+                                lineNumber: 46,
+                                columnNumber: 21
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/components/GalleryPage.js",
+                        lineNumber: 44,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "gallery-controls",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "control-button prev-button",
+                                onClick: handlePrev,
+                                children: "<"
+                            }, void 0, false, {
+                                fileName: "src/components/GalleryPage.js",
+                                lineNumber: 52,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "control-button next-button",
+                                onClick: handleNext,
+                                children: ">"
+                            }, void 0, false, {
+                                fileName: "src/components/GalleryPage.js",
+                                lineNumber: 53,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/GalleryPage.js",
+                        lineNumber: 51,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "gallery-dots",
+                        children: images.map((_, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: `dot ${index === activeIndex ? 'active' : ''}`,
+                                onClick: ()=>handleDotClick(index)
+                            }, index, false, {
+                                fileName: "src/components/GalleryPage.js",
+                                lineNumber: 57,
+                                columnNumber: 21
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/components/GalleryPage.js",
+                        lineNumber: 55,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/GalleryPage.js",
+                lineNumber: 43,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/GalleryPage.js",
+        lineNumber: 39,
+        columnNumber: 9
+    }, undefined);
+};
+_s(GalleryPage, "16En7kR7TbAJMjBrm+xutVNIc5Q=");
+_c = GalleryPage;
+exports.default = GalleryPage;
+var _c;
+$RefreshReg$(_c, "GalleryPage");
+
+  $parcel$ReactRefreshHelpers$c03c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/gallerypage.css":"hkv2h","../Images/catgif.gif":"lOBCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkv2h":[function() {},{}],"lOBCX":[function(require,module,exports,__globalThis) {
+module.exports = require("2b662be77f9cac24").getBundleURL('aXMci') + "catgif.8b0bc1a7.gif" + "?" + Date.now();
+
+},{"2b662be77f9cac24":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

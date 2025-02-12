@@ -6,6 +6,7 @@ import Homepage from "./components/Hompage";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
+import GalleryPage from "./components/GalleryPage";
 
 // Main App component
 const App = () => {
@@ -33,6 +34,7 @@ const appRouter = createBrowserRouter([
             { path: "/", element: <Homepage /> },
             { path: "contact-us", element: <ContactUs /> },
             { path: "about-us", element: <AboutUs /> },
+            { path: "gallery", element: <GalleryPage /> },
         ]
     }
 ]);

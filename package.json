@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/swiper": "^5.4.3",
     "clsx": "^2.1.1",
     "font-awesome": "^4.7.0",
     "locomotive-scroll": "^4.1.4",
@@ -17,10 +18,11 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-helmet": "^6.1.0",
+    "react-id-swiper": "^4.0.0",
     "react-router": "^7.1.5",
     "react-router-dom": "^6.29.0",
     "remixicon": "^4.6.0",
-    "swiper": "^11.2.1",
+    "swiper": "^11.2.2",
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {

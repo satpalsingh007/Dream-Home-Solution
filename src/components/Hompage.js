@@ -5,6 +5,7 @@ import Testimonial from './Testimonial';
 import Faq from './Faq';
 import AboutUsHome from './AboutUsHome';
 import PricingPlans from './PricingPlan';
+import Gallery from './Gallery';
 const Homepage = ()=>{
     return (
         <>
@@ -34,6 +35,7 @@ const Homepage = ()=>{
         <PricingPlans/>
         <Testimonial/>
         <Faq/>
+        <Gallery/>
         </>
         
     )
