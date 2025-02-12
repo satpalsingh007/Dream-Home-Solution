@@ -4402,9 +4402,12 @@ p.service_text {
 }
 
 .gallery-slide {
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
   height: 100%;
   transition: transform 1s;
+  display: flex;
 }
 
 .gallery-slide img {
@@ -4438,6 +4441,7 @@ p.service_text {
 
 .gallery-dots {
   justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -4453,7 +4457,7 @@ p.service_text {
   border-radius: 50%;
   width: 10px;
   height: 10px;
-  margin: 20px;
+  margin: 10px;
   list-style: none;
   transition: width .3s;
 }

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
 import '../../style/gallerypage.css';
+import React, { useState, useEffect } from 'react';
 import catgif from "../Images/catgif.gif"
 
 const GalleryPage = () => {
@@ -7,7 +7,7 @@ const GalleryPage = () => {
     const images = [
         "https://i.postimg.cc/7Zf4Tm2X/office1.jpg",
         "https://i.postimg.cc/VNKjyMf7/office2.jpg",
-        
+        "https://i.postimg.cc/7Zf4Tm2X/office1.jpg",
         "https://i.postimg.cc/cJBFvrsY/office3.jpg",
         "https://i.postimg.cc/Bvf1dpfc/office4.jpg",
         "https://i.postimg.cc/bJJYMSr9/office5.jpg"

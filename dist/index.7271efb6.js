@@ -27684,13 +27684,16 @@ const Header = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#",
-                            children: "Plans & Pricing"
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: '/gallery',
+                            onClick: ()=>{
+                                window.scrollTo(0, 0);
+                            },
+                            children: "Gallery"
                         }, void 0, false, {
                             fileName: "src/components/Header.js",
                             lineNumber: 65,
-                            columnNumber: 11
+                            columnNumber: 9
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Header.js",
@@ -32812,9 +32815,9 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _gallerypageCss = require("../../style/gallerypage.css");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _gallerypageCss = require("../../style/gallerypage.css");
 var _catgifGif = require("../Images/catgif.gif");
 var _catgifGifDefault = parcelHelpers.interopDefault(_catgifGif);
 var _s = $RefreshSig$();
@@ -32824,6 +32827,7 @@ const GalleryPage = ()=>{
     const images = [
         "https://i.postimg.cc/7Zf4Tm2X/office1.jpg",
         "https://i.postimg.cc/VNKjyMf7/office2.jpg",
+        "https://i.postimg.cc/7Zf4Tm2X/office1.jpg",
         "https://i.postimg.cc/cJBFvrsY/office3.jpg",
         "https://i.postimg.cc/Bvf1dpfc/office4.jpg",
         "https://i.postimg.cc/bJJYMSr9/office5.jpg"

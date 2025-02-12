@@ -27,6 +27,9 @@
 .gallery-slide {
   min-width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: transform 1s;
 }
 
@@ -69,6 +72,7 @@
   padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .dot {
@@ -76,7 +80,7 @@
   width: 10px;
   height: 10px;
   background-color: #ffffff75;
-  margin: 20px;
+  margin: 10px;
   border-radius: 50%;
   cursor: pointer;
   transition: width 0.3s;

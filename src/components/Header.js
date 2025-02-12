@@ -62,7 +62,7 @@ const Header = () => {
           </a>
         </h4>
         <h4>
-          <a href="#">Plans & Pricing</a>
+        <Link to={'/gallery'} onClick={() => { window.scrollTo(0, 0);}}>Gallery</Link>
         </h4>
         <h4>
         <Link to={'/about-us'} onClick={() => { window.scrollTo(0, 0);}}>About Us</Link>
