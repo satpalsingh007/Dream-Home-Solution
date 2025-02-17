@@ -16,8 +16,7 @@
   }
 
   .homepage-left img {
-    width: 64vw;
-    height: 80%;
+    height: 55vh;
   }
 
   .homepage-right h1 {
@@ -167,21 +166,25 @@
 
   .homepage {
     height: auto;
-    padding: 16vh 10vw 0 8vw;
+    padding: 16vh 10vw 0 1vw;
   }
 
   .homepage-left {
-    justify-content: center;
-    align-items: center;
-    width: 75%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 75vw;
+    height: 50vh;
     display: flex;
-    overflow: hidden;
   }
 
   .homepage-left img {
-    width: 90vw;
-    height: 80%;
-    position: static;
+    height: 47vh;
+    bottom: -20px;
+  }
+
+  .homepage-right {
+    justify-content: flex-end;
+    height: 50vh;
   }
 
   .homepage-buttons {
@@ -257,12 +260,12 @@
     flex-direction: column;
     align-items: center;
     width: 80vw;
+    height: auto;
     padding-bottom: 0;
     display: flex;
   }
 
   .homepage-left img {
-    width: 70vw;
     height: 100%;
     position: static;
   }
@@ -380,7 +383,6 @@
 
 @media (width <= 600px) {
   .homepage-left img {
-    width: 90vw;
     height: 100%;
     position: static;
   }
@@ -412,10 +414,6 @@
 
   .homepage-left {
     height: 30vh;
-  }
-
-  .homepage-left img {
-    width: 100vw;
   }
 
   .contactus-left-text h2 {

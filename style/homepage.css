@@ -4,25 +4,27 @@
     align-items: center;
     position: static;
     width: 100%;
-    padding: 20vh 10vw 0vh 10vw;
+    padding: 20vh 10vw 0vh 4vw;
     min-height:70vh ;
     z-index: 99;
 
     /* background-color: #EFEAE3; */
 }
 .homepage-left{
-    width: 60%;
+    width: 70%;
     height: 65vh;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
     /* border: 2px solid red; */
    
 }
 .homepage-left img{
-    width: 55vw;
+    height: 65vh;
     position: absolute;
    
-    bottom: -10px;
-    left: -100px;
+    bottom: -2px;
+    /* left: -100px; */
 }
 .homepage-right{
     width: 50vw;
@@ -65,7 +67,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .homepage-buttons-left:hover{
-    background-color: rgba(0, 0, 0, 0.879);
+    background-color: rgba(0, 0, 0, 0.929);
     /* cursor: pointer; */
     color: white;
    transition: all ease 0.2s;
@@ -88,7 +90,7 @@
     /* cursor: pointer; */
     box-shadow: rgba(0, 0, 0, 0.196) 0px 3px 6px, rgba(0, 0, 0, 0.123) 0px 3px 6px;
   
-    background-color: #f9e802d4;
+    background-color: #d7c100;
     transition: all ease 0.2s;
     
 }
@@ -97,15 +99,24 @@
     min-height: 30vh;
     background-color:#f9e802;
     display: flex;
-    padding: 10vh;
+    padding: 5vh 10vh;
     gap: 20px;
 }
 .homepage-services div {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    /* gap: 10px; */
+    text-align: center;
 
 }
+.homepage-services div i{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.homepage-services div h2{
+    font-size: 20px;
+  }
 .homepage-services div p{
     font-size: 20px;
     font-weight: 200;

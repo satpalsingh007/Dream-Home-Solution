@@ -4,22 +4,23 @@
   align-items: center;
   width: 100%;
   min-height: 70vh;
-  padding: 20vh 10vw 0;
+  padding: 20vh 10vw 0 4vw;
   display: flex;
   position: static;
 }
 
 .homepage-left {
-  width: 60%;
+  justify-content: flex-end;
+  width: 70%;
   height: 65vh;
+  display: flex;
   position: relative;
 }
 
 .homepage-left img {
-  width: 55vw;
+  height: 65vh;
   position: absolute;
-  bottom: -10px;
-  left: -100px;
+  bottom: -2px;
 }
 
 .homepage-right {
@@ -67,7 +68,7 @@
 
 .homepage-buttons-left:hover {
   color: #fff;
-  background-color: #000000e0;
+  background-color: #000000ed;
   transition: all .2s;
   box-shadow: 0 3px 6px #00000032, 0 3px 6px #0000001f;
 }
@@ -85,7 +86,7 @@
 
 .homepage-buttons-right:hover {
   color: #000;
-  background-color: #f9e802d4;
+  background-color: #d7c100;
   transition: all .2s;
   box-shadow: 0 3px 6px #00000032, 0 3px 6px #0000001f;
 }
@@ -94,14 +95,24 @@
   background-color: #f9e802;
   gap: 20px;
   min-height: 30vh;
-  padding: 10vh;
+  padding: 5vh 10vh;
   display: flex;
 }
 
 .homepage-services div {
+  text-align: center;
   flex-direction: column;
-  gap: 5px;
   display: flex;
+}
+
+.homepage-services div i {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.homepage-services div h2 {
+  font-size: 20px;
 }
 
 .homepage-services div p {

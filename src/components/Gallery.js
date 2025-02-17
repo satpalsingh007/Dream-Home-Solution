@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "../../style/gallery.css"; // Import the CSS file
+import windowgallery from "../Images/windowgallery.jpg";
+import kitchengallery from "../Images/kitchengallery.jpg";
+import roofgallery from "../Images/roofgallery.jpg";
+import doorgallery from "../Images/doorgallery.jpg";
+import floorgallery from "../Images/floorgallery.jpg";
+import interiorgallery from "../Images/interiorgallery.jpg";
+import windowfull from "../Images/windowfullimage.jpg";
+import kitchenfull from "../Images/kitchenfullimage.jpg";
+import rooffull from "../Images/rooffullimage.jpg";
+import doorfull from "../Images/doorfullimage.jpg";
+import floorfull from "../Images/floorfullimage.jpg";
+import interiorfull from "../Images/interiorfullimage.jpg";
+
 
 const Gallery = () => {
   // Use effect to initialize the jQuery script for overlay functionality
@@ -56,7 +69,7 @@ const Gallery = () => {
             <div className="project project1">
               <img
                 className="smallImage"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb2.png"
+                src={doorgallery}
                 alt="Project 1"
               />
               <div className="overlay">
@@ -76,7 +89,7 @@ const Gallery = () => {
                   <div className="hdImgs">
                     <img
                       className="squareImg"
-                      src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb2.png"
+                      src={doorfull}
                       alt="Project 1"
                     />
                   </div>
@@ -103,7 +116,7 @@ const Gallery = () => {
             <div className="project project2">
               <img
                 className="smallImage"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb7.png"
+                src={kitchengallery}
                 alt="Project 2"
               />
               <div className="overlay">
@@ -123,7 +136,7 @@ const Gallery = () => {
                   <div className="hdImgs">
                     <img
                       className="squareImg"
-                      src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb7.png"
+                      src={kitchenfull}
                       alt="Project 2"
                     />
                   </div>
@@ -150,7 +163,7 @@ const Gallery = () => {
             <div className="project project3">
               <img
                 className="smallImage"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb3.png"
+                src={interiorgallery}
                 alt="Project 3"
               />
               <div className="overlay">
@@ -170,7 +183,7 @@ const Gallery = () => {
                   <div className="hdImgs">
                     <img
                       className="squareImg"
-                      src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb3.png"
+                      src={interiorfull}
                       alt="Project 3"
                     />
                   </div>
@@ -197,7 +210,7 @@ const Gallery = () => {
             <div className="project project4">
               <img
                 className="smallImage"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb6.png"
+                src={windowgallery}
                 alt="Project 4"
               />
               <div className="overlay">
@@ -217,7 +230,7 @@ const Gallery = () => {
                   <div className="hdImgs">
                     <img
                       className="squareImg"
-                      src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb6.png"
+                      src={windowfull}
                       alt="Project 4"
                     />
                   </div>
@@ -244,7 +257,7 @@ const Gallery = () => {
             <div className="project project5">
               <img
                 className="smallImage"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb4.png"
+                src={floorgallery}
                 alt="Project 5"
               />
               <div className="overlay">
@@ -264,7 +277,7 @@ const Gallery = () => {
                   <div className="hdImgs">
                     <img
                       className="squareImg"
-                      src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb4.png"
+                      src={floorfull}
                       alt="Project 5"
                     />
                   </div>
@@ -291,7 +304,7 @@ const Gallery = () => {
             <div className="project project6">
               <img
                 className="smallImage"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb5.png"
+                src={roofgallery}
                 alt="Project 6"
               />
               <div className="overlay">
@@ -311,7 +324,7 @@ const Gallery = () => {
                   <div className="hdImgs">
                     <img
                       className="squareImg"
-                      src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb5.png"
+                      src={rooffull}
                       alt="Project 6"
                     />
                   </div>

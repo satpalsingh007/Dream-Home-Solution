@@ -173,7 +173,7 @@
 .pricing-palden .pricing-action:hover,
 .pricing-palden .pricing-action:focus {
 
-  background: linear-gradient(135deg, yellow, yellow);
+  background: linear-gradient(135deg, #d7c100, #d7c100);
 }
 
 .pricing-palden .pricing-item--featured .pricing-deco {

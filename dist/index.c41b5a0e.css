@@ -258,7 +258,12 @@ h1, h2, h3, h4, h5, h6 {
   border: 3px solid #000;
   width: 100%;
   height: 300px;
+  transition: all .3s;
   position: relative;
+}
+
+.about-section-img:hover {
+  transform: scale(1.01);
 }
 
 .about-section-img-below {
@@ -620,7 +625,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-palden .pricing-action:hover, .pricing-palden .pricing-action:focus {
-  background: linear-gradient(135deg, #ff0, #ff0);
+  background: linear-gradient(135deg, #d7c100, #d7c100);
 }
 
 .pricing-palden .pricing-item--featured .pricing-deco {
@@ -816,7 +821,7 @@ center p {
   background-color: #fff;
   border-radius: 10px;
   width: 100%;
-  max-width: 600px;
+  max-width: 530px;
   padding: 35px 20px 20px;
   position: relative;
   inset: 50% 0 0 50%;

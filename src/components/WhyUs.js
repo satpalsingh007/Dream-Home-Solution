@@ -19,7 +19,7 @@ const WhyUs = () => {
 
           <div className='item-container'>
             <div className="item">
-              <span className="icon feature_box_col"><i className="fa fa-globe"></i></span>
+              <span className="icon feature_box_col"><i className="fa fa-diamond"></i></span>
               <h6>Modern Design</h6>
               <p>We use the latest technology for the latest world because we know the demand of people.</p>
             </div>
@@ -29,7 +29,7 @@ const WhyUs = () => {
               <p>If our customer has any problem or query, we are always happy to help.</p>
             </div>
             <div className="item">
-              <span className="icon feature_box_col"><i className="fa fa-camera"></i></span>
+              <span className="icon feature_box_col"><i className="fa fa-money"></i></span>
               <h6>Affordable cost</h6>
               <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
             </div>

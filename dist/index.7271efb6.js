@@ -28529,13 +28529,20 @@ const Homepage = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: [
-                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "fa fa-wrench",
+                                "aria-hidden": "true"
+                            }, void 0, false, {
+                                fileName: "src/components/Hompage.js",
+                                lineNumber: 26,
+                                columnNumber: 18
+                            }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "High-Quality Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
                                 lineNumber: 26,
-                                columnNumber: 19
+                                columnNumber: 69
                             }, undefined),
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28543,7 +28550,7 @@ const Homepage = ()=>{
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
                                 lineNumber: 26,
-                                columnNumber: 55
+                                columnNumber: 105
                             }, undefined)
                         ]
                     }, void 0, true, {
@@ -28553,12 +28560,20 @@ const Homepage = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "fa fa-diamond",
+                                "aria-hidden": "true"
+                            }, void 0, false, {
+                                fileName: "src/components/Hompage.js",
+                                lineNumber: 28,
+                                columnNumber: 18
+                            }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "Tailored Solutions to Fit Your Style"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
                                 lineNumber: 28,
-                                columnNumber: 18
+                                columnNumber: 70
                             }, undefined),
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28566,7 +28581,7 @@ const Homepage = ()=>{
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
                                 lineNumber: 28,
-                                columnNumber: 64
+                                columnNumber: 116
                             }, undefined)
                         ]
                     }, void 0, true, {
@@ -28576,20 +28591,29 @@ const Homepage = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Quick, Seamless, and Stress-Free Process"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "fa fa-hourglass-end",
+                                "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
                                 lineNumber: 30,
                                 columnNumber: 18
                             }, undefined),
                             " ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle ever y detail\u2014from consultation and design to installation\u2014so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Quick, Seamless, and Stress-Free Process"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
                                 lineNumber: 30,
-                                columnNumber: 68
+                                columnNumber: 77
+                            }, undefined),
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle every detail,  from consultation and design to installation; so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
+                            }, void 0, false, {
+                                fileName: "src/components/Hompage.js",
+                                lineNumber: 30,
+                                columnNumber: 127
                             }, undefined)
                         ]
                     }, void 0, true, {
@@ -30727,6 +30751,30 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _galleryCss = require("../../style/gallery.css"); // Import the CSS file
+var _windowgalleryJpg = require("../Images/windowgallery.jpg");
+var _windowgalleryJpgDefault = parcelHelpers.interopDefault(_windowgalleryJpg);
+var _kitchengalleryJpg = require("../Images/kitchengallery.jpg");
+var _kitchengalleryJpgDefault = parcelHelpers.interopDefault(_kitchengalleryJpg);
+var _roofgalleryJpg = require("../Images/roofgallery.jpg");
+var _roofgalleryJpgDefault = parcelHelpers.interopDefault(_roofgalleryJpg);
+var _doorgalleryJpg = require("../Images/doorgallery.jpg");
+var _doorgalleryJpgDefault = parcelHelpers.interopDefault(_doorgalleryJpg);
+var _floorgalleryJpg = require("../Images/floorgallery.jpg");
+var _floorgalleryJpgDefault = parcelHelpers.interopDefault(_floorgalleryJpg);
+var _interiorgalleryJpg = require("../Images/interiorgallery.jpg");
+var _interiorgalleryJpgDefault = parcelHelpers.interopDefault(_interiorgalleryJpg);
+var _windowfullimageJpg = require("../Images/windowfullimage.jpg");
+var _windowfullimageJpgDefault = parcelHelpers.interopDefault(_windowfullimageJpg);
+var _kitchenfullimageJpg = require("../Images/kitchenfullimage.jpg");
+var _kitchenfullimageJpgDefault = parcelHelpers.interopDefault(_kitchenfullimageJpg);
+var _rooffullimageJpg = require("../Images/rooffullimage.jpg");
+var _rooffullimageJpgDefault = parcelHelpers.interopDefault(_rooffullimageJpg);
+var _doorfullimageJpg = require("../Images/doorfullimage.jpg");
+var _doorfullimageJpgDefault = parcelHelpers.interopDefault(_doorfullimageJpg);
+var _floorfullimageJpg = require("../Images/floorfullimage.jpg");
+var _floorfullimageJpgDefault = parcelHelpers.interopDefault(_floorfullimageJpg);
+var _interiorfullimageJpg = require("../Images/interiorfullimage.jpg");
+var _interiorfullimageJpgDefault = parcelHelpers.interopDefault(_interiorfullimageJpg);
 var _s = $RefreshSig$();
 const Gallery = ()=>{
     _s();
@@ -30775,7 +30823,7 @@ const Gallery = ()=>{
                         children: "Gallery"
                     }, void 0, false, {
                         fileName: "src/components/Gallery.js",
-                        lineNumber: 49,
+                        lineNumber: 62,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30783,7 +30831,7 @@ const Gallery = ()=>{
                         children: "Lorem ipsum dolor sit amet, consect etur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al"
                     }, void 0, false, {
                         fileName: "src/components/Gallery.js",
-                        lineNumber: 50,
+                        lineNumber: 63,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30794,11 +30842,11 @@ const Gallery = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "smallImage",
-                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb2.png",
+                                        src: (0, _doorgalleryJpgDefault.default),
                                         alt: "Project 1"
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 57,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30819,44 +30867,44 @@ const Gallery = ()=>{
                                                             d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Gallery.js",
-                                                            lineNumber: 73,
+                                                            lineNumber: 86,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 65,
+                                                        lineNumber: 78,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 64,
+                                                    lineNumber: 77,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "hdImgs",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "squareImg",
-                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb2.png",
+                                                        src: (0, _doorfullimageJpgDefault.default),
                                                         alt: "Project 1"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 77,
+                                                        lineNumber: 90,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 76,
+                                                    lineNumber: 89,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 63,
+                                            lineNumber: 76,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 62,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30875,36 +30923,36 @@ const Gallery = ()=>{
                                                         d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 95,
+                                                        lineNumber: 108,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 96,
+                                                        lineNumber: 109,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Gallery.js",
-                                                lineNumber: 87,
+                                                lineNumber: 100,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 86,
+                                            lineNumber: 99,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 85,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Gallery.js",
-                                lineNumber: 56,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30912,11 +30960,11 @@ const Gallery = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "smallImage",
-                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb7.png",
+                                        src: (0, _kitchengalleryJpgDefault.default),
                                         alt: "Project 2"
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 104,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30937,44 +30985,44 @@ const Gallery = ()=>{
                                                             d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Gallery.js",
-                                                            lineNumber: 120,
+                                                            lineNumber: 133,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 112,
+                                                        lineNumber: 125,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 111,
+                                                    lineNumber: 124,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "hdImgs",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "squareImg",
-                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb7.png",
+                                                        src: (0, _kitchenfullimageJpgDefault.default),
                                                         alt: "Project 2"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 124,
+                                                        lineNumber: 137,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 123,
+                                                    lineNumber: 136,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 110,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 109,
+                                        lineNumber: 122,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30993,36 +31041,36 @@ const Gallery = ()=>{
                                                         d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 142,
+                                                        lineNumber: 155,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 143,
+                                                        lineNumber: 156,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Gallery.js",
-                                                lineNumber: 134,
+                                                lineNumber: 147,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 133,
+                                            lineNumber: 146,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 132,
+                                        lineNumber: 145,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Gallery.js",
-                                lineNumber: 103,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31030,11 +31078,11 @@ const Gallery = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "smallImage",
-                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb3.png",
+                                        src: (0, _interiorgalleryJpgDefault.default),
                                         alt: "Project 3"
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 151,
+                                        lineNumber: 164,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31055,44 +31103,44 @@ const Gallery = ()=>{
                                                             d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Gallery.js",
-                                                            lineNumber: 167,
+                                                            lineNumber: 180,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 159,
+                                                        lineNumber: 172,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 158,
+                                                    lineNumber: 171,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "hdImgs",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "squareImg",
-                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb3.png",
+                                                        src: (0, _interiorfullimageJpgDefault.default),
                                                         alt: "Project 3"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 171,
+                                                        lineNumber: 184,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 170,
+                                                    lineNumber: 183,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 157,
+                                            lineNumber: 170,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 156,
+                                        lineNumber: 169,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31111,36 +31159,36 @@ const Gallery = ()=>{
                                                         d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 189,
+                                                        lineNumber: 202,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 190,
+                                                        lineNumber: 203,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Gallery.js",
-                                                lineNumber: 181,
+                                                lineNumber: 194,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 180,
+                                            lineNumber: 193,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 179,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Gallery.js",
-                                lineNumber: 150,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31148,11 +31196,11 @@ const Gallery = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "smallImage",
-                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb6.png",
+                                        src: (0, _windowgalleryJpgDefault.default),
                                         alt: "Project 4"
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 198,
+                                        lineNumber: 211,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31173,44 +31221,44 @@ const Gallery = ()=>{
                                                             d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Gallery.js",
-                                                            lineNumber: 214,
+                                                            lineNumber: 227,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 206,
+                                                        lineNumber: 219,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 205,
+                                                    lineNumber: 218,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "hdImgs",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "squareImg",
-                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb6.png",
+                                                        src: (0, _windowfullimageJpgDefault.default),
                                                         alt: "Project 4"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 218,
+                                                        lineNumber: 231,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 217,
+                                                    lineNumber: 230,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 204,
+                                            lineNumber: 217,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 203,
+                                        lineNumber: 216,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31229,36 +31277,36 @@ const Gallery = ()=>{
                                                         d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 236,
+                                                        lineNumber: 249,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 237,
+                                                        lineNumber: 250,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Gallery.js",
-                                                lineNumber: 228,
+                                                lineNumber: 241,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 227,
+                                            lineNumber: 240,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 226,
+                                        lineNumber: 239,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Gallery.js",
-                                lineNumber: 197,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31266,11 +31314,11 @@ const Gallery = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "smallImage",
-                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb4.png",
+                                        src: (0, _floorgalleryJpgDefault.default),
                                         alt: "Project 5"
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 245,
+                                        lineNumber: 258,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31291,44 +31339,44 @@ const Gallery = ()=>{
                                                             d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Gallery.js",
-                                                            lineNumber: 261,
+                                                            lineNumber: 274,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 253,
+                                                        lineNumber: 266,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 252,
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "hdImgs",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "squareImg",
-                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb4.png",
+                                                        src: (0, _floorfullimageJpgDefault.default),
                                                         alt: "Project 5"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 265,
+                                                        lineNumber: 278,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 264,
+                                                    lineNumber: 277,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 251,
+                                            lineNumber: 264,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 250,
+                                        lineNumber: 263,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31347,36 +31395,36 @@ const Gallery = ()=>{
                                                         d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 283,
+                                                        lineNumber: 296,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 284,
+                                                        lineNumber: 297,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Gallery.js",
-                                                lineNumber: 275,
+                                                lineNumber: 288,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 274,
+                                            lineNumber: 287,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 273,
+                                        lineNumber: 286,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Gallery.js",
-                                lineNumber: 244,
+                                lineNumber: 257,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31384,11 +31432,11 @@ const Gallery = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "smallImage",
-                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb5.png",
+                                        src: (0, _roofgalleryJpgDefault.default),
                                         alt: "Project 6"
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 292,
+                                        lineNumber: 305,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31409,44 +31457,44 @@ const Gallery = ()=>{
                                                             d: "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Gallery.js",
-                                                            lineNumber: 308,
+                                                            lineNumber: 321,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 300,
+                                                        lineNumber: 313,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 299,
+                                                    lineNumber: 312,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "hdImgs",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "squareImg",
-                                                        src: "https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb5.png",
+                                                        src: (0, _rooffullimageJpgDefault.default),
                                                         alt: "Project 6"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 312,
+                                                        lineNumber: 325,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Gallery.js",
-                                                    lineNumber: 311,
+                                                    lineNumber: 324,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 298,
+                                            lineNumber: 311,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 297,
+                                        lineNumber: 310,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31465,58 +31513,58 @@ const Gallery = ()=>{
                                                         d: "M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 330,
+                                                        lineNumber: 343,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                                         d: "M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Gallery.js",
-                                                        lineNumber: 331,
+                                                        lineNumber: 344,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Gallery.js",
-                                                lineNumber: 322,
+                                                lineNumber: 335,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/components/Gallery.js",
-                                            lineNumber: 321,
+                                            lineNumber: 334,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Gallery.js",
-                                        lineNumber: 320,
+                                        lineNumber: 333,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Gallery.js",
-                                lineNumber: 291,
+                                lineNumber: 304,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Gallery.js",
-                        lineNumber: 54,
+                        lineNumber: 67,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Gallery.js",
-                lineNumber: 48,
+                lineNumber: 61,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "src/components/Gallery.js",
-            lineNumber: 47,
+            lineNumber: 60,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/Gallery.js",
-        lineNumber: 46,
+        lineNumber: 59,
         columnNumber: 5
     }, undefined);
 };
@@ -31531,7 +31579,43 @@ $RefreshReg$(_c, "Gallery");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/gallery.css":"03Iku","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"03Iku":[function() {},{}],"dZ839":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/gallery.css":"03Iku","../Images/windowgallery.jpg":"zJ8ee","../Images/kitchengallery.jpg":"erL6d","../Images/roofgallery.jpg":"abH97","../Images/doorgallery.jpg":"biYjU","../Images/floorgallery.jpg":"3Oa3q","../Images/interiorgallery.jpg":"kiKr1","../Images/windowfullimage.jpg":"1QRL8","../Images/kitchenfullimage.jpg":"1P0kN","../Images/rooffullimage.jpg":"jR34q","../Images/doorfullimage.jpg":"798b7","../Images/floorfullimage.jpg":"1DlJg","../Images/interiorfullimage.jpg":"9uhJj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"03Iku":[function() {},{}],"zJ8ee":[function(require,module,exports,__globalThis) {
+module.exports = require("1d54046fd0f7db9c").getBundleURL('aXMci') + "windowgallery.c598ae35.jpg" + "?" + Date.now();
+
+},{"1d54046fd0f7db9c":"lgJ39"}],"erL6d":[function(require,module,exports,__globalThis) {
+module.exports = require("e80ea04b73ad96eb").getBundleURL('aXMci') + "kitchengallery.ddc202aa.jpg" + "?" + Date.now();
+
+},{"e80ea04b73ad96eb":"lgJ39"}],"abH97":[function(require,module,exports,__globalThis) {
+module.exports = require("1a8d007defb91f62").getBundleURL('aXMci') + "roofgallery.419184e2.jpg" + "?" + Date.now();
+
+},{"1a8d007defb91f62":"lgJ39"}],"biYjU":[function(require,module,exports,__globalThis) {
+module.exports = require("4b0cdb90748ad5e9").getBundleURL('aXMci') + "doorgallery.be54df42.jpg" + "?" + Date.now();
+
+},{"4b0cdb90748ad5e9":"lgJ39"}],"3Oa3q":[function(require,module,exports,__globalThis) {
+module.exports = require("d1f6d201af00380d").getBundleURL('aXMci') + "floorgallery.98e7629c.jpg" + "?" + Date.now();
+
+},{"d1f6d201af00380d":"lgJ39"}],"kiKr1":[function(require,module,exports,__globalThis) {
+module.exports = require("5eedd048caa25f6e").getBundleURL('aXMci') + "interiorgallery.2b7f89f7.jpg" + "?" + Date.now();
+
+},{"5eedd048caa25f6e":"lgJ39"}],"1QRL8":[function(require,module,exports,__globalThis) {
+module.exports = require("a809ff088fb286ea").getBundleURL('aXMci') + "windowfullimage.3bade589.jpg" + "?" + Date.now();
+
+},{"a809ff088fb286ea":"lgJ39"}],"1P0kN":[function(require,module,exports,__globalThis) {
+module.exports = require("c772866159a23888").getBundleURL('aXMci') + "kitchenfullimage.7086be00.jpg" + "?" + Date.now();
+
+},{"c772866159a23888":"lgJ39"}],"jR34q":[function(require,module,exports,__globalThis) {
+module.exports = require("c90f624549c59ad9").getBundleURL('aXMci') + "rooffullimage.1c2316f4.jpg" + "?" + Date.now();
+
+},{"c90f624549c59ad9":"lgJ39"}],"798b7":[function(require,module,exports,__globalThis) {
+module.exports = require("b241431e1c098c5e").getBundleURL('aXMci') + "doorfullimage.82039d0e.jpg" + "?" + Date.now();
+
+},{"b241431e1c098c5e":"lgJ39"}],"1DlJg":[function(require,module,exports,__globalThis) {
+module.exports = require("6f8c31dbcc21a13b").getBundleURL('aXMci') + "floorfullimage.fc8ba63d.jpg" + "?" + Date.now();
+
+},{"6f8c31dbcc21a13b":"lgJ39"}],"9uhJj":[function(require,module,exports,__globalThis) {
+module.exports = require("b692e0dc43a78c9b").getBundleURL('aXMci') + "interiorfullimage.245cdcd0.jpg" + "?" + Date.now();
+
+},{"b692e0dc43a78c9b":"lgJ39"}],"dZ839":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$58e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -32674,7 +32758,7 @@ const WhyUs = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "icon feature_box_col",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            className: "fa fa-globe"
+                                            className: "fa fa-diamond"
                                         }, void 0, false, {
                                             fileName: "src/components/WhyUs.js",
                                             lineNumber: 22,
@@ -32748,7 +32832,7 @@ const WhyUs = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "icon feature_box_col",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            className: "fa fa-camera"
+                                            className: "fa fa-money"
                                         }, void 0, false, {
                                             fileName: "src/components/WhyUs.js",
                                             lineNumber: 32,
@@ -32968,7 +33052,7 @@ $RefreshReg$(_c, "GalleryPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../style/gallerypage.css":"hkv2h","../Images/catgif.gif":"lOBCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkv2h":[function() {},{}],"lOBCX":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../../style/gallerypage.css":"hkv2h","react":"21dqq","../Images/catgif.gif":"lOBCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkv2h":[function() {},{}],"lOBCX":[function(require,module,exports,__globalThis) {
 module.exports = require("2b662be77f9cac24").getBundleURL('aXMci') + "catgif.8b0bc1a7.gif" + "?" + Date.now();
 
 },{"2b662be77f9cac24":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
