@@ -105,7 +105,7 @@ p.service_text {
     border: 5px solid rgba(0, 0, 0, 0.07);
     margin-bottom: 30px;
     transition: all .5s ease;
-    width: 400px;
+    width: 350px;
 }
 .item:hover .item, .item:hover span.icon{
     transition: all .5s ease;
