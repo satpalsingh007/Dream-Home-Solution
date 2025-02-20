@@ -2,8 +2,30 @@ import { useState } from "react";
 import mailimg from '../Images/Contact.gif'
 import QuickSupport from "./QuickSupport";
 const ContactUs = () => {
-    const [selectedService, setSelectedService] = useState('');
-    const [selectedPlan, setSelectedPlan] = useState('');
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "93885acc-16ba-4052-b0db-4c9e2bccca0f");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+    }
+  };
+  const [selectedService, setSelectedService] = useState('');
+  const [selectedPlan, setSelectedPlan] = useState('');
   return (
     <>
       <div className="contactus-form-section">
@@ -24,10 +46,10 @@ const ContactUs = () => {
           <img src={mailimg}></img>
         </div>
         <div className="contactus-right">
-          <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="number" placeholder="Phone number" required />
+          <form onSubmit={onSubmit}>
+            <input name="Name" type="text" placeholder="Name" required />
+            <input name="Email" type="email" placeholder="Email" required />
+            <input name="Phone No." type="number" placeholder="Phone number" required />
             <input
               list="services"
               id="service"
@@ -57,7 +79,7 @@ const ContactUs = () => {
               <option value="Premium" />
             </datalist>
 
-            <textarea placeholder="Message" required></textarea>
+            <textarea name="text" placeholder="Message" required></textarea>
             <button className="service-button" type="submit" value="Submit" >Submit</button>
           </form>
         </div>

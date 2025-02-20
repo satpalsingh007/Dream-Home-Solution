@@ -31633,6 +31633,22 @@ var _quickSupportDefault = parcelHelpers.interopDefault(_quickSupport);
 var _s = $RefreshSig$();
 const ContactUs = ()=>{
     _s();
+    const onSubmit = async (event)=>{
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        formData.append("access_key", "93885acc-16ba-4052-b0db-4c9e2bccca0f");
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: json
+        }).then((res)=>res.json());
+        if (res.success) console.log("Success", res);
+    };
     const [selectedService, setSelectedService] = (0, _react.useState)('');
     const [selectedPlan, setSelectedPlan] = (0, _react.useState)('');
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -31651,71 +31667,75 @@ const ContactUs = ()=>{
                                             "Let\u2019s Begin Your ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/ContactUs.js",
-                                                lineNumber: 13,
+                                                lineNumber: 35,
                                                 columnNumber: 32
                                             }, undefined),
                                             " Home Transformation!"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/ContactUs.js",
-                                        lineNumber: 12,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "We're excited to help you take the next step toward enhancing your home. Whether you're upgrading your windows, adding new doors, or transforming your kitchen, our team is here to make the process smooth and effortless. Simply fill out the form below with your details, and we'll provide a personalized quote and schedule your consultation. Your dream space is closer than you think!"
                                     }, void 0, false, {
                                         fileName: "src/components/ContactUs.js",
-                                        lineNumber: 15,
+                                        lineNumber: 37,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/ContactUs.js",
-                                lineNumber: 11,
+                                lineNumber: 33,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 src: (0, _contactGifDefault.default)
                             }, void 0, false, {
                                 fileName: "src/components/ContactUs.js",
-                                lineNumber: 24,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ContactUs.js",
-                        lineNumber: 10,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "contactus-right",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                            onSubmit: onSubmit,
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    name: "Name",
                                     type: "text",
                                     placeholder: "Name",
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 28,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    name: "Email",
                                     type: "email",
                                     placeholder: "Email",
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 29,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    name: "Phone No.",
                                     type: "number",
                                     placeholder: "Phone number",
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 30,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -31727,7 +31747,7 @@ const ContactUs = ()=>{
                                     placeholder: "Select a Service"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 31,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
@@ -31737,41 +31757,41 @@ const ContactUs = ()=>{
                                             value: "Windows Installation"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 40,
+                                            lineNumber: 62,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Doors Installation"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 41,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Flooring Solution"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 42,
+                                            lineNumber: 64,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Kitchen Renovation"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 43,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Roofing Services"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 44,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 39,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -31783,7 +31803,7 @@ const ContactUs = ()=>{
                                     placeholder: "Select a Plan"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 46,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
@@ -31793,35 +31813,36 @@ const ContactUs = ()=>{
                                             value: "Basic"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 55,
+                                            lineNumber: 77,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Standard"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 56,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Premium"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 57,
+                                            lineNumber: 79,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 54,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                    name: "text",
                                     placeholder: "Message",
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 60,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -31831,29 +31852,29 @@ const ContactUs = ()=>{
                                     children: "Submit"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 61,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/ContactUs.js",
-                            lineNumber: 27,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/ContactUs.js",
-                        lineNumber: 26,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ContactUs.js",
-                lineNumber: 9,
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _quickSupportDefault.default), {}, void 0, false, {
                 fileName: "src/components/ContactUs.js",
-                lineNumber: 65,
+                lineNumber: 87,
                 columnNumber: 7
             }, undefined)
         ]
