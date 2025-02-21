@@ -26,7 +26,6 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Space Grotesk, sans-serif;
   line-height: 1;
 }
 
@@ -156,7 +155,6 @@ h1, h2, h3, h4, h5, h6 {
   flex: auto;
   justify-content: flex-start;
   padding-right: 1.25rem;
-  font-family: Space Grotesk;
   font-size: 18px;
   font-weight: 500;
   line-height: 120%;
@@ -1358,6 +1356,7 @@ p.service_text {
 }
 
 .item-container {
+  justify-content: center;
   gap: 20px;
   display: flex;
 }

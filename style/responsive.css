@@ -158,6 +158,10 @@
     /* margin-bottom: 10px; */
     /* text-align: justify; */
   }
+  .accordion-content p a{
+    font-size: 16px;
+
+  }
   .bi-caret-right {
     transition: all 0.5s ease-in-out;
   }

@@ -93,6 +93,7 @@ p.service_text {
 .item-container{
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .item {

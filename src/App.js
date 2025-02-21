@@ -7,6 +7,12 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import GalleryPage from "./components/GalleryPage";
+import Blog from "./components/WindowsBlog";
+import WindowsBlog from "./components/WindowsBlog";
+import DoorsBlog from "./components/DoorsBlog";
+import FloorBlog from "./components/FloorBlog";
+import KitchenBlog from "./components/KitchenBlog";
+import RoofBlog from "./components/RoofBlog";
 
 // Main App component
 const App = () => {
@@ -35,6 +41,11 @@ const appRouter = createBrowserRouter([
             { path: "contact-us", element: <ContactUs /> },
             { path: "about-us", element: <AboutUs /> },
             { path: "gallery", element: <GalleryPage /> },
+            { path: "windows-blog", element: <WindowsBlog /> },
+            { path: "doors-blog", element: <DoorsBlog /> },
+            { path: "floor-blog", element: <FloorBlog /> },
+            { path: "kitchen-blog", element: <KitchenBlog/> },
+            { path: "roof-blog", element: <RoofBlog/> },
         ]
     }
 ]);

@@ -22,6 +22,10 @@ const ContactUs = () => {
 
     if (res.success) {
       console.log("Success", res);
+      alert("Form submitted successfully!");
+    }
+    else {
+      alert("Form submission failed. Please try again."); // Show error alert
     }
   };
   const [selectedService, setSelectedService] = useState('');

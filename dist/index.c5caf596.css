@@ -156,6 +156,10 @@
     display: flex;
   }
 
+  .accordion-content p a {
+    font-size: 16px;
+  }
+
   .bi-caret-right {
     transition: all .5s ease-in-out;
   }

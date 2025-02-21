@@ -1,0 +1,139 @@
+.blog {
+  background-color: #000;
+  border-bottom: 10px solid #f9e802;
+}
+
+.blog-banner {
+  border-bottom: 2px solid #fff;
+  align-items: center;
+  gap: 120px;
+  padding: 25vh 5vw 10vh;
+  display: flex;
+  position: relative;
+}
+
+.blog-banner h2 {
+  letter-spacing: 2px;
+  color: #f9e802;
+  width: 60%;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.blog-banner h2 span {
+  color: #fff;
+  padding-bottom: 20px;
+  font-family: boris;
+  font-size: 55px;
+  font-weight: 100;
+  line-height: 60px;
+}
+
+.blog-banner img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  mask-image: radial-gradient(circle, #000 50%, #0000 100%);
+}
+
+.blog-start {
+  color: #fff;
+  padding: 10vh 20vw;
+  font-weight: 200;
+}
+
+.first-para {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 50px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.first-para span {
+  color: #f9e802;
+  font-size: 50px;
+}
+
+.blog-content {
+  padding-top: 10vh;
+}
+
+.blog-content h4 {
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.blog-content p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+.blog-content ul li {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  list-style: outside;
+}
+
+.blog-content ul li::marker {
+  color: #ff0;
+}
+
+.blog-content ul li strong {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.blog-large-img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.blog-quote-box {
+  font-style: boris;
+  letter-spacing: 2px;
+  border-left: 3px solid #fff;
+  padding: 0 0 0 20px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media (width <= 1100px) {
+  .blog-banner h2, .blog-banner h2 span {
+    font-size: 45px;
+  }
+}
+
+@media (width <= 1000px) {
+  .blog-banner {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .blog-banner h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .blog-banner img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (width <= 800px) {
+  .blog-banner h2, .blog-banner h2 span {
+    font-size: 30px;
+    line-height: normal;
+  }
+
+  .blog-start {
+    padding: 10vh 10vw;
+  }
+}
+/*# sourceMappingURL=index.786eb52d.css.map */

@@ -3,7 +3,7 @@ import WhyUs from "./WhyUs";
 const AboutUs = () => {
   return (
     <div className="about-us">
-      <div className="about-us-banner">
+      {/* <div className="about-us-banner">
         <h2>About-Us</h2>
         <img
           src={aboutbanner}
@@ -11,9 +11,10 @@ const AboutUs = () => {
           alt="about banner"
         />
         <p className="about-us-sun"></p>
-      </div>
+      </div> */}
       <div id="page2bottom">
         <div id="part1">
+          <h2>Who Are We?</h2>
           <h3>We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families.</h3>
           
         </div>

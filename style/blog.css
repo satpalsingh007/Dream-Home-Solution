@@ -1,0 +1,141 @@
+.blog{
+    background-color: black;
+    border-bottom: 10px solid #f9e802;
+
+}
+.blog-banner{
+    display: flex;    
+    padding: 25vh 5vw 10vh;
+    gap: 120px;
+    position: relative;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom: white solid 2px;
+}
+.blog-banner h2{
+    /* font-family: boris; */
+    width: 60%;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 60px;
+    color: #f9e802;
+}
+.blog-banner h2 span{
+    padding-bottom: 20px;
+    font-family: boris;
+    font-weight: 100;
+    font-size: 55px;
+    line-height: 60px;
+    color: white;
+   
+
+} 
+.blog-banner img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+}
+
+
+.blog-start{
+    color: white;
+    padding: 10vh 20vw;
+    font-weight: 200;
+}
+.first-para {
+    border-bottom: 2px solid white;
+    padding-bottom: 50px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.first-para span{
+    color: #f9e802;
+    font-size: 50px;
+    
+}
+.blog-content{
+    padding-top: 10vh;
+}
+
+
+.blog-content h4{
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.blog-content p{
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 18px;
+
+}
+
+.blog-content ul li{
+    list-style: disc;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.blog-content ul li::marker {
+    color: yellow; /* Replace #your-color with the desired color */
+}
+.blog-content ul li strong{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.blog-large-img{
+    width: 100%;
+    /* height: 500px; */
+    border-radius: 20px;
+}
+
+.blog-quote-box{
+    padding:0 20px;
+    padding-right:0px;
+    font-style: boris;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-left: 3px solid white;
+    line-height: 40px;
+}
+
+@media (max-width: 1100px){
+    .blog-banner h2{
+        font-size: 45px;
+    }
+    .blog-banner h2 span{
+        font-size: 45px;
+    }
+
+}
+@media (max-width: 1000px){
+    .blog-banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .blog-banner h2{
+        width: 100%;
+        text-align: center;
+    }
+    .blog-banner img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+}
+@media (max-width: 800px){
+    .blog-banner h2, .blog-banner h2 span{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .blog-start{
+        padding: 10vh 10vw;
+    }
+
+}

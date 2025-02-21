@@ -83,7 +83,7 @@ const Header = () => {
           onMouseLeave={handleMouseLeave} // Close dropdown when mouse leaves the list
         >
           <div className="header-windows">
-            <span>Windows Istallation</span>
+            <span> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Windows Istallation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -100,7 +100,7 @@ const Header = () => {
             <div className="header-windows-img"></div>
           </div>
           <div className="header-doors">
-            <span>Doors Istallation</span>
+          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Door Istallation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -117,7 +117,7 @@ const Header = () => {
             <div className="header-doors-img"></div>
           </div>
           <div className="header-floor">
-            <span>Flooring Solution</span>
+          <span> <Link to={'/floor-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Floring Solution</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -134,7 +134,7 @@ const Header = () => {
             <div className="header-floor-img"></div>
           </div>
           <div className="header-kitchen">
-            <span>Kitchen Renovation</span>
+          <span> <Link to={'/kitchen-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Kitchen Renovation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -151,7 +151,7 @@ const Header = () => {
             <div className="header-kitchen-img"></div>
           </div>
           <div className="header-roof">
-            <span>Roofing Services</span>
+          <span> <Link to={'/roof-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Roofing Services</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -220,11 +220,11 @@ const Header = () => {
           className={`accordion-content ${isAccordian ? "accordianOpen" : ""}`}
           // style={{display: isAccordian ? "block" : "none",}}
         >
-          <p>Windows Installation</p>
-          <p>Doors Installation</p>
-          <p>Flooring Solution</p>
-          <p>Kitchen Renovation</p>
-          <p>Roofing Services</p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Windows Istallation</Link></p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Doors Installation</Link></p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Flooring Solution</Link></p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Kitchen Renovation</Link></p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Roofing Services</Link></p>
         </section>
 
         <div>

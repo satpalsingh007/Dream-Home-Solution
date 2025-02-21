@@ -2963,6 +2963,16 @@ var _aboutUs = require("./components/AboutUs");
 var _aboutUsDefault = parcelHelpers.interopDefault(_aboutUs);
 var _galleryPage = require("./components/GalleryPage");
 var _galleryPageDefault = parcelHelpers.interopDefault(_galleryPage);
+var _windowsBlog = require("./components/WindowsBlog");
+var _windowsBlogDefault = parcelHelpers.interopDefault(_windowsBlog);
+var _doorsBlog = require("./components/DoorsBlog");
+var _doorsBlogDefault = parcelHelpers.interopDefault(_doorsBlog);
+var _floorBlog = require("./components/FloorBlog");
+var _floorBlogDefault = parcelHelpers.interopDefault(_floorBlog);
+var _kitchenBlog = require("./components/KitchenBlog");
+var _kitchenBlogDefault = parcelHelpers.interopDefault(_kitchenBlog);
+var _roofBlog = require("./components/RoofBlog");
+var _roofBlogDefault = parcelHelpers.interopDefault(_roofBlog);
 // Main App component
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2973,7 +2983,7 @@ const App = ()=>{
                         children: "Dream House Solutions"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 16,
+                        lineNumber: 22,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
@@ -2981,7 +2991,7 @@ const App = ()=>{
                         content: "Dream House Solutions"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 17,
+                        lineNumber: 23,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("meta", {
@@ -2989,35 +2999,35 @@ const App = ()=>{
                         content: "housing solutions"
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 18,
+                        lineNumber: 24,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 21,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 21,
+                lineNumber: 27,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 22,
+                lineNumber: 28,
                 columnNumber: 13
             }, undefined),
             " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 23,
+                lineNumber: 29,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 14,
+        lineNumber: 20,
         columnNumber: 9
     }, undefined);
 };
@@ -3028,7 +3038,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 32,
+            lineNumber: 38,
             columnNumber: 18
         }, undefined),
         children: [
@@ -3036,7 +3046,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hompageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 34,
+                    lineNumber: 40,
                     columnNumber: 35
                 }, undefined)
             },
@@ -3044,7 +3054,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "contact-us",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 35,
+                    lineNumber: 41,
                     columnNumber: 44
                 }, undefined)
             },
@@ -3052,7 +3062,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "about-us",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 36,
+                    lineNumber: 42,
                     columnNumber: 42
                 }, undefined)
             },
@@ -3060,8 +3070,48 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "gallery",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _galleryPageDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 37,
+                    lineNumber: 43,
                     columnNumber: 41
+                }, undefined)
+            },
+            {
+                path: "windows-blog",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _windowsBlogDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 44,
+                    columnNumber: 46
+                }, undefined)
+            },
+            {
+                path: "doors-blog",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _doorsBlogDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 45,
+                    columnNumber: 44
+                }, undefined)
+            },
+            {
+                path: "floor-blog",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _floorBlogDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 46,
+                    columnNumber: 44
+                }, undefined)
+            },
+            {
+                path: "kitchen-blog",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _kitchenBlogDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 47,
+                    columnNumber: 46
+                }, undefined)
+            },
+            {
+                path: "roof-blog",
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _roofBlogDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 48,
+                    columnNumber: 43
                 }, undefined)
             }
         ]
@@ -3073,7 +3123,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 45,
+    lineNumber: 56,
     columnNumber: 5
 }, undefined) // Use RouterProvider to handle routing
 );
@@ -3085,7 +3135,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-helmet":"fcX6K","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/GalleryPage":"j1514","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-helmet":"fcX6K","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/GalleryPage":"j1514","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/WindowsBlog":"78hIZ","./components/DoorsBlog":"hXcSa","./components/FloorBlog":"jekA0","./components/KitchenBlog":"brmaP","./components/RoofBlog":"cXvvv"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -27748,8 +27798,22 @@ const Header = ()=>{
                                 className: "header-windows",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Windows Istallation"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: '/windows-blog',
+                                                onClick: ()=>{
+                                                    window.scrollTo(0, 0);
+                                                    isDropdownOpen(false);
+                                                },
+                                                children: "Windows Istallation"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 86,
+                                                columnNumber: 20
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/Header.js",
                                         lineNumber: 86,
                                         columnNumber: 13
@@ -27791,11 +27855,25 @@ const Header = ()=>{
                                 className: "header-doors",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Doors Istallation"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: '/doors-blog',
+                                                onClick: ()=>{
+                                                    window.scrollTo(0, 0);
+                                                    isDropdownOpen(false);
+                                                },
+                                                children: "Door Istallation"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 103,
+                                                columnNumber: 18
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/Header.js",
                                         lineNumber: 103,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -27834,11 +27912,25 @@ const Header = ()=>{
                                 className: "header-floor",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Flooring Solution"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: '/floor-blog',
+                                                onClick: ()=>{
+                                                    window.scrollTo(0, 0);
+                                                    isDropdownOpen(false);
+                                                },
+                                                children: "Floring Solution"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 120,
+                                                columnNumber: 18
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/Header.js",
                                         lineNumber: 120,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -27877,11 +27969,25 @@ const Header = ()=>{
                                 className: "header-kitchen",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Kitchen Renovation"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: '/kitchen-blog',
+                                                onClick: ()=>{
+                                                    window.scrollTo(0, 0);
+                                                    isDropdownOpen(false);
+                                                },
+                                                children: "Kitchen Renovation"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 137,
+                                                columnNumber: 18
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/Header.js",
                                         lineNumber: 137,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -27920,11 +28026,25 @@ const Header = ()=>{
                                 className: "header-roof",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "Roofing Services"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: '/roof-blog',
+                                                onClick: ()=>{
+                                                    window.scrollTo(0, 0);
+                                                    isDropdownOpen(false);
+                                                },
+                                                children: "Roofing Services"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Header.js",
+                                                lineNumber: 154,
+                                                columnNumber: 18
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/Header.js",
                                         lineNumber: 154,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
                                         xmlns: "http://www.w3.org/2000/svg",
@@ -28098,36 +28218,106 @@ const Header = ()=>{
                         className: `accordion-content ${isAccordian ? "accordianOpen" : ""}`,
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Windows Installation"
-                            }, void 0, false, {
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: '/windows-blog',
+                                        onClick: ()=>{
+                                            window.scrollTo(0, 0);
+                                            isMenuOpen(false);
+                                        },
+                                        children: "Windows Istallation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 223,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 223,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Doors Installation"
-                            }, void 0, false, {
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: '/windows-blog',
+                                        onClick: ()=>{
+                                            window.scrollTo(0, 0);
+                                            isMenuOpen(false);
+                                        },
+                                        children: "Doors Installation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 224,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 224,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Flooring Solution"
-                            }, void 0, false, {
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: '/windows-blog',
+                                        onClick: ()=>{
+                                            window.scrollTo(0, 0);
+                                            isMenuOpen(false);
+                                        },
+                                        children: "Flooring Solution"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 225,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 225,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Kitchen Renovation"
-                            }, void 0, false, {
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: '/windows-blog',
+                                        onClick: ()=>{
+                                            window.scrollTo(0, 0);
+                                            isMenuOpen(false);
+                                        },
+                                        children: "Kitchen Renovation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 226,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 226,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Roofing Services"
-                            }, void 0, false, {
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: '/windows-blog',
+                                        onClick: ()=>{
+                                            window.scrollTo(0, 0);
+                                            isMenuOpen(false);
+                                        },
+                                        children: "Roofing Services"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Header.js",
+                                        lineNumber: 227,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/Header.js",
                                 lineNumber: 227,
                                 columnNumber: 11
@@ -31647,7 +31837,10 @@ const ContactUs = ()=>{
             },
             body: json
         }).then((res)=>res.json());
-        if (res.success) console.log("Success", res);
+        if (res.success) {
+            console.log("Success", res);
+            alert("Form submitted successfully!");
+        } else alert("Form submission failed. Please try again."); // Show error alert
     };
     const [selectedService, setSelectedService] = (0, _react.useState)('');
     const [selectedPlan, setSelectedPlan] = (0, _react.useState)('');
@@ -31667,40 +31860,40 @@ const ContactUs = ()=>{
                                             "Let\u2019s Begin Your ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/components/ContactUs.js",
-                                                lineNumber: 35,
+                                                lineNumber: 39,
                                                 columnNumber: 32
                                             }, undefined),
                                             " Home Transformation!"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/ContactUs.js",
-                                        lineNumber: 34,
+                                        lineNumber: 38,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "We're excited to help you take the next step toward enhancing your home. Whether you're upgrading your windows, adding new doors, or transforming your kitchen, our team is here to make the process smooth and effortless. Simply fill out the form below with your details, and we'll provide a personalized quote and schedule your consultation. Your dream space is closer than you think!"
                                     }, void 0, false, {
                                         fileName: "src/components/ContactUs.js",
-                                        lineNumber: 37,
+                                        lineNumber: 41,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/ContactUs.js",
-                                lineNumber: 33,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 src: (0, _contactGifDefault.default)
                             }, void 0, false, {
                                 fileName: "src/components/ContactUs.js",
-                                lineNumber: 46,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ContactUs.js",
-                        lineNumber: 32,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31715,7 +31908,7 @@ const ContactUs = ()=>{
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 50,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -31725,7 +31918,7 @@ const ContactUs = ()=>{
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 51,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -31735,7 +31928,7 @@ const ContactUs = ()=>{
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 52,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -31747,7 +31940,7 @@ const ContactUs = ()=>{
                                     placeholder: "Select a Service"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 53,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
@@ -31757,41 +31950,41 @@ const ContactUs = ()=>{
                                             value: "Windows Installation"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 62,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Doors Installation"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 63,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Flooring Solution"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 64,
+                                            lineNumber: 68,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Kitchen Renovation"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 65,
+                                            lineNumber: 69,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Roofing Services"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 66,
+                                            lineNumber: 70,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 61,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -31803,7 +31996,7 @@ const ContactUs = ()=>{
                                     placeholder: "Select a Plan"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 68,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("datalist", {
@@ -31813,27 +32006,27 @@ const ContactUs = ()=>{
                                             value: "Basic"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 77,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Standard"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 78,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                                             value: "Premium"
                                         }, void 0, false, {
                                             fileName: "src/components/ContactUs.js",
-                                            lineNumber: 79,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 76,
+                                    lineNumber: 80,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
@@ -31842,7 +32035,7 @@ const ContactUs = ()=>{
                                     required: true
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 82,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -31852,29 +32045,29 @@ const ContactUs = ()=>{
                                     children: "Submit"
                                 }, void 0, false, {
                                     fileName: "src/components/ContactUs.js",
-                                    lineNumber: 83,
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/ContactUs.js",
-                            lineNumber: 49,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/ContactUs.js",
-                        lineNumber: 48,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ContactUs.js",
-                lineNumber: 31,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _quickSupportDefault.default), {}, void 0, false, {
                 fileName: "src/components/ContactUs.js",
-                lineNumber: 87,
+                lineNumber: 91,
                 columnNumber: 7
             }, undefined)
         ]
@@ -32596,50 +32789,27 @@ const AboutUs = ()=>{
         className: "about-us",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "about-us-banner",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "About-Us"
-                    }, void 0, false, {
-                        fileName: "src/components/AboutUs.js",
-                        lineNumber: 7,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _aboutVectorPngDefault.default),
-                        className: "about-banner-img",
-                        alt: "about banner"
-                    }, void 0, false, {
-                        fileName: "src/components/AboutUs.js",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "about-us-sun"
-                    }, void 0, false, {
-                        fileName: "src/components/AboutUs.js",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/AboutUs.js",
-                lineNumber: 6,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 id: "page2bottom",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         id: "part1",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                            children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
-                        }, void 0, false, {
-                            fileName: "src/components/AboutUs.js",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "Who Are We?"
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                            }, void 0, false, {
+                                fileName: "src/components/AboutUs.js",
+                                lineNumber: 18,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/AboutUs.js",
                         lineNumber: 16,
                         columnNumber: 9
@@ -32655,20 +32825,20 @@ const AboutUs = ()=>{
                                 allowfullscreen: true
                             }, void 0, false, {
                                 fileName: "src/components/AboutUs.js",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "We love to create, we love to solve, we love to collaborate, and we love to turn amazing ideas into reality. We\u2019re here to partner with you through every step of the process and know that relationships are the most important things we build."
                             }, void 0, false, {
                                 fileName: "src/components/AboutUs.js",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AboutUs.js",
-                        lineNumber: 20,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -32678,20 +32848,20 @@ const AboutUs = ()=>{
                                 id: "circle1"
                             }, void 0, false, {
                                 fileName: "src/components/AboutUs.js",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 id: "circle2"
                             }, void 0, false, {
                                 fileName: "src/components/AboutUs.js",
-                                lineNumber: 38,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/AboutUs.js",
-                        lineNumber: 36,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -32702,7 +32872,7 @@ const AboutUs = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _whyUsDefault.default), {}, void 0, false, {
                 fileName: "src/components/AboutUs.js",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined)
         ]
@@ -33076,6 +33246,2692 @@ $RefreshReg$(_c, "GalleryPage");
 },{"react/jsx-dev-runtime":"iTorj","../../style/gallerypage.css":"hkv2h","react":"21dqq","../Images/catgif.gif":"lOBCX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkv2h":[function() {},{}],"lOBCX":[function(require,module,exports,__globalThis) {
 module.exports = require("2b662be77f9cac24").getBundleURL('aXMci') + "catgif.8b0bc1a7.gif" + "?" + Date.now();
 
-},{"2b662be77f9cac24":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"2b662be77f9cac24":"lgJ39"}],"78hIZ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$dd8f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dd8f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _windowfullimageJpg = require("../Images/windowfullimage.jpg");
+var _windowfullimageJpgDefault = parcelHelpers.interopDefault(_windowfullimageJpg);
+var _windowblogfullimageJpg = require("../Images/windowblogfullimage.jpg");
+var _windowblogfullimageJpgDefault = parcelHelpers.interopDefault(_windowblogfullimageJpg);
+const WindowsBlog = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "blog",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-banner",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Transform Your Home with Quality Windows : "
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 7,
+                                columnNumber: 21
+                            }, undefined),
+                            " A Guide to Choosing the Right Fit"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 7,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _windowfullimageJpgDefault.default),
+                        alt: "window"
+                    }, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/WindowsBlog.js",
+                lineNumber: 6,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-start",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "first-para",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "W"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 11,
+                                columnNumber: 43
+                            }, undefined),
+                            "hen it comes to enhancing your home\u2019s aesthetic, comfort, and energy efficiency, windows play a crucial role. Not only do they contribute to the overall appearance of your property, but the right windows can also improve your indoor environment. In this blog, we will explore why windows are important, the different types available, and how to select the perfect windows for your home."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Why Windows Matter: More Than Just a View"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 13,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Windows are essential elements of your home\u2019s architecture. They allow natural light to fill your rooms, create ventilation for fresh air, and offer a view of the outside world. But windows also serve practical purposes like:"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 14,
+                                columnNumber: 253
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Energy Efficiency: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 16,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "High-quality windows can help regulate your home's temperature by keeping cold air out in winter and cool air in during the summer. This can reduce your energy bills significantly."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 16,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Security: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 17,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Strong, well-maintained windows act as a barrier against potential intruders. With modern features like double glazing and impact-resistant glass, you can increase your home\u2019s safety."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 17,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Noise Reduction: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 18,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Double-glazed windows or soundproofing materials can reduce outside noise, making your home more peaceful and quiet."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Types of Windows to Consider for Your Home"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 22,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Choosing the right window type is vital for functionality and aesthetics. Below are some popular window options you can consider:"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 23,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 23,
+                                columnNumber: 157
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Casement Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 25,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Casement windows are hinged on the side and swing open outward. They offer excellent ventilation and are ideal for hard-to-reach places. These windows are easy to operate and provide a tight seal when closed."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 25,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Double-Hung Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 26,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "This type of window has two sashes that slide vertically. Double-hung windows are versatile and easy to clean. They are great for traditional homes and can suit almost any room in the house."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 26,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Sliding Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Sliding windows have one fixed sash and one that slides horizontally. These windows are perfect for wide openings, offering unobstructed views and easy operation. They are commonly used in modern or minimalist-style homes."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 27,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: " Bay and Bow Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Bay windows project outward from the wall, while bow windows are more rounded. Both types add a dramatic architectural element to your home and are great for creating cozy reading nooks or adding extra interior space."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 28,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Picture Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 29,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "As the name suggests, picture windows provide a large, unobstructed view of the outside. They are typically fixed and do not open, making them ideal for framing beautiful views or letting in maximum natural light."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 29,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Awning Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 30,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Awning windows are hinged at the top and open outward. They provide excellent ventilation and are perfect for areas that experience frequent rain, as the awning helps keep water out while allowing air to flow in."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 21,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Choosing the Right Window Material"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 34,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "The material you choose for your windows affects both their appearance and performance. Here are a few options:"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 35,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 35,
+                                columnNumber: 139
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Wooden Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 37,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Wooden windows are timeless, adding warmth and charm to any home. They are natural insulators, but they require regular maintenance to prevent damage from the elements."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 37,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Vinyl Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 38,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Vinyl windows are low-maintenance, durable, and energy-efficient. They come in various colors and styles, and their affordability makes them a popular choice for homeowners."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 38,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Aluminum Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 39,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Aluminum windows are sleek and modern-looking. While they are durable and low-maintenance, they are not as energy-efficient as other materials. However, they are a good option for coastal areas due to their resistance to corrosion."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 39,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Fiberglass Windows: "
+                                            }, void 0, false, {
+                                                fileName: "src/components/WindowsBlog.js",
+                                                lineNumber: 40,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            "Fiberglass windows are highly durable and energy-efficient. They are more expensive than vinyl windows but provide superior insulation and are built to last."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/WindowsBlog.js",
+                                        lineNumber: 40,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 33,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 44,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "blog-large-img",
+                        src: (0, _windowblogfullimageJpgDefault.default)
+                    }, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 47,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 50,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-quote-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "70",
+                                height: "70",
+                                fill: "#f9e802",
+                                class: "bi bi-quote",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                }, void 0, false, {
+                                    fileName: "src/components/WindowsBlog.js",
+                                    lineNumber: 51,
+                                    columnNumber: 167
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 51,
+                                columnNumber: 49
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 51,
+                                columnNumber: 628
+                            }, undefined),
+                            "Windows are the eyes to the soul of a home, letting in light, fresh air, and the beauty of the world beyond."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 51,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Conclusion: Invest in Quality Windows for Lasting Benefits"
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 53,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Windows are an integral part of your home\u2019s design, comfort, and functionality. Whether you are building a new home or renovating an existing one, choosing the right windows can significantly impact your living experience. From energy efficiency to aesthetics and security, quality windows offer numerous benefits."
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 54,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 54,
+                                columnNumber: 342
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "If you are unsure about which windows are best for your home, consider consulting with a professional. Our team of experts is here to guide you through the selection process, ensuring you get the perfect windows tailored to your needs and preferences."
+                            }, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 55,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/WindowsBlog.js",
+                                lineNumber: 55,
+                                columnNumber: 279
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WindowsBlog.js",
+                        lineNumber: 52,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/WindowsBlog.js",
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/WindowsBlog.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, undefined);
+};
+_c = WindowsBlog;
+exports.default = WindowsBlog;
+var _c;
+$RefreshReg$(_c, "WindowsBlog");
+
+  $parcel$ReactRefreshHelpers$dd8f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../Images/windowblogfullimage.jpg":"4vW6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/windowfullimage.jpg":"1QRL8"}],"4vW6n":[function(require,module,exports,__globalThis) {
+module.exports = require("6927eb9d2aa54a7e").getBundleURL('aXMci') + "windowblogfullimage.8962503f.jpg" + "?" + Date.now();
+
+},{"6927eb9d2aa54a7e":"lgJ39"}],"hXcSa":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$05f2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$05f2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _doorfullimageJpg = require("../Images/doorfullimage.jpg");
+var _doorfullimageJpgDefault = parcelHelpers.interopDefault(_doorfullimageJpg);
+var _doorblogfullimageJpg = require("../Images/doorblogfullimage.jpg");
+var _doorblogfullimageJpgDefault = parcelHelpers.interopDefault(_doorblogfullimageJpg);
+const DoorsBlog = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "blog",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-banner",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Enhance Your Home with Stylish and Secure Doors:"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 8,
+                                columnNumber: 21
+                            }, undefined),
+                            " A Guide to Choosing the Perfect Door"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _doorfullimageJpgDefault.default),
+                        alt: "door"
+                    }, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/DoorsBlog.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-start",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "first-para",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "D"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 12,
+                                columnNumber: 43
+                            }, undefined),
+                            "oors are much more than just entryways; they are an essential element of your home\u2019s design, security, and functionality. A well-chosen door not only enhances the aesthetic appeal of your space but also provides safety, privacy, and insulation. In this blog, we will dive into the importance of doors, different types of doors available, and how to select the best door for your home."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Why Doors Matter: The Heart of Your Home\u2019s Security and Style"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Doors serve as gateways to your home, and their function goes beyond just providing access. Here\u2019s why doors are vital to your property:"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 164
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Security:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 17,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Doors are the first line of defense for your home. High-quality, sturdy doors prevent unauthorized access and give you peace of mind, knowing that your home is secure."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 17,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Privacy:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 18,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Doors provide the privacy you need, whether it\u2019s your front entryway or interior doors that separate different spaces in your home."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Insulation:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 19,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Well-insulated doors help maintain your home\u2019s temperature by keeping cold air out during winter and cool air inside during summer, ultimately saving you on energy costs."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 19,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Types of Doors to Consider for Your Home"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 23,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "When choosing doors, you have many options to match your design preferences and functional needs. Below are some popular types of doors:"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 24,
+                                columnNumber: 164
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Entry Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 26,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " These are the doors that greet your guests and provide the first impression of your home. Entry doors are often larger and more decorative, offering both security and curb appeal."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 26,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Sliding Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Ideal for patios or large open spaces, sliding doors save space and provide an easy way to access outdoor areas. They also offer panoramic views of the outdoors."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 27,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "French Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " French doors are double doors that open inwards, typically made of glass. They create an elegant entryway and are perfect for adding charm to your interior or patio."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 28,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Bi-Fold Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 29,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Bi-fold doors are made of multiple panels that fold to one side. They work well for larger openings like closets, laundry rooms, or separating indoor and outdoor living areas."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 29,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Interior Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 30,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " These doors are used inside the home to separate rooms and provide privacy. They come in various styles, from traditional to contemporary, and are available in wood, glass, or hollow-core designs."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Storm Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 31,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Storm doors are installed outside your entry door and provide an additional layer of protection from the elements. They also help improve insulation and ventilation."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 31,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 22,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Choosing the Right Door Material"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 35,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "The material of your door affects its durability, maintenance, and overall appearance. Here are some materials to consider:"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 151
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Wooden Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 38,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Wooden doors are timeless and add warmth and sophistication to your home. They offer great insulation but require maintenance to avoid damage from weather and wear."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 38,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Steel Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 39,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Steel doors are extremely durable, providing top-notch security. They are resistant to wear and tear and are often more affordable than other materials."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 39,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Fiberglass Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 40,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Fiberglass doors are energy-efficient, low-maintenance, and resistant to dents and scratches. They are an excellent choice for homes in areas with extreme weather conditions."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 40,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Glass Doors:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DoorsBlog.js",
+                                                lineNumber: 41,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Glass doors are perfect for letting in natural light and offering views of the outdoors. While stylish, they need to be tempered or reinforced to ensure safety and privacy."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DoorsBlog.js",
+                                        lineNumber: 41,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 37,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 34,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 44,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "blog-large-img",
+                        src: (0, _doorblogfullimageJpgDefault.default),
+                        alt: "door-blog"
+                    }, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 47,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 50,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-quote-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "70",
+                                height: "70",
+                                fill: "#f9e802",
+                                class: "bi bi-quote",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                }, void 0, false, {
+                                    fileName: "src/components/DoorsBlog.js",
+                                    lineNumber: 53,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 52,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 54,
+                                columnNumber: 27
+                            }, undefined),
+                            '"A door is not just a threshold; it\u2019s a passage that connects your home to the world outside, offering both protection and promise."'
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 51,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Conclusion: Choose the Right Door to Elevate Your Home"
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 58,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Doors are more than just entryways; they are central to your home\u2019s aesthetic appeal, security, and overall functionality. Whether you\u2019re upgrading an existing door or installing new ones, choosing the right door is crucial for making a lasting impact."
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 59,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 59,
+                                columnNumber: 280
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "If you are uncertain about which doors best suit your needs and home style, our expert team is here to help. We\u2019ll guide you through the selection process to ensure you find the perfect doors for your space, ensuring both beauty and functionality for years to come."
+                            }, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 60,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/DoorsBlog.js",
+                                lineNumber: 60,
+                                columnNumber: 293
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DoorsBlog.js",
+                        lineNumber: 57,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/DoorsBlog.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/DoorsBlog.js",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = DoorsBlog;
+exports.default = DoorsBlog;
+var _c;
+$RefreshReg$(_c, "DoorsBlog");
+
+  $parcel$ReactRefreshHelpers$05f2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/doorfullimage.jpg":"798b7","../Images/doorblogfullimage.jpg":"79FPH"}],"79FPH":[function(require,module,exports,__globalThis) {
+module.exports = require("67d8f38500035f0f").getBundleURL('aXMci') + "doorblogfullimage.119b3335.jpg" + "?" + Date.now();
+
+},{"67d8f38500035f0f":"lgJ39"}],"jekA0":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a881 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a881.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _floorfullimageJpg = require("../Images/floorfullimage.jpg");
+var _floorfullimageJpgDefault = parcelHelpers.interopDefault(_floorfullimageJpg);
+var _floorblogfullimageJpg = require("../Images/floorblogfullimage.jpg");
+var _floorblogfullimageJpgDefault = parcelHelpers.interopDefault(_floorblogfullimageJpg);
+const FloorsBlog = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "blog",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-banner",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Transform Your Space with Beautiful Floors:"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 8,
+                                columnNumber: 21
+                            }, undefined),
+                            " A Guide to Choosing the Perfect Flooring for Your Home"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _floorfullimageJpgDefault.default),
+                        alt: "floor"
+                    }, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/FloorBlog.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-start",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "first-para",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "F"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 12,
+                                columnNumber: 43
+                            }, undefined),
+                            "loors are one of the most important elements of your home\u2019s interior design. They provide the foundation for your living spaces and contribute greatly to the overall look, feel, and functionality of your home. From timeless hardwood to sleek tile, there are a variety of flooring options to choose from. In this blog, we\u2019ll explore why flooring is so important, the different types of flooring materials, and how to select the right one for your needs."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Why Flooring Matters: More Than Just a Surface"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Flooring does much more than just provide a surface to walk on. It sets the tone for your home\u2019s style and enhances your living experience in the following ways:"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 189
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Durability:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 17,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " The right flooring material can stand up to daily wear and tear, ensuring your floors remain beautiful and functional for years."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 17,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Comfort:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 18,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Certain flooring materials, such as carpet or cork, offer comfort underfoot, making them ideal for bedrooms, living rooms, and areas where you spend a lot of time."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Maintenance:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 19,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Choosing a low-maintenance flooring option, like vinyl or tile, can save you time and effort, as they require minimal care to maintain their appearance."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 19,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Style and Aesthetics:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 20,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Flooring plays a key role in your home\u2019s visual appeal. Whether you're going for a modern, rustic, or classic look, your floors will contribute to your overall design theme."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 20,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Types of Flooring to Consider for Your Home"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "There are numerous flooring options available, each with its own set of benefits. Below are some popular types to consider:"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 151
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Hardwood Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Hardwood is a timeless classic, providing warmth and elegance to any room. It\u2019s known for its durability and ability to increase the value of your home. Choose between oak, maple, cherry, or walnut for a variety of styles."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 27,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Laminate Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Laminate is a budget-friendly alternative to hardwood that replicates the look of real wood or stone. It\u2019s durable, easy to clean, and resistant to scratches and fading."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 28,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Tile Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 29,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Tile is ideal for high-moisture areas such as bathrooms and kitchens. Available in ceramic, porcelain, or stone, tile flooring is incredibly durable, easy to maintain, and offers a wide range of designs."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 29,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Vinyl Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 30,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Vinyl flooring is affordable, versatile, and comes in a wide variety of styles and colors. It\u2019s water-resistant, making it perfect for kitchens, bathrooms, and basements."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Carpet Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 31,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Carpet offers softness and warmth underfoot, making it a popular choice for bedrooms and living rooms. It\u2019s available in a variety of textures, colors, and patterns, and provides excellent insulation."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 31,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Cork Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 32,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Cork is an eco-friendly flooring option that provides a cushioned, comfortable feel. It's naturally resistant to mold and mildew, making it an excellent choice for those with allergies."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 32,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 26,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 23,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Choosing the Right Flooring Material"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Choosing the right flooring material depends on several factors, such as your budget, the room\u2019s function, and your desired aesthetic. Here are some things to keep in mind:"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 37,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 37,
+                                columnNumber: 200
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Durability:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 39,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Some flooring options, like hardwood and tile, are highly durable and ideal for high-traffic areas. If you're looking for flooring that can withstand heavy use, these materials are a good choice."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 39,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Water Resistance:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 40,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Areas like bathrooms and kitchens require flooring that can handle moisture. Tile, vinyl, and certain types of laminate are excellent for these spaces because they are water-resistant and easy to clean."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 40,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Budget:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 41,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Your budget plays a significant role in the type of flooring you choose. Hardwood may be more expensive upfront, but it can last for decades. On the other hand, laminate or vinyl offers more budget-friendly options without sacrificing style."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 41,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Maintenance:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 42,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Some flooring options require more maintenance than others. Hardwood floors, for instance, need periodic refinishing, while tile and vinyl are low-maintenance and easy to clean."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 42,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Style:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/FloorBlog.js",
+                                                lineNumber: 43,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Consider how the flooring material will complement the overall design of your home. If you're aiming for a modern aesthetic, polished concrete or vinyl might be ideal, while rustic or traditional spaces may benefit from the warmth of hardwood."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/FloorBlog.js",
+                                        lineNumber: 43,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 38,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 35,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 47,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "blog-large-img",
+                        src: (0, _floorblogfullimageJpgDefault.default),
+                        alt: "floor-blog"
+                    }, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 50,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 51,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 52,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-quote-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "70",
+                                height: "70",
+                                fill: "#f9e802",
+                                class: "bi bi-quote",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                }, void 0, false, {
+                                    fileName: "src/components/FloorBlog.js",
+                                    lineNumber: 55,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 54,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 56,
+                                columnNumber: 27
+                            }, undefined),
+                            '"The right floor doesn\u2019t just set the stage for your space, it creates an environment that feels just right for you."'
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 53,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Conclusion: Invest in the Right Flooring for a Lasting Impression"
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 60,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Your floors are one of the most important investments in your home. Not only do they affect your home's aesthetic, but they also contribute to comfort, functionality, and long-term value. Whether you're installing floors in a new build or upgrading your existing flooring, choosing the right material will ensure your home looks beautiful and performs well for years to come."
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 61,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 61,
+                                columnNumber: 403
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "If you\u2019re unsure which flooring is best for your space, don\u2019t hesitate to reach out to our experts. We can help you select the perfect floors that will suit both your style and functional needs."
+                            }, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 62,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/FloorBlog.js",
+                                lineNumber: 62,
+                                columnNumber: 222
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/FloorBlog.js",
+                        lineNumber: 59,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/FloorBlog.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/FloorBlog.js",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = FloorsBlog;
+exports.default = FloorsBlog;
+var _c;
+$RefreshReg$(_c, "FloorsBlog");
+
+  $parcel$ReactRefreshHelpers$a881.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../Images/floorfullimage.jpg":"1DlJg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/floorblogfullimage.jpg":"dtw1b"}],"dtw1b":[function(require,module,exports,__globalThis) {
+module.exports = require("9ecd1f384366b96c").getBundleURL('aXMci') + "floorblogfullimage.7c461f3e.jpg" + "?" + Date.now();
+
+},{"9ecd1f384366b96c":"lgJ39"}],"brmaP":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ad12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ad12.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _kitchenfullimageJpg = require("../Images/kitchenfullimage.jpg");
+var _kitchenfullimageJpgDefault = parcelHelpers.interopDefault(_kitchenfullimageJpg);
+var _kitchenblogfullimageJpg = require("../Images/kitchenblogfullimage.jpg");
+var _kitchenblogfullimageJpgDefault = parcelHelpers.interopDefault(_kitchenblogfullimageJpg);
+const KitchenBlog = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "blog",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-banner",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Design Your Dream Kitchen:"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 8,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 8,
+                                columnNumber: 60
+                            }, undefined),
+                            " A Complete Guide to Creating a Functional and Beautiful Space"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _kitchenfullimageJpgDefault.default),
+                        alt: "kitchen"
+                    }, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/KitchenBlog.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-start",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "first-para",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Y"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 12,
+                                columnNumber: 43
+                            }, undefined),
+                            "our kitchen is the heart of your home \u2013 it\u2019s where family meals are made, friends gather, and memories are created. Whether you love to cook or simply need a space to entertain, your kitchen should reflect both functionality and style. In this blog, we\u2019ll dive into why kitchen design matters, how to choose the right materials, and tips for creating a space that combines beauty and practicality."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Why Kitchen Design is Important: Functionality Meets Style"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "The kitchen is more than just a place to cook. It\u2019s the hub of your home, a space where you\u2019ll spend a lot of time preparing meals, entertaining guests, and gathering with family. A well-designed kitchen can make a big difference in your daily life. Here are a few reasons why kitchen design matters:"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 328
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Efficiency:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 17,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A thoughtfully designed kitchen layout can improve the efficiency of your cooking and cleaning processes. The right placement of appliances and counter space can save you time and energy."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 17,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Space Optimization:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 18,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Whether you have a large or small kitchen, maximizing your space is key. Clever storage solutions and well-planned layouts can make even the tiniest kitchens feel spacious and organized."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Style:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 19,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Your kitchen is one of the first rooms guests will see, and it should complement the rest of your home\u2019s aesthetic. A beautifully designed kitchen adds to the overall appeal and value of your home."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 19,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Comfort:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 20,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A comfortable kitchen makes meal prep and entertaining enjoyable. Factors such as lighting, ergonomics, and materials all contribute to creating a pleasant cooking environment."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 20,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Key Elements of Kitchen Design"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Designing the perfect kitchen involves balancing aesthetics and practicality. Here are some key elements to consider when designing your dream kitchen:"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 179
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Layout:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            ' The layout is one of the most important aspects of kitchen design. The "kitchen work triangle" \u2013 the optimal placement of the stove, sink, and refrigerator \u2013 ensures efficiency. Other layouts like U-shaped, L-shaped, and galley kitchens are also great options depending on your space.'
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 27,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Counter Space:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Having enough counter space is essential for food preparation and organization. Consider extending your countertops, adding kitchen islands, or utilizing vertical space with shelves for additional storage."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 28,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Storage:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 29,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A well-organized kitchen should have plenty of storage for everything from pots and pans to pantry essentials. Consider cabinets with pull-out shelves, drawers, or lazy Susans to maximize space."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 29,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Lighting:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 30,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Proper lighting is crucial in the kitchen. Layered lighting with ambient, task, and accent lighting ensures you can see what you're doing and creates a warm, inviting atmosphere."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 26,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 23,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Choosing the Right Kitchen Materials"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 34,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "The materials you select for your kitchen will impact its appearance, durability, and maintenance. Here are some popular material choices for your kitchen design:"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 35,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 35,
+                                columnNumber: 190
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Cabinet Materials:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 37,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Wood is a timeless choice for cabinets, adding warmth and sophistication to your kitchen. For a more modern look, consider materials like glass, acrylic, or metal. Custom cabinetry is also an option for personalized designs."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 37,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Countertops:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 38,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Quartz countertops are durable, easy to maintain, and come in various styles and colors. Granite, marble, and butcher block are also popular choices, each offering a distinct aesthetic and functionality."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 38,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Flooring:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 39,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Tile flooring is durable and easy to clean, making it a great option for kitchens. Other options like hardwood, vinyl, and laminate also provide stylish alternatives that can complement your kitchen design."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 39,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Backsplashes:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/KitchenBlog.js",
+                                                lineNumber: 40,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Backsplashes add both style and function to your kitchen. Consider subway tiles, mosaic patterns, or even glass panels for an easy-to-clean and visually striking addition to your kitchen."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/KitchenBlog.js",
+                                        lineNumber: 40,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 33,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 43,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 44,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "blog-large-img",
+                        src: (0, _kitchenblogfullimageJpgDefault.default),
+                        alt: "kitchen-blog"
+                    }, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 47,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-quote-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "70",
+                                height: "70",
+                                fill: "#f9e802",
+                                class: "bi bi-quote",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                }, void 0, false, {
+                                    fileName: "src/components/KitchenBlog.js",
+                                    lineNumber: 52,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 51,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 53,
+                                columnNumber: 27
+                            }, undefined),
+                            '"A kitchen is more than just a place to cook\u2014it\u2019s the space where family, food, and memories come together."'
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 50,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Conclusion: Create a Kitchen That Reflects Your Style and Needs"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 57,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Your kitchen should be a space that suits your cooking habits, lifestyle, and design preferences. Whether you're undergoing a full remodel or just making a few updates, a thoughtful kitchen design can enhance both its functionality and beauty. From the right layout to choosing durable materials, your kitchen can become a space that inspires creativity and fosters memories."
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 58,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 58,
+                                columnNumber: 403
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "If you\u2019re ready to design or renovate your kitchen, our team of experts is here to help guide you through the process. From layout to materials, we can help you create the kitchen of your dreams!"
+                            }, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 59,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/KitchenBlog.js",
+                                lineNumber: 59,
+                                columnNumber: 223
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/KitchenBlog.js",
+                        lineNumber: 56,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/KitchenBlog.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/KitchenBlog.js",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = KitchenBlog;
+exports.default = KitchenBlog;
+var _c;
+$RefreshReg$(_c, "KitchenBlog");
+
+  $parcel$ReactRefreshHelpers$ad12.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../Images/kitchenfullimage.jpg":"1P0kN","../Images/kitchenblogfullimage.jpg":"kmiwv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kmiwv":[function(require,module,exports,__globalThis) {
+module.exports = require("1b1a7d8066b5c740").getBundleURL('aXMci') + "kitchenblogfullimage.2abc9cd6.jpg" + "?" + Date.now();
+
+},{"1b1a7d8066b5c740":"lgJ39"}],"cXvvv":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$b3c6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b3c6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _rooffullimageJpg = require("../Images/rooffullimage.jpg");
+var _rooffullimageJpgDefault = parcelHelpers.interopDefault(_rooffullimageJpg);
+var _roofblogfullimageJpg = require("../Images/roofblogfullimage.jpg");
+var _roofblogfullimageJpgDefault = parcelHelpers.interopDefault(_roofblogfullimageJpg);
+const RoofBlog = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "blog",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-banner",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "Protect and Enhance Your Home with a Quality Roof :"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 8,
+                                columnNumber: 21
+                            }, undefined),
+                            " A Complete Guide to Choosing the Best Roofing Options"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _rooffullimageJpgDefault.default),
+                        alt: "roof"
+                    }, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/RoofBlog.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "blog-start",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "first-para",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: "R"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 12,
+                                columnNumber: 43
+                            }, undefined),
+                            "oofing is one of the most critical elements of any home. It provides essential protection from the elements, contributes to the overall aesthetic of the house, and adds to its energy efficiency. In this blog, we will explore why roof selection is so important, the different types of roofs available, and how to choose the best roofing material for your home."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Why Roofing Matters: Protection, Aesthetics, and More"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Your roof is the first line of defense against the weather, and it plays an important role in the structure and appearance of your home. Here are some of the reasons why your roof is so important:"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 15,
+                                columnNumber: 224
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Protection from the Elements:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 17,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A roof shields you and your family from rain, snow, wind, and heat. It ensures the integrity of your home\u2019s structure and keeps you safe and dry."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 17,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Energy Efficiency:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 18,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " The right roofing materials can improve the insulation of your home, reducing energy costs by keeping warm air inside during the winter and cool air inside during the summer."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Curb Appeal:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 19,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Your roof can significantly affect your home\u2019s curb appeal. A stylish, well-maintained roof can enhance the overall aesthetic of your property and even increase its value."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 19,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Longevity and Durability:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 20,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A quality roof can last for decades, providing long-term protection and peace of mind. The right materials and maintenance will ensure your roof performs optimally throughout its lifespan."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 20,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Types of Roofs: Choosing the Right Style for Your Home"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "The style of roof you choose depends on your home\u2019s architecture, climate, and budget. Here are some popular roofing options:"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 25,
+                                columnNumber: 153
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Gable Roof:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " This is one of the most common roof styles, characterized by two sloping sides that meet at a ridge, forming a triangular shape. Gable roofs are great for shedding water and snow and are popular in areas with heavy rainfall or snow."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 27,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Hip Roof:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A hip roof has slopes on all four sides, which gives it a more stable and durable design. This style is ideal for areas with strong winds, as the shape offers greater resistance to wind forces."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 28,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Mansard Roof:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 29,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " A mansard roof has four sloped sides, with two slopes on each side. This type of roof is perfect for adding extra living space under the roof and is common in French-style homes."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 29,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Flat Roof:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 30,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Flat roofs have minimal slope and are common in modern and contemporary homes. These roofs are easy to maintain but are less suitable for areas with heavy rain or snow accumulation."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Gambrel Roof:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 31,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Often seen on barns or rustic-style homes, gambrel roofs feature two slopes on each side, with a steep lower slope and a more gradual upper slope. They offer a great amount of headspace for attic rooms."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 31,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 26,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 23,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Choosing the Right Roofing Material"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 35,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "The material you choose for your roof impacts its appearance, performance, and durability. Here are some of the most popular roofing materials:"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 36,
+                                columnNumber: 171
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Asphalt Shingles:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 38,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Asphalt shingles are one of the most affordable and widely used roofing materials. They are available in various colors and styles and offer good protection against weather conditions."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 38,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Metal Roofing:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 39,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Metal roofs are durable, energy-efficient, and low-maintenance. They come in materials like steel, aluminum, and copper and are available in a range of styles, including standing seam and corrugated panels."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 39,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Clay or Concrete Tiles:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 40,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Clay and concrete tiles are often used in Mediterranean or Spanish-style homes. These roofs are durable, fire-resistant, and can last for decades, though they tend to be heavier and more expensive."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 40,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Wood Shingles or Shakes:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 41,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Wood roofing gives a natural, rustic look to a home. While it requires regular maintenance, wood shingles or shakes are highly durable and provide great insulation."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 41,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Slate Roofing:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/RoofBlog.js",
+                                                lineNumber: 42,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " Slate is one of the longest-lasting roofing materials available. It is known for its beauty, durability, and fire resistance, though it is on the more expensive side and can be heavy to install."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/RoofBlog.js",
+                                        lineNumber: 42,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 37,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 34,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "blog-large-img",
+                        src: (0, _roofblogfullimageJpgDefault.default),
+                        alt: "roof-blog"
+                    }, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 47,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 50,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 51,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-quote-box",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "70",
+                                height: "70",
+                                fill: "#f9e802",
+                                class: "bi bi-quote",
+                                viewBox: "0 0 16 16",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                    d: "M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                                }, void 0, false, {
+                                    fileName: "src/components/RoofBlog.js",
+                                    lineNumber: 54,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 53,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 55,
+                                columnNumber: 27
+                            }, undefined),
+                            '"A roof is not just a cover for your home\u2014it\'s the shield that protects everything you love inside."'
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 52,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "blog-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                className: "blog-subheading",
+                                children: "Conclusion: Invest in a Roof that Provides Long-Term Protection"
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 59,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Your roof plays a significant role in safeguarding your home and enhancing its appearance. Choosing the right roofing material and style can help protect your home from the elements while increasing its curb appeal and energy efficiency. Whether you're building a new home or replacing an existing roof, it's important to invest in quality materials that will offer long-lasting benefits."
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 60,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 60,
+                                columnNumber: 416
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "If you\u2019re unsure about which roof is best for your home, our expert team is here to help you make the right choice. We can guide you through the roofing process, ensuring that you get the protection and style your home deserves."
+                            }, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 61,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/RoofBlog.js",
+                                lineNumber: 61,
+                                columnNumber: 256
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/RoofBlog.js",
+                        lineNumber: 58,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/RoofBlog.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/RoofBlog.js",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = RoofBlog;
+exports.default = RoofBlog;
+var _c;
+$RefreshReg$(_c, "RoofBlog");
+
+  $parcel$ReactRefreshHelpers$b3c6.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../Images/rooffullimage.jpg":"jR34q","../Images/roofblogfullimage.jpg":"7SAwv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7SAwv":[function(require,module,exports,__globalThis) {
+module.exports = require("26f012ac2b2740b8").getBundleURL('aXMci') + "roofblogfullimage.c41bb0e4.jpg" + "?" + Date.now();
+
+},{"26f012ac2b2740b8":"lgJ39"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

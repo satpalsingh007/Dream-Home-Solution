@@ -52,11 +52,20 @@
 }
 #part1{
     width: 63%;
+
+    z-index: 9;
 }
 #part2{
     /* padding-top: 41vh; */
     padding-right: 1vw;
     width: 30%;
+}
+#part1 h2{
+    font-family: boris;
+    font-size: 45px;
+    padding-bottom: 15px;
+    font-weight: 200;
+    text-align: center;
 }
 #part2 p{
     font-size: 20px;
@@ -80,7 +89,7 @@
     position: absolute;
     width: 20vw;
     height: 20vw;
-    top: 80%;
+    top: 40%;
     left: 27%;
     border-radius: 50%;
     background-color: yellow;
@@ -104,7 +113,7 @@
     height:100%;
     position: absolute;
     border-radius: 50%;
-    background-color: #f9c302;
+    background-color: #f9e402;
     filter: blur(50px);
     animation-name: circle2;
     animation-duration: 3s;
