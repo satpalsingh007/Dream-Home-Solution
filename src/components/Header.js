@@ -100,7 +100,7 @@ const Header = () => {
             <div className="header-windows-img"></div>
           </div>
           <div className="header-doors">
-          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Door Istallation</Link></span>
+          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false);}}>Door Istallation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
