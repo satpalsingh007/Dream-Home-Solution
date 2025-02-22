@@ -27804,7 +27804,6 @@ const Header = ()=>{
                                                 to: '/windows-blog',
                                                 onClick: ()=>{
                                                     window.scrollTo(0, 0);
-                                                    isDropdownOpen(false);
                                                 },
                                                 children: "Windows Istallation"
                                             }, void 0, false, {

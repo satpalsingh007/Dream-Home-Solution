@@ -83,7 +83,7 @@ const Header = () => {
           onMouseLeave={handleMouseLeave} // Close dropdown when mouse leaves the list
         >
           <div className="header-windows">
-            <span> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Windows Istallation</Link></span>
+            <span> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);}}>Windows Istallation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
