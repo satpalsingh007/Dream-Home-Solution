@@ -1,11 +1,8 @@
-databases:
-  - name: dream-home-solution
-
 static_sites:
-  - name: dream-home-solution 
+  - name: dream-home-solution
     build_command: npm install && npm run build
-    output_dir: dist
+    publish: dist/  
     routes:
       - type: rewrite
-        source: /*
-        destination: /index.html
+        source: /*  
+        destination: /index.html  

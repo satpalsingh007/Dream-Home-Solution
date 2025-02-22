@@ -79,7 +79,7 @@
   transition: transform .3s, opacity .3s;
   display: flex;
   position: absolute;
-  top: 64%;
+  top: 12.9vh;
   left: 50vw;
   transform: translateY(-20px);
   box-shadow: 0 2px 5px #0000001a;
