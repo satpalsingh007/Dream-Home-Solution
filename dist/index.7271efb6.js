@@ -27860,7 +27860,6 @@ const Header = ()=>{
                                                 to: '/doors-blog',
                                                 onClick: ()=>{
                                                     window.scrollTo(0, 0);
-                                                    isDropdownOpen(false);
                                                 },
                                                 children: "Door Istallation"
                                             }, void 0, false, {
@@ -27917,7 +27916,6 @@ const Header = ()=>{
                                                 to: '/floor-blog',
                                                 onClick: ()=>{
                                                     window.scrollTo(0, 0);
-                                                    isDropdownOpen(false);
                                                 },
                                                 children: "Floring Solution"
                                             }, void 0, false, {
@@ -27974,7 +27972,6 @@ const Header = ()=>{
                                                 to: '/kitchen-blog',
                                                 onClick: ()=>{
                                                     window.scrollTo(0, 0);
-                                                    isDropdownOpen(false);
                                                 },
                                                 children: "Kitchen Renovation"
                                             }, void 0, false, {
@@ -28031,7 +28028,6 @@ const Header = ()=>{
                                                 to: '/roof-blog',
                                                 onClick: ()=>{
                                                     window.scrollTo(0, 0);
-                                                    isDropdownOpen(false);
                                                 },
                                                 children: "Roofing Services"
                                             }, void 0, false, {

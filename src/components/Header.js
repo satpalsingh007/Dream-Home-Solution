@@ -100,7 +100,7 @@ const Header = () => {
             <div className="header-windows-img"></div>
           </div>
           <div className="header-doors">
-          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false);}}>Door Istallation</Link></span>
+          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);}}>Door Istallation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -117,7 +117,7 @@ const Header = () => {
             <div className="header-doors-img"></div>
           </div>
           <div className="header-floor">
-          <span> <Link to={'/floor-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Floring Solution</Link></span>
+          <span> <Link to={'/floor-blog'} onClick={() => { window.scrollTo(0, 0);}}>Floring Solution</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -134,7 +134,7 @@ const Header = () => {
             <div className="header-floor-img"></div>
           </div>
           <div className="header-kitchen">
-          <span> <Link to={'/kitchen-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Kitchen Renovation</Link></span>
+          <span> <Link to={'/kitchen-blog'} onClick={() => { window.scrollTo(0, 0);}}>Kitchen Renovation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -151,7 +151,7 @@ const Header = () => {
             <div className="header-kitchen-img"></div>
           </div>
           <div className="header-roof">
-          <span> <Link to={'/roof-blog'} onClick={() => { window.scrollTo(0, 0);isDropdownOpen(false)}}>Roofing Services</Link></span>
+          <span> <Link to={'/roof-blog'} onClick={() => { window.scrollTo(0, 0);}}>Roofing Services</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
