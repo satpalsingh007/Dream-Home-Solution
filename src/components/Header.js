@@ -220,11 +220,11 @@ const Header = () => {
           className={`accordion-content ${isAccordian ? "accordianOpen" : ""}`}
           // style={{display: isAccordian ? "block" : "none",}}
         >
-          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);}}>Windows Istallation</Link></p>
-          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Doors Installation</Link></p>
-          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Flooring Solution</Link></p>
-          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Kitchen Renovation</Link></p>
-          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Roofing Services</Link></p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);handleMenuOpen()}}>Windows Istallation</Link></p>
+          <p> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Doors Installation</Link></p>
+          <p> <Link to={'/floor-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Flooring Solution</Link></p>
+          <p> <Link to={'/kitchen-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Kitchen Renovation</Link></p>
+          <p> <Link to={'/roof-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Roofing Services</Link></p>
         </section>
 
         <div>

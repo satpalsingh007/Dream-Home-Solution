@@ -28219,7 +28219,7 @@ const Header = ()=>{
                                         to: '/windows-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
-                                            isMenuOpen();
+                                            handleMenuOpen();
                                         },
                                         children: "Windows Istallation"
                                     }, void 0, false, {
@@ -28237,7 +28237,7 @@ const Header = ()=>{
                                 children: [
                                     " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                        to: '/windows-blog',
+                                        to: '/doors-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
                                             isMenuOpen(false);
@@ -28258,7 +28258,7 @@ const Header = ()=>{
                                 children: [
                                     " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                        to: '/windows-blog',
+                                        to: '/floor-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
                                             isMenuOpen(false);
@@ -28279,7 +28279,7 @@ const Header = ()=>{
                                 children: [
                                     " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                        to: '/windows-blog',
+                                        to: '/kitchen-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
                                             isMenuOpen(false);
@@ -28300,7 +28300,7 @@ const Header = ()=>{
                                 children: [
                                     " ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                        to: '/windows-blog',
+                                        to: '/roof-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
                                             isMenuOpen(false);
