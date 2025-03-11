@@ -261,7 +261,7 @@
     flex-direction: column-reverse;
     height: auto;
     padding: 20vh 10vw 0vh 10vw;
-    gap: 60px;
+    gap: 30px;
     justify-content: space-between;
   }
   .homepage-right {

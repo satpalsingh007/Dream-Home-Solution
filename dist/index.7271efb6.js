@@ -3135,7 +3135,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-helmet":"fcX6K","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/GalleryPage":"j1514","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/WindowsBlog":"78hIZ","./components/DoorsBlog":"hXcSa","./components/FloorBlog":"jekA0","./components/KitchenBlog":"brmaP","./components/RoofBlog":"cXvvv"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-helmet":"fcX6K","./components/Header":"hsJbF","./components/Hompage":"5DIM3","./components/ContactUs":"dZ839","./components/Footer":"8pPOA","./components/AboutUs":"47aps","./components/GalleryPage":"j1514","./components/WindowsBlog":"78hIZ","./components/DoorsBlog":"hXcSa","./components/FloorBlog":"jekA0","./components/KitchenBlog":"brmaP","./components/RoofBlog":"cXvvv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -28219,7 +28219,7 @@ const Header = ()=>{
                                         to: '/windows-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
-                                            isMenuOpen(false);
+                                            isMenuOpen();
                                         },
                                         children: "Windows Istallation"
                                     }, void 0, false, {
@@ -28614,6 +28614,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _homeGif = require("../Images/Home.gif");
 var _homeGifDefault = parcelHelpers.interopDefault(_homeGif);
 var _serviceAvail = require("./ServiceAvail");
@@ -28630,13 +28632,24 @@ var _pricingPlan = require("./PricingPlan");
 var _pricingPlanDefault = parcelHelpers.interopDefault(_pricingPlan);
 var _gallery = require("./Gallery");
 var _galleryDefault = parcelHelpers.interopDefault(_gallery);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
 const Homepage = ()=>{
+    _s();
+    // Create a reference for the PricingPlans component
+    const pricingPlansRef = (0, _react.useRef)(null);
+    // Function to scroll to the PricingPlans component
+    const scrollToPricingPlans = ()=>{
+        if (pricingPlansRef.current) pricingPlansRef.current.scrollIntoView({
+            behavior: 'smooth'
+        });
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             localStorage.getItem("serviceAvailable") !== "true" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceAvailDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 12,
-                columnNumber: 64
+                lineNumber: 25,
+                columnNumber: 63
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "homepage",
@@ -28644,16 +28657,17 @@ const Homepage = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "homepage-left",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _homeGifDefault.default)
+                            src: (0, _homeGifDefault.default),
+                            alt: "Home"
                         }, void 0, false, {
                             fileName: "src/components/Hompage.js",
-                            lineNumber: 15,
-                            columnNumber: 44
+                            lineNumber: 28,
+                            columnNumber: 40
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 15,
-                        columnNumber: 13
+                        lineNumber: 28,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "homepage-right",
@@ -28662,52 +28676,66 @@ const Homepage = ()=>{
                                 children: "Transform Your Space with Expert Window, Door, and Kitchen Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 17,
-                                columnNumber: 17
+                                lineNumber: 30,
+                                columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "At DreamHome Solutions, we provide expert installations for windows, doors,and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you."
+                                children: "At DreamHome Solutions, we provide expert installations for windows, doors, and kitchens. With precision and personalized designs, we ensure your home gets the upgrade it deserves. Whether enhancing security, boosting energy efficiency, or creating a stylish kitchen, we have the perfect solution for you."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 18,
-                                columnNumber: 17
+                                lineNumber: 31,
+                                columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "homepage-buttons",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "homepage-buttons-left",
-                                        children: "Get started today"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Hompage.js",
-                                        lineNumber: 20,
-                                        columnNumber: 17
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "homepage-buttons-right",
+                                        onClick: scrollToPricingPlans,
                                         children: "Our plans"
                                     }, void 0, false, {
                                         fileName: "src/components/Hompage.js",
-                                        lineNumber: 21,
-                                        columnNumber: 17
+                                        lineNumber: 33,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "homepage-buttons-left",
+                                        children: [
+                                            " ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: '/contact-us',
+                                                onClick: ()=>{
+                                                    window.scrollTo(0, 0);
+                                                },
+                                                children: "Get started today"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Hompage.js",
+                                                lineNumber: 34,
+                                                columnNumber: 53
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Hompage.js",
+                                        lineNumber: 34,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 19,
-                                columnNumber: 17
+                                lineNumber: 32,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 16,
-                        columnNumber: 13
+                        lineNumber: 29,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 14,
-                columnNumber: 9
+                lineNumber: 27,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "homepage-services",
@@ -28719,29 +28747,29 @@ const Homepage = ()=>{
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 26,
-                                columnNumber: 18
+                                lineNumber: 39,
+                                columnNumber: 14
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "High-Quality Installations"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 26,
-                                columnNumber: 69
+                                lineNumber: 39,
+                                columnNumber: 65
                             }, undefined),
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Transform your home with our exceptional window, door, and kitchen installations designed to stand the test of time. We combine top-tier materials, professional craftsmanship, and meticulous attention to detail to ensure every project is both functional and visually stunning. With us, quality isn't just a promise\u2014it's a guarantee."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 26,
-                                columnNumber: 105
+                                lineNumber: 39,
+                                columnNumber: 101
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 26,
-                        columnNumber: 13
+                        lineNumber: 39,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: [
@@ -28750,29 +28778,29 @@ const Homepage = ()=>{
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 28,
-                                columnNumber: 18
+                                lineNumber: 40,
+                                columnNumber: 14
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "Tailored Solutions to Fit Your Style"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 28,
-                                columnNumber: 70
+                                lineNumber: 40,
+                                columnNumber: 66
                             }, undefined),
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Every home is unique, and we believe your installations should reflect that. Whether you're modernizing your kitchen, upgrading your windows for better energy efficiency, or enhancing security with new doors, we offer customized solutions to meet your needs and preferences. Your dream home starts with a personalized touch."
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 28,
-                                columnNumber: 116
+                                lineNumber: 40,
+                                columnNumber: 112
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 28,
-                        columnNumber: 13
+                        lineNumber: 40,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: [
@@ -28781,70 +28809,78 @@ const Homepage = ()=>{
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 30,
-                                columnNumber: 18
+                                lineNumber: 41,
+                                columnNumber: 14
                             }, undefined),
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                 children: "Quick, Seamless, and Stress-Free Process"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 30,
-                                columnNumber: 77
+                                lineNumber: 41,
+                                columnNumber: 73
                             }, undefined),
                             " ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle every detail,  from consultation and design to installation; so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
+                                children: "We know how important your time is. That's why we've designed our process to be simple, transparent, and efficient. From the moment you reach out, we handle every detail, from consultation and design to installation; so you can sit back and enjoy the transformation. Just fill out the form, and let us take care of the rest!"
                             }, void 0, false, {
                                 fileName: "src/components/Hompage.js",
-                                lineNumber: 30,
-                                columnNumber: 127
+                                lineNumber: 41,
+                                columnNumber: 123
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Hompage.js",
-                        lineNumber: 30,
-                        columnNumber: 13
+                        lineNumber: 41,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 25,
-                columnNumber: 9
+                lineNumber: 38,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movingTextDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 33,
-                columnNumber: 9
+                lineNumber: 43,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsHomeDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 34,
-                columnNumber: 9
+                lineNumber: 44,
+                columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pricingPlanDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                ref: pricingPlansRef,
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pricingPlanDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Hompage.js",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 35,
-                columnNumber: 9
+                lineNumber: 46,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 36,
-                columnNumber: 9
+                lineNumber: 49,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 37,
-                columnNumber: 9
+                lineNumber: 50,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _galleryDefault.default), {}, void 0, false, {
                 fileName: "src/components/Hompage.js",
-                lineNumber: 38,
-                columnNumber: 9
+                lineNumber: 51,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
 };
+_s(Homepage, "R02IuJuRkZWUMwp+TCnziW7mOew=");
 _c = Homepage;
 exports.default = Homepage;
 var _c;
@@ -28855,7 +28891,7 @@ $RefreshReg$(_c, "Homepage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","./PricingPlan":"9FvvT","./Gallery":"42X5R","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Images/Home.gif":"d624P","./ServiceAvail":"9RqXi","./MovingText":"4r2DP","./Testimonial":"4drxF","./Faq":"drYjt","./AboutUsHome":"aePBy","./PricingPlan":"9FvvT","./Gallery":"42X5R","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d624P":[function(require,module,exports,__globalThis) {
 module.exports = require("3d8b32b4a5c3497d").getBundleURL('aXMci') + "Home.4b44bc84.gif" + "?" + Date.now();
 
 },{"3d8b32b4a5c3497d":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
@@ -32796,9 +32832,18 @@ const AboutUs = ()=>{
                                 lineNumber: 17,
                                 columnNumber: 11
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "We are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: "W"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AboutUs.js",
+                                        lineNumber: 18,
+                                        columnNumber: 14
+                                    }, undefined),
+                                    "e are a renowned team of experienced architects, designers, and engineers, dedicated to providing exceptional home upgrades and custom home solutions. Our commitment to excellence extends beyond the physical construction of your home. We strive to create beautiful, functional, and sustainable spaces that meet the needs of our clients and their families."
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/AboutUs.js",
                                 lineNumber: 18,
                                 columnNumber: 11
@@ -33767,7 +33812,7 @@ $RefreshReg$(_c, "WindowsBlog");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/windowblogfullimage.jpg":"4vW6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/windowfullimage.jpg":"1QRL8"}],"4vW6n":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/windowfullimage.jpg":"1QRL8","../Images/windowblogfullimage.jpg":"4vW6n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4vW6n":[function(require,module,exports,__globalThis) {
 module.exports = require("6927eb9d2aa54a7e").getBundleURL('aXMci') + "windowblogfullimage.8962503f.jpg" + "?" + Date.now();
 
 },{"6927eb9d2aa54a7e":"lgJ39"}],"hXcSa":[function(require,module,exports,__globalThis) {
@@ -34297,7 +34342,7 @@ $RefreshReg$(_c, "DoorsBlog");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/doorfullimage.jpg":"798b7","../Images/doorblogfullimage.jpg":"79FPH"}],"79FPH":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/doorfullimage.jpg":"798b7","../Images/doorblogfullimage.jpg":"79FPH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"79FPH":[function(require,module,exports,__globalThis) {
 module.exports = require("67d8f38500035f0f").getBundleURL('aXMci') + "doorblogfullimage.119b3335.jpg" + "?" + Date.now();
 
 },{"67d8f38500035f0f":"lgJ39"}],"jekA0":[function(require,module,exports,__globalThis) {
@@ -34859,7 +34904,7 @@ $RefreshReg$(_c, "FloorsBlog");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/floorfullimage.jpg":"1DlJg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/floorblogfullimage.jpg":"dtw1b"}],"dtw1b":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Images/floorfullimage.jpg":"1DlJg","../Images/floorblogfullimage.jpg":"dtw1b","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dtw1b":[function(require,module,exports,__globalThis) {
 module.exports = require("9ecd1f384366b96c").getBundleURL('aXMci') + "floorblogfullimage.7c461f3e.jpg" + "?" + Date.now();
 
 },{"9ecd1f384366b96c":"lgJ39"}],"brmaP":[function(require,module,exports,__globalThis) {

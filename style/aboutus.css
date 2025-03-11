@@ -70,14 +70,18 @@
 #part2 p{
     font-size: 20px;
 }
-#page2bottom h3{
+#page2bottom p{
     font-size: 20px;
     z-index: 9;
     position: relative;
-  
-    font-weight: 400;
+    font-weight: 100;
     line-height: 22px;
     text-align: justify;
+    font-family: neu;
+}
+#page2bottom p span{
+    font-size: 40px;
+    font-weight: 200;
 }
 #part2 iframe{
     width: 100%;
@@ -87,8 +91,8 @@
 }
 #circle{
     position: absolute;
-    width: 20vw;
-    height: 20vw;
+    width: 300px;
+    height: 300px;
     top: 40%;
     left: 27%;
     border-radius: 50%;
@@ -143,7 +147,7 @@
 
 
 
-@media (max-width : 600px){
+@media (max-width : 800px){
     .about-us-sun{
         
         height: 150px;
@@ -196,13 +200,13 @@
         margin-bottom: 3vh;
     }
     #part2 p{
-        font-size: 4vw;
+        font-size: 25px;
     }
     #circle{
         position: absolute;
         width: 58vw;
         height: 58vw;
-        top: 70%;
+        top: 40%;
         left: 4%;
         border-radius: 50%;
         background-color: #f9e802;

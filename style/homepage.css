@@ -59,12 +59,15 @@
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     justify-content: center;
     color: #EFEAE3;
     border-radius: 10px;
     transition: all 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.homepage-buttons-left a{
+    font-size: 20px;
 }
 .homepage-buttons-left:hover{
     background-color: rgba(0, 0, 0, 0.929);
@@ -77,7 +80,7 @@
     padding: 10px 20px;
     text-align: center;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
   
     background-color: #f9e802;
     border-radius: 10px;

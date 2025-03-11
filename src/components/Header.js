@@ -220,7 +220,7 @@ const Header = () => {
           className={`accordion-content ${isAccordian ? "accordianOpen" : ""}`}
           // style={{display: isAccordian ? "block" : "none",}}
         >
-          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Windows Istallation</Link></p>
+          <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen()}}>Windows Istallation</Link></p>
           <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Doors Installation</Link></p>
           <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Flooring Solution</Link></p>
           <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Kitchen Renovation</Link></p>
