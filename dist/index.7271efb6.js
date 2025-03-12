@@ -27860,6 +27860,7 @@ const Header = ()=>{
                                                 to: '/doors-blog',
                                                 onClick: ()=>{
                                                     window.scrollTo(0, 0);
+                                                    toggleDropdown();
                                                 },
                                                 children: "Door Istallation"
                                             }, void 0, false, {
@@ -28240,7 +28241,7 @@ const Header = ()=>{
                                         to: '/doors-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
-                                            isMenuOpen(false);
+                                            handleMenuOpen();
                                         },
                                         children: "Doors Installation"
                                     }, void 0, false, {
@@ -28261,7 +28262,7 @@ const Header = ()=>{
                                         to: '/floor-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
-                                            isMenuOpen(false);
+                                            handleMenuOpen();
                                         },
                                         children: "Flooring Solution"
                                     }, void 0, false, {
@@ -28282,7 +28283,7 @@ const Header = ()=>{
                                         to: '/kitchen-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
-                                            isMenuOpen(false);
+                                            handleMenuOpen();
                                         },
                                         children: "Kitchen Renovation"
                                     }, void 0, false, {
@@ -28303,7 +28304,7 @@ const Header = ()=>{
                                         to: '/roof-blog',
                                         onClick: ()=>{
                                             window.scrollTo(0, 0);
-                                            isMenuOpen(false);
+                                            handleMenuOpen();
                                         },
                                         children: "Roofing Services"
                                     }, void 0, false, {
