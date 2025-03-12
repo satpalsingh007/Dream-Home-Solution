@@ -100,7 +100,7 @@ const Header = () => {
             <div className="header-windows-img"></div>
           </div>
           <div className="header-doors">
-          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);}}>Door Istallation</Link></span>
+          <span> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);toggleDropdown()}}>Door Istallation</Link></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -221,10 +221,10 @@ const Header = () => {
           // style={{display: isAccordian ? "block" : "none",}}
         >
           <p> <Link to={'/windows-blog'} onClick={() => { window.scrollTo(0, 0);handleMenuOpen()}}>Windows Istallation</Link></p>
-          <p> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Doors Installation</Link></p>
-          <p> <Link to={'/floor-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Flooring Solution</Link></p>
-          <p> <Link to={'/kitchen-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Kitchen Renovation</Link></p>
-          <p> <Link to={'/roof-blog'} onClick={() => { window.scrollTo(0, 0);isMenuOpen(false)}}>Roofing Services</Link></p>
+          <p> <Link to={'/doors-blog'} onClick={() => { window.scrollTo(0, 0);handleMenuOpen()}}>Doors Installation</Link></p>
+          <p> <Link to={'/floor-blog'} onClick={() => { window.scrollTo(0, 0);handleMenuOpen()}}>Flooring Solution</Link></p>
+          <p> <Link to={'/kitchen-blog'} onClick={() => { window.scrollTo(0, 0);handleMenuOpen()}}>Kitchen Renovation</Link></p>
+          <p> <Link to={'/roof-blog'} onClick={() => { window.scrollTo(0, 0);handleMenuOpen()}}>Roofing Services</Link></p>
         </section>
 
         <div>
